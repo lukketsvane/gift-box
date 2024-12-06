@@ -1,116 +1,68 @@
-import re
-from pathlib import Path
+import os
 import shutil
-import json
-from typing import Dict, List, Set, Optional
-from dataclasses import dataclass
-from fontTools.ttLib import TTFont
-from fontTools.varLib.instancer import instantiateVariableFont
+from pathlib import Path
 
-@dataclass
-class WebFontMetadata:
-    family_name: str
-    is_variable: bool
-    axes: Optional[Dict[str, tuple]] = None  # Variation axes with their ranges
-    formats: Set[str] = None
-    file_size: int = 0
+def get_base_font_name(filename):
+    # Remove file extension
+    name = os.path.splitext(filename)[0]
+    # Split by hyphen and take the first part
+    base_name = name.split('-')[0].strip()
+    # Handle special cases
+    special_cases = ["Ace", "Butler", "Cleon", "Dalmation", "ETC", "Mixy", "MollySans", "Nord", "Roxborough"]
+    if any(case in base_name for case in special_cases):
+        base_name = " ".join(name.split('-')[0:2]).strip()
+    # Remove common weight and style indicators
+    indicators = ['Bold', 'Italic', 'Light', 'Regular', 'Medium', 'Thin', 'Black', 'Heavy', 'Semi']
+    for indicator in indicators:
+        base_name = base_name.replace(indicator, '').strip()
+    return base_name.strip()
 
-class WebFontOptimizer:
-    def __init__(self, source_dir: Path, output_dir: Path):
-        self.source_dir = source_dir
-        self.output_dir = output_dir / "web_fonts"
-        self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.format_priority = [".woff2", ".woff"]
-        self.metadata: Dict[str, WebFontMetadata] = {}
+def merge_font_families(source_dirs, target_dir):
+    target_path = Path(target_dir)
+    target_path.mkdir(parents=True, exist_ok=True)
+    
+    print(f"Merging font families to {target_path}")
 
-    def analyze_font(self, font_path: Path) -> Optional[WebFontMetadata]:
-        try:
-            with TTFont(font_path) as tt:
-                family_name = tt["name"].getDebugName(1)
-                is_variable = "fvar" in tt
-                axes = None
-                
-                if is_variable:
-                    axes = {
-                        axis.axisTag: (axis.minValue, axis.maxValue)
-                        for axis in tt["fvar"].axes
-                    } if "fvar" in tt else None
+    font_families = {}
 
-                return WebFontMetadata(
-                    family_name=family_name,
-                    is_variable=is_variable,
-                    axes=axes,
-                    formats={font_path.suffix.lower()},
-                    file_size=font_path.stat().st_size
-                )
-        except Exception as e:
-            print(f"Error analyzing {font_path}: {e}")
-            return None
+    for source_dir in source_dirs:
+        source_path = Path(source_dir)
+        print(f"Processing directory: {source_path}")
+        
+        for root, _, files in os.walk(source_path):
+            for file in files:
+                if file.endswith(('.woff', '.woff2')):
+                    full_path = Path(root) / file
+                    base_name = get_base_font_name(file)
+                    
+                    if base_name not in font_families:
+                        font_families[base_name] = []
+                    
+                    font_families[base_name].append(full_path)
 
-    def optimize_fonts(self):
-        """Process and organize fonts for web use"""
-        for font_path in self.source_dir.glob("*.*"):
-            if font_path.suffix.lower() not in {".woff2", ".woff", ".ttf", ".otf"}:
-                continue
-
-            metadata = self.analyze_font(font_path)
-            if not metadata:
-                continue
-
-            # Prioritize variable fonts and WOFF2 format
-            target_dir = self.output_dir / metadata.family_name
-            target_dir.mkdir(exist_ok=True)
-
-            if metadata.is_variable:
-                # Variable fonts get special treatment
-                self._process_variable_font(font_path, target_dir, metadata)
+    for family, files in font_families.items():
+        family_dir = target_path / family
+        family_dir.mkdir(exist_ok=True)
+        
+        for file in files:
+            new_path = family_dir / file.name
+            if not new_path.exists():
+                shutil.copy2(str(file), str(new_path))
+                print(f"Copied {file.name} to {family_dir}")
             else:
-                # Regular fonts get converted to WOFF2 if needed
-                self._process_static_font(font_path, target_dir, metadata)
+                print(f"Skipped {file.name} (already exists in {family_dir})")
 
-        self._write_metadata()
-
-    def _process_variable_font(self, font_path: Path, target_dir: Path, metadata: WebFontMetadata):
-        """Handle variable font processing"""
-        if font_path.suffix.lower() != ".woff2":
-            # Convert to WOFF2 if not already
-            target_path = target_dir / f"{metadata.family_name}-VF.woff2"
-            self._convert_to_woff2(font_path, target_path)
-        else:
-            # Copy WOFF2 directly
-            target_path = target_dir / f"{metadata.family_name}-VF.woff2"
-            shutil.copy2(font_path, target_path)
-
-        metadata.file_size = target_path.stat().st_size
-        self.metadata[metadata.family_name] = metadata
-
-    def _process_static_font(self, font_path: Path, target_dir: Path, metadata: WebFontMetadata):
-        """Handle static font processing"""
-        target_path = target_dir / f"{font_path.stem}.woff2"
-        self._convert_to_woff2(font_path, target_path)
-        metadata.file_size = target_path.stat().st_size
-        self.metadata[metadata.family_name] = metadata
-
-    def _convert_to_woff2(self, source: Path, target: Path):
-        """Convert font to WOFF2 format"""
-        # Implementation would use fontTools for conversion
-        # This is a placeholder for the actual conversion logic
-        pass
-
-    def _write_metadata(self):
-        """Save font metadata as JSON"""
-        with open(self.output_dir / "web_fonts.json", "w") as f:
-            json.dump(
-                {name: asdict(meta) for name, meta in self.metadata.items()},
-                f, indent=2, default=list
-            )
-
-def main():
-    optimizer = WebFontOptimizer(
-        source_dir=Path("font_pipeline/processed"),
-        output_dir=Path("font_pipeline/web_ready")
-    )
-    optimizer.optimize_fonts()
+    print("Font family merging completed successfully!")
 
 if __name__ == "__main__":
-    main()
+    woff_dir = '/workspaces/gift-box/font_pipeline/processed_fonts/woff/'
+    woff2_dir = '/workspaces/gift-box/font_pipeline/processed_fonts/woff2/'
+    target_directory = '/workspaces/gift-box/gift-box/public/fonts/'
+
+    source_directories = [woff_dir, woff2_dir]
+
+    try:
+        merge_font_families(source_directories, target_directory)
+    except Exception as e:
+        print(f"Error merging font families: {e}")
+
