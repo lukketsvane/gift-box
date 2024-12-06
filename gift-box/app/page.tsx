@@ -1,7 +1,7 @@
 'use client'
 
 import dynamic from 'next/dynamic'
-import { Suspense, useState, useEffect } from 'react'
+import { Suspense, useState } from 'react'
 import { Card } from '../components/card'
 
 const DynamicCanvas = dynamic(() => import('@react-three/fiber').then((mod) => mod.Canvas), { ssr: false })
@@ -16,13 +16,19 @@ const DynamicGiftBox = dynamic(() => import('../components/gift-box').then((mod)
 const DynamicGround = dynamic(() => import('../components/ground').then((mod) => mod.Ground), { ssr: false })
 const DynamicSnowfall = dynamic(() => import('../components/snowfall').then((mod) => mod.Snowfall), { ssr: false })
 
-function Scene({ setInteracted, onStateChange, onOpen }) {
+interface SceneProps {
+  onInteract: () => void;
+  onStateChange: (state: string) => void;
+  onOpen: () => void;
+}
+
+function Scene({ onInteract, onStateChange, onOpen }: SceneProps) {
   return (
     <>
       <DynamicPhysics gravity={[0, -9.81, 0]}>
         <DynamicGiftBox 
           position={[0, 2, 0]} 
-          onInteract={() => setInteracted(true)} 
+          onInteract={onInteract}
           onStateChange={onStateChange}
           onOpen={onOpen}
         />
@@ -46,18 +52,15 @@ export default function Home() {
   const [giftState, setGiftState] = useState('intakt')
   const [isOpened, setIsOpened] = useState(false)
 
-  useEffect(() => {
-    console.log('Gift state:', giftState)
-    console.log('Is opened:', isOpened)
-  }, [giftState, isOpened])
+  const handleInteract = () => {
+    setInteracted(true)
+  }
 
   const handleOpen = () => {
-    console.log('Opening gift...')
     setIsOpened(true)
   }
 
   const handleClose = () => {
-    console.log('Closing card...')
     setIsOpened(false)
   }
 
@@ -74,8 +77,7 @@ export default function Home() {
         />
         <Suspense fallback={null}>
           <Scene 
-            interacted={interacted} 
-            setInteracted={setInteracted} 
+            onInteract={handleInteract}
             onStateChange={setGiftState}
             onOpen={handleOpen}
           />
@@ -94,3 +96,4 @@ export default function Home() {
     </div>
   )
 }
+

@@ -63,7 +63,7 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
     }
   }, [scene, matcapTexture])
 
-  useFrame((state, delta) => {
+  useFrame(() => {
     if (rigidBody.current && mesh.current) {
       const position = rigidBody.current.translation()
       mesh.current.position.copy(position)
@@ -226,3 +226,4 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
 }
 
 useGLTF.preload('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gift-hvWwMgasEIhSJ6npMJ2u697fXazt9t.glb')
+
