@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
-import { X, CircleIcon as Chain } from 'lucide-react'
+import { X, Link } from 'lucide-react'
 import { loadFontMetadata, getFontUrl, getRandomFont, FontMetadata } from '../lib/fonts'
 
 const CARD_IMAGES = [
@@ -85,24 +85,24 @@ export function Card({ onClose }) {
           transition={{ duration: 0.5 }}
           className="fixed inset-0 flex items-center justify-center z-10"
         >
-          <div className="relative w-[450px] h-[600px]">
+          <div className="relative w-[600px] h-[800px]">
             <Image
               src={cardImage}
               alt="Holiday Card"
               layout="fill"
-              objectFit="contain"
+              objectFit="cover"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <div className="text-center px-5 py-2 bg-white bg-opacity-75 rounded">
+            <div className="absolute inset-0 flex flex-col items-center justify-between p-8">
+              <div className="w-full text-center px-5 py-2 bg-white bg-opacity-75 rounded">
                 {JULEHILSEN.map((hilsen, index) => (
                   <p 
                     key={index}
-                    className={`mb-2 ${
-                      index === 0 ? 'text-3xl font-bold' :
-                      index === 1 ? 'text-2xl font-semibold' :
-                      index === 2 ? 'text-xl font-medium' :
-                      index === 3 ? 'text-lg font-normal' :
-                      'text-base font-light'
+                    className={`mb-4 ${
+                      index === 0 ? 'text-6xl font-bold' :
+                      index === 1 ? 'text-5xl font-semibold' :
+                      index === 2 ? 'text-4xl font-medium' :
+                      index === 3 ? 'text-3xl font-normal' :
+                      'text-2xl font-light'
                     }`}
                     style={{ fontFamily: selectedFont ? selectedFont.name : 'inherit' }}
                   >
@@ -112,17 +112,17 @@ export function Card({ onClose }) {
               </div>
               <button
                 onClick={handleFontDownload}
-                className="mt-4 flex items-center px-4 py-2 bg-white bg-opacity-75 rounded hover:bg-opacity-90 transition-colors"
+                className="flex items-center px-6 py-3 bg-white bg-opacity-75 rounded-full hover:bg-opacity-90 transition-colors text-xl"
               >
-                <Chain className="mr-2" size={18} />
+                <Link className="mr-2" size={24} />
                 Last ned font
               </button>
             </div>
             <button
-              className="absolute top-2 right-2 p-2 bg-white bg-opacity-75 rounded-full hover:bg-opacity-90 transition-colors"
+              className="absolute top-4 right-4 p-2 bg-white bg-opacity-75 rounded-full hover:bg-opacity-90 transition-colors"
               onClick={onClose}
             >
-              <X size={24} />
+              <X size={32} />
             </button>
           </div>
         </motion.div>

@@ -16,7 +16,7 @@ const DynamicGiftBox = dynamic(() => import('../components/gift-box').then((mod)
 const DynamicGround = dynamic(() => import('../components/ground').then((mod) => mod.Ground), { ssr: false })
 const DynamicSnowfall = dynamic(() => import('../components/snowfall').then((mod) => mod.Snowfall), { ssr: false })
 
-function Scene({ interacted, setInteracted, onStateChange, onOpen }) {
+function Scene({ setInteracted, onStateChange, onOpen }) {
   return (
     <>
       <DynamicPhysics gravity={[0, -9.81, 0]}>

@@ -17,8 +17,7 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
 
   const [isRumbling, setIsRumbling] = useState(false)
   const [isSeparated, setIsSeparated] = useState(false)
-  const [clickCount, setClickCount] = useState(0)
-  const lastClickTime = useRef(Date.now())
+  const [isOpening, setIsOpening] = useState(false) // Added state variable
 
   const { scene: threeScene } = useThree()
 
@@ -88,6 +87,13 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
 
       onStateChange(isOpened ? 'opened' : 'intakt')
 
+      // Check if the gift should open
+      if (isOpening && !isSeparated) {
+        const currentRotation = new THREE.Euler().setFromQuaternion(rotation)
+        currentRotation.y += 0.05 // Adjust this value to control opening speed
+        rigidBody.current.setRotation(new THREE.Quaternion().setFromEuler(currentRotation))
+      }
+
       // Check if the cover touches the floor
       if (!isSeparated && coverMesh.current) {
         const coverWorldPosition = new THREE.Vector3()
@@ -97,6 +103,7 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
         if (coverWorldPosition.y < 0.1) {
           setIsSeparated(true)
           separateParts(coverWorldPosition, rotation)
+          onOpen()
         }
       }
 
@@ -155,19 +162,10 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
   const handlePointerDown = (event) => {
     event.stopPropagation()
     
-    const currentTime = Date.now()
-    if (currentTime - lastClickTime.current < 1000) {
-      setClickCount(prev => {
-        const newCount = prev + 1
-        if (newCount >= 3) {
-          onOpen()
-        }
-        return newCount
-      })
-    } else {
-      setClickCount(1)
+    if (!isOpening) {
+      setIsOpening(true)
+      onOpen()
     }
-    lastClickTime.current = currentTime
 
     if (rigidBody.current && !isSeparated) {
       const force = new THREE.Vector3(
