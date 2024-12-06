@@ -3,11 +3,10 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
-import { X, Link } from 'lucide-react'
+import { X, Link, RefreshCw } from 'lucide-react'
 import { loadFontMetadata, getFontUrl, getRandomFont, FontMetadata } from '../lib/fonts'
 
 const CARD_IMAGES = [
-  'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-exxBcSIYSV9pgXTgiHa47WxEqUhStb.png',
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Cco12R9YoMA1xC5KgOhqicSEv6UeFz.png',
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gAN7t7GQiwMX8x4LJVPILoyC2xF2ko.png'
 ]
@@ -71,6 +70,10 @@ export function Card({ onClose }) {
     }
   }
 
+  const handleReload = () => {
+    window.location.reload()
+  }
+
   if (error) {
     return <div className="text-red-500 text-center">{error}</div>
   }
@@ -114,7 +117,7 @@ export function Card({ onClose }) {
                 onClick={handleFontDownload}
                 className="flex items-center px-6 py-3 bg-white bg-opacity-75 rounded-full hover:bg-opacity-90 transition-colors text-xl"
               >
-                <Link className="mr-2" size={24} />
+                <Link className="" size={24} />
                 Last ned font
               </button>
             </div>
@@ -123,6 +126,13 @@ export function Card({ onClose }) {
               onClick={onClose}
             >
               <X size={32} />
+            </button>
+            <button
+              onClick={handleReload}
+              className="absolute bottom-4 left-4 flex items-center px-6 py-3 bg-white bg-opacity-75 rounded-full hover:bg-opacity-90 transition-colors text-xl"
+            >
+              <RefreshCw className="mr-2" size={24} />
+              prøv igjen!!
             </button>
           </div>
         </motion.div>
