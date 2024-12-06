@@ -855,7 +855,7 @@ window.vk = Object.assign(window.vk || {}, {
   loginDomain: 'https://login.vk.com/',
   logoutUrl: 'https://login.vk.com/?act=logout&hash=951ceb1e9cd76d9681&_origin=https%3A%2F%2Fvk.com&lrt=BDpxh3TFcr2KJa2-sb_NXAJWrhHOz5-cP5JdDlK-r4k',
   lang: 61,
-  statsMeta: {"platform":"web2","st":false,"time":1733529204,"hash":"HnjEPWdLLhbBM0iZVGsfSsALzznfn8sJs1s0BfuCd3L","reloadVersion":34},
+  statsMeta: {"platform":"web2","st":false,"time":1733529220,"hash":"YZ9ZjIb53mnWmeWJQfbcvxQgxyUG1SrchDrO90TZZ8z","reloadVersion":34},
   loaderNavSection: '',
   rtl: parseInt('') || 0,
   version: 213210591371,
@@ -870,11 +870,11 @@ window.vk = Object.assign(window.vk || {}, {
   ip_h: '951ceb1e9cd76d9681',
   navPrefix: '/',
   dt: parseInt('0') || 0,
-  ts: 1733529204,
+  ts: 1733529220,
   tz: 10800,
   vcost: 7,
   pabs: 116,
-  time: [2024, 12, 7, 2, 53, 24],
+  time: [2024, 12, 7, 2, 53, 40],
   sampleUser: -1, spentLastSendTS: new Date().getTime(),
   a11y: 0,
   statusExportHash: '',
@@ -1102,7 +1102,7 @@ window.abp = void 0;
     <input type="hidden" name="captcha_key" id="quick_captcha_key" value="" />
     <input type="hidden" name="_origin" value="https://vk.com" />
     <input type="hidden" name="ip_h" value="951ceb1e9cd76d9681" />
-    <input type="hidden" name="lg_domain_h" value="e95e0066ba3c6bef77" />
+    <input type="hidden" name="lg_domain_h" value="93d7e0bfa1befa8602" />
     <input type="hidden" name="ul" id="quick_login_ul" value="" />
     <div class="label">Telefoonnummer of e-mail</div>
     <div class="labeled"><input type="text" name="email" class="dark" id="quick_email" value="" /></div>

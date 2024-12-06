@@ -1,1 +1,5222 @@
-{}
+[
+  {
+    "name": "Light-black",
+    "file": "./Light-black.woff"
+  },
+  {
+    "name": "Light-light",
+    "file": "./Light-light.woff"
+  },
+  {
+    "name": "Light-bold",
+    "file": "./Light-bold.woff"
+  },
+  {
+    "name": "Centauri-centauri",
+    "file": "Centauri/Centauri-centauri.woff"
+  },
+  {
+    "name": "TRUMANS-trumansregular",
+    "file": "TRUMANS/TRUMANS-trumansregular.woff"
+  },
+  {
+    "name": "Nord Medium-mediumitalic",
+    "file": "Nord  mediumitalic/Nord Medium-mediumitalic.woff"
+  },
+  {
+    "name": "HK Yavimayan-regular",
+    "file": "HK Yavimayan/HK Yavimayan-regular.woff"
+  },
+  {
+    "name": "StormFont Base-stormfont base",
+    "file": "StormFont Base/StormFont Base-stormfont base.woff"
+  },
+  {
+    "name": "Modigirl Sans-modigirlsans",
+    "file": "Modigirl Sans/Modigirl Sans-modigirlsans.woff"
+  },
+  {
+    "name": "Seoul-seoul",
+    "file": "Seoul/Seoul-seoul.woff"
+  },
+  {
+    "name": "Fainland-fainland",
+    "file": "Fainland/Fainland-fainland.woff"
+  },
+  {
+    "name": "Cleantha Light Outline-lightoutline",
+    "file": "Cleantha  Outline/Cleantha Light Outline-lightoutline.woff"
+  },
+  {
+    "name": "Blackey Alt Two-blackeyalttwo",
+    "file": "ey Alt Two/Blackey Alt Two-blackeyalttwo.woff"
+  },
+  {
+    "name": "Recollect-recollet",
+    "file": "Recollect/Recollect-recollet.woff"
+  },
+  {
+    "name": "Rosaline Italic-webfont",
+    "file": "Rosaline/Rosaline Italic-webfont.woff"
+  },
+  {
+    "name": "Cheque-black",
+    "file": "Cheque/Cheque-black.woff"
+  },
+  {
+    "name": "Cheque-regular",
+    "file": "Cheque/Cheque-regular.woff"
+  },
+  {
+    "name": "Stammark Rough-stammark rough",
+    "file": "Stammark Rough/Stammark Rough-stammark rough.woff"
+  },
+  {
+    "name": "Ailish Light-light",
+    "file": "Ailish/Ailish Light-light.woff"
+  },
+  {
+    "name": "Ailish Thin-thin",
+    "file": "Ailish/Ailish Thin-thin.woff"
+  },
+  {
+    "name": "Ailish-regular",
+    "file": "Ailish/Ailish-regular.woff"
+  },
+  {
+    "name": "Butler Stencil-light",
+    "file": "Butler Stencil light/Butler Stencil-light.woff"
+  },
+  {
+    "name": "Abira Med-regular",
+    "file": "Abira Med/Abira Med-regular.woff"
+  },
+  {
+    "name": "Abira Med-thin",
+    "file": "Abira Med/Abira Med-thin.woff"
+  },
+  {
+    "name": "I Am In Love-i am in love",
+    "file": "I Am In Love/I Am In Love-i am in love.woff"
+  },
+  {
+    "name": "Russlock solid-russlocksolid",
+    "file": "Russlock solid/Russlock solid-russlocksolid.woff"
+  },
+  {
+    "name": "Kionsa Script-kionsa script",
+    "file": "Kionsa Script/Kionsa Script-kionsa script.woff"
+  },
+  {
+    "name": "Barden-regular",
+    "file": "Barden/Barden-regular.woff"
+  },
+  {
+    "name": "Radens-radens",
+    "file": "Radens/Radens-radens.woff"
+  },
+  {
+    "name": "Signist 01 Rough-signist 01 rough",
+    "file": "Signist 01 Rough/Signist 01 Rough-signist 01 rough.woff"
+  },
+  {
+    "name": "TRUMANS Script-trumansscript",
+    "file": "TRUMANS Script/TRUMANS Script-trumansscript.woff"
+  },
+  {
+    "name": "Bassanova-bassanova",
+    "file": "Bassanova/Bassanova-bassanova.woff"
+  },
+  {
+    "name": "Benett-bold",
+    "file": "Benett/Benett-bold.woff"
+  },
+  {
+    "name": "Benett-regular",
+    "file": "Benett/Benett-regular.woff"
+  },
+  {
+    "name": "Anaan Light-light",
+    "file": "Anaan/Anaan Light-light.woff"
+  },
+  {
+    "name": "Anaan-bold",
+    "file": "Anaan/Anaan-bold.woff"
+  },
+  {
+    "name": "Anaan Thin-thin",
+    "file": "Anaan/Anaan Thin-thin.woff"
+  },
+  {
+    "name": "Anaan Medium-medium",
+    "file": "Anaan/Anaan Medium-medium.woff"
+  },
+  {
+    "name": "Anaan-regular",
+    "file": "Anaan/Anaan-regular.woff"
+  },
+  {
+    "name": "Empirez Hollow Slant-empirez hollow slant",
+    "file": "Empirez Hollow Slant/Empirez Hollow Slant-empirez hollow slant.woff"
+  },
+  {
+    "name": "Axell Distorted-distorted",
+    "file": "Axell Distorted/Axell Distorted-distorted.woff"
+  },
+  {
+    "name": "Mandan-mandan",
+    "file": "Mandan/Mandan-mandan.woff"
+  },
+  {
+    "name": "Houstiny Slant ALT-houstiny_slant_alt",
+    "file": "Houstiny Slant ALT/Houstiny Slant ALT-houstiny_slant_alt.woff"
+  },
+  {
+    "name": "Tharon-tharon",
+    "file": "Tharon/Tharon-tharon.woff"
+  },
+  {
+    "name": "Houstiny ALT-houstiny_alt",
+    "file": "Houstiny ALT/Houstiny ALT-houstiny_alt.woff"
+  },
+  {
+    "name": "Stammark Clean-stammark clean",
+    "file": "Stammark Clean/Stammark Clean-stammark clean.woff"
+  },
+  {
+    "name": "Abril Med 4-thinitalic",
+    "file": "Abril Med 4/Abril Med 4-thinitalic.woff"
+  },
+  {
+    "name": "Signist 03 Rough-signist 03 rough",
+    "file": "Signist 03 Rough/Signist 03 Rough-signist 03 rough.woff"
+  },
+  {
+    "name": "Retronic-retronic",
+    "file": "Retronic/Retronic-retronic.woff"
+  },
+  {
+    "name": "Signist 03 Clean-signist 03 clean",
+    "file": "Signist 03 Clean/Signist 03 Clean-signist 03 clean.woff"
+  },
+  {
+    "name": "Taylor-taylorbold",
+    "file": "Taylor/Taylor-taylorbold.woff"
+  },
+  {
+    "name": "Taylor-taylorregular",
+    "file": "Taylor/Taylor-taylorregular.woff"
+  },
+  {
+    "name": "Taylor Light-taylorlight",
+    "file": "Taylor/Taylor Light-taylorlight.woff"
+  },
+  {
+    "name": "Signist 02 Shadow-signist 02 shadow",
+    "file": "Signist 02 Shadow/Signist 02 Shadow-signist 02 shadow.woff"
+  },
+  {
+    "name": "Butler-medium",
+    "file": "Butler medium/Butler-medium.woff"
+  },
+  {
+    "name": "Presson Rough Oblique-presson rough oblique",
+    "file": "Presson Rough Oblique/Presson Rough Oblique-presson rough oblique.woff"
+  },
+  {
+    "name": "Exellentia-webfont",
+    "file": "Exellentia/Exellentia-webfont.woff"
+  },
+  {
+    "name": "MistyMedow-mistymedow",
+    "file": "MistyMedow/MistyMedow-mistymedow.woff"
+  },
+  {
+    "name": "Asma-regular",
+    "file": "Asma/Asma-regular.woff"
+  },
+  {
+    "name": "Asma-italic",
+    "file": "Asma/Asma-italic.woff"
+  },
+  {
+    "name": "Alistair Signature Regular-alistair signature regular",
+    "file": "Alistair Signature/Alistair Signature Regular-alistair signature regular.woff"
+  },
+  {
+    "name": "Blacklisted-blacklisted",
+    "file": "listed/Blacklisted-blacklisted.woff"
+  },
+  {
+    "name": "Yarelli-regular",
+    "file": "Yarelli/Yarelli-regular.woff"
+  },
+  {
+    "name": "Mixy Missy Dot-dot",
+    "file": "Mixy Missy Dot dot/Mixy Missy Dot-dot.woff"
+  },
+  {
+    "name": "Cansu 2-bold",
+    "file": "Cansu 2/Cansu 2-bold.woff"
+  },
+  {
+    "name": "Fomelo-regular",
+    "file": "Fomelo/Fomelo-regular.woff"
+  },
+  {
+    "name": "Billy Ohio Swash-webfont",
+    "file": "Billy Ohio Swash/Billy Ohio Swash-webfont.woff"
+  },
+  {
+    "name": "BROKENZ ITALIC-brokenz italic",
+    "file": "BROKENZ ITALIC/BROKENZ ITALIC-brokenz italic.woff"
+  },
+  {
+    "name": "StormFont Aged-stormfont aged",
+    "file": "StormFont Aged/StormFont Aged-stormfont aged.woff"
+  },
+  {
+    "name": "JVNEMinervae Ink-ink",
+    "file": "JVNEMinervae Ink/JVNEMinervae Ink-ink.woff"
+  },
+  {
+    "name": "Curie-script",
+    "file": "Curie/Curie-script.woff"
+  },
+  {
+    "name": "Brydon- Light-light",
+    "file": "Brydon/Brydon- Light-light.woff"
+  },
+  {
+    "name": "Brydon--regular",
+    "file": "Brydon/Brydon--regular.woff"
+  },
+  {
+    "name": "Brydon- Thin-thin",
+    "file": "Brydon/Brydon- Thin-thin.woff"
+  },
+  {
+    "name": "Just Case-justcase",
+    "file": "Just Case/Just Case-justcase.woff"
+  },
+  {
+    "name": "Tenika Oblique-tenikaitalic",
+    "file": "Tenika Oblique/Tenika Oblique-tenikaitalic.woff"
+  },
+  {
+    "name": "TRUMANS Shadow-trumansshadow",
+    "file": "TRUMANS Shadow/TRUMANS Shadow-trumansshadow.woff"
+  },
+  {
+    "name": "Cleon Light-webfont",
+    "file": "Cleon  webfont/Cleon Light-webfont.woff"
+  },
+  {
+    "name": "WT Hilton Script Fancy-fancy",
+    "file": "WT Hilton Script Fancy/WT Hilton Script Fancy-fancy.woff"
+  },
+  {
+    "name": "Pierson Light-light",
+    "file": "Pierson/Pierson Light-light.woff"
+  },
+  {
+    "name": "Pierson-regular",
+    "file": "Pierson/Pierson-regular.woff"
+  },
+  {
+    "name": "Pierson Thin-thin",
+    "file": "Pierson/Pierson Thin-thin.woff"
+  },
+  {
+    "name": "Cleantha Light-light",
+    "file": "Cleantha/Cleantha Light-light.woff"
+  },
+  {
+    "name": "Cleantha-bold",
+    "file": "Cleantha/Cleantha-bold.woff"
+  },
+  {
+    "name": "Cleantha Thin-thin",
+    "file": "Cleantha/Cleantha Thin-thin.woff"
+  },
+  {
+    "name": "Cleantha-regular",
+    "file": "Cleantha/Cleantha-regular.woff"
+  },
+  {
+    "name": "Barnes Thin-thin",
+    "file": "Barnes/Barnes Thin-thin.woff"
+  },
+  {
+    "name": "Barnes Black-black",
+    "file": "Barnes/Barnes Black-black.woff"
+  },
+  {
+    "name": "Barnes-regular",
+    "file": "Barnes/Barnes-regular.woff"
+  },
+  {
+    "name": "Barnes Black-blackitalic",
+    "file": "Barnes/Barnes Black-blackitalic.woff"
+  },
+  {
+    "name": "Barnes Light-light",
+    "file": "Barnes/Barnes Light-light.woff"
+  },
+  {
+    "name": "Barnes Light-lightitalic",
+    "file": "Barnes/Barnes Light-lightitalic.woff"
+  },
+  {
+    "name": "Barnes Thin-thinitalic",
+    "file": "Barnes/Barnes Thin-thinitalic.woff"
+  },
+  {
+    "name": "Deidra Med-thin",
+    "file": "Deidra Med/Deidra Med-thin.woff"
+  },
+  {
+    "name": "Chunky Monkey Font-chunky monkey",
+    "file": "Chunky Monkey Font/Chunky Monkey Font-chunky monkey.woff"
+  },
+  {
+    "name": "Candace-candaceregular",
+    "file": "Candace/Candace-candaceregular.woff"
+  },
+  {
+    "name": "MONA LISA SERIF-mediumitalic",
+    "file": "MONA LISA SERIF/MONA LISA SERIF-mediumitalic.woff"
+  },
+  {
+    "name": "MONA LISA SERIF-regularitalic",
+    "file": "MONA LISA SERIF/MONA LISA SERIF-regularitalic.woff"
+  },
+  {
+    "name": "MONA LISA SERIF-semibolditalic",
+    "file": "MONA LISA SERIF/MONA LISA SERIF-semibolditalic.woff"
+  },
+  {
+    "name": "MONA LISA SERIF-regular",
+    "file": "MONA LISA SERIF/MONA LISA SERIF-regular.woff"
+  },
+  {
+    "name": "MONA LISA SERIF-medium",
+    "file": "MONA LISA SERIF/MONA LISA SERIF-medium.woff"
+  },
+  {
+    "name": "MONA LISA SERIF-semibold",
+    "file": "MONA LISA SERIF/MONA LISA SERIF-semibold.woff"
+  },
+  {
+    "name": "Darmond Clean Oblique-darmond clean oblique",
+    "file": "Darmond Clean Oblique/Darmond Clean Oblique-darmond clean oblique.woff"
+  },
+  {
+    "name": "GTHaptikMediumRotalic-rotalic",
+    "file": "GTHaptikRotalic/GTHaptikMediumRotalic-rotalic.woff"
+  },
+  {
+    "name": "GTHaptikRegularRotalic-rotalic",
+    "file": "GTHaptikRotalic/GTHaptikRegularRotalic-rotalic.woff"
+  },
+  {
+    "name": "GTHaptikBoldRotalic-rotalic",
+    "file": "GTHaptikRotalic/GTHaptikBoldRotalic-rotalic.woff"
+  },
+  {
+    "name": "GTHaptikThinRotalic-rotalic",
+    "file": "GTHaptikRotalic/GTHaptikThinRotalic-rotalic.woff"
+  },
+  {
+    "name": "GTHaptikLightRotalic-rotalic",
+    "file": "GTHaptikRotalic/GTHaptikLightRotalic-rotalic.woff"
+  },
+  {
+    "name": "Ripple Thin-thin",
+    "file": "Ripple/Ripple Thin-thin.woff"
+  },
+  {
+    "name": "Ripple Thin Italic-thinitalic",
+    "file": "Ripple/Ripple Thin Italic-thinitalic.woff"
+  },
+  {
+    "name": "Ripple Heavy-heavy",
+    "file": "Ripple/Ripple Heavy-heavy.woff"
+  },
+  {
+    "name": "Ripple Italic-italic",
+    "file": "Ripple/Ripple Italic-italic.woff"
+  },
+  {
+    "name": "Ripple Medium-medium",
+    "file": "Ripple/Ripple Medium-medium.woff"
+  },
+  {
+    "name": "Ripple-bolditalic",
+    "file": "Ripple/Ripple-bolditalic.woff"
+  },
+  {
+    "name": "Ripple Medium Italic-mediumitalic",
+    "file": "Ripple/Ripple Medium Italic-mediumitalic.woff"
+  },
+  {
+    "name": "Ripple-regular",
+    "file": "Ripple/Ripple-regular.woff"
+  },
+  {
+    "name": "Ripple Heavy Italic-heavyitalic",
+    "file": "Ripple/Ripple Heavy Italic-heavyitalic.woff"
+  },
+  {
+    "name": "Ripple Light Italic-lightitalic",
+    "file": "Ripple/Ripple Light Italic-lightitalic.woff"
+  },
+  {
+    "name": "Ripple-bold",
+    "file": "Ripple/Ripple-bold.woff"
+  },
+  {
+    "name": "Ripple Light-light",
+    "file": "Ripple/Ripple Light-light.woff"
+  },
+  {
+    "name": "Aglow-aglow regular",
+    "file": "Aglow/Aglow-aglow regular.woff"
+  },
+  {
+    "name": "Aglow Italic-aglow italic",
+    "file": "Aglow/Aglow Italic-aglow italic.woff"
+  },
+  {
+    "name": "Lollapolaooza Medium-lollapolaooza medium",
+    "file": "Lollapolaooza/Lollapolaooza Medium-lollapolaooza medium.woff"
+  },
+  {
+    "name": "Forbes Typeface Alt-forbestypefacealt",
+    "file": "Forbes Typeface Alt/Forbes Typeface Alt-forbestypefacealt.woff"
+  },
+  {
+    "name": "Radon Deco-radon deco",
+    "file": "Radon Deco/Radon Deco-radon deco.woff"
+  },
+  {
+    "name": "Scriptease Typeface-webfont",
+    "file": "Scriptease Typeface/Scriptease Typeface-webfont.woff"
+  },
+  {
+    "name": "Brookset Shadow-brookset shadow",
+    "file": "Brookset Shadow/Brookset Shadow-brookset shadow.woff"
+  },
+  {
+    "name": "Roulette-roulette",
+    "file": "Roulette/Roulette-roulette.woff"
+  },
+  {
+    "name": "Noir Pro-medium",
+    "file": "Noir Pro/Noir Pro-medium.woff"
+  },
+  {
+    "name": "Noir Pro-bolditalic",
+    "file": "Noir Pro/Noir Pro-bolditalic.woff"
+  },
+  {
+    "name": "Noir Pro-heavyitalic",
+    "file": "Noir Pro/Noir Pro-heavyitalic.woff"
+  },
+  {
+    "name": "Noir Pro-bold",
+    "file": "Noir Pro/Noir Pro-bold.woff"
+  },
+  {
+    "name": "Noir Pro-italic",
+    "file": "Noir Pro/Noir Pro-italic.woff"
+  },
+  {
+    "name": "Noir Pro-regular",
+    "file": "Noir Pro/Noir Pro-regular.woff"
+  },
+  {
+    "name": "Noir Pro-semibold",
+    "file": "Noir Pro/Noir Pro-semibold.woff"
+  },
+  {
+    "name": "Noir Pro-light",
+    "file": "Noir Pro/Noir Pro-light.woff"
+  },
+  {
+    "name": "Noir Pro-mediumitalic",
+    "file": "Noir Pro/Noir Pro-mediumitalic.woff"
+  },
+  {
+    "name": "Noir Pro-lightitalic",
+    "file": "Noir Pro/Noir Pro-lightitalic.woff"
+  },
+  {
+    "name": "Noir Pro-semibolditalic",
+    "file": "Noir Pro/Noir Pro-semibolditalic.woff"
+  },
+  {
+    "name": "Noir Pro-heavy",
+    "file": "Noir Pro/Noir Pro-heavy.woff"
+  },
+  {
+    "name": "Butler Stencil-ultralight",
+    "file": "Butler Stencil ultralight/Butler Stencil-ultralight.woff"
+  },
+  {
+    "name": "Abeetha-abeetharegular",
+    "file": "Abeetha/Abeetha-abeetharegular.woff"
+  },
+  {
+    "name": "Candace Outline-outline",
+    "file": "Candace Outline/Candace Outline-outline.woff"
+  },
+  {
+    "name": "Pomino Light-light",
+    "file": "Pomino/Pomino Light-light.woff"
+  },
+  {
+    "name": "Pomino-black",
+    "file": "Pomino/Pomino-black.woff"
+  },
+  {
+    "name": "Pomino Regular-regular",
+    "file": "Pomino/Pomino Regular-regular.woff"
+  },
+  {
+    "name": "Darmond Shadow Oblique-darmond shadow oblique",
+    "file": "Darmond Shadow Oblique/Darmond Shadow Oblique-darmond shadow oblique.woff"
+  },
+  {
+    "name": "Custody Script-regular",
+    "file": "Custody Script/Custody Script-regular.woff"
+  },
+  {
+    "name": "Aludra Med 8-thinitalic",
+    "file": "Aludra Med 8/Aludra Med 8-thinitalic.woff"
+  },
+  {
+    "name": "Measter Pioneer Swash-measterpioneerswash",
+    "file": "Measter Pioneer Swash/Measter Pioneer Swash-measterpioneerswash.woff"
+  },
+  {
+    "name": "Alistair Signature Ornament-alistair signature ornament",
+    "file": "Alistair Signature Ornament/Alistair Signature Ornament-alistair signature ornament.woff"
+  },
+  {
+    "name": "Hadasa-bold",
+    "file": "Hadasa/Hadasa-bold.woff"
+  },
+  {
+    "name": "Hadasa-regular",
+    "file": "Hadasa/Hadasa-regular.woff"
+  },
+  {
+    "name": "Darmond Rough Oblique-darmond rough oblique",
+    "file": "Darmond Rough Oblique/Darmond Rough Oblique-darmond rough oblique.woff"
+  },
+  {
+    "name": "Balclown alternate1-alternate1",
+    "file": "Balclown alternate1/Balclown alternate1-alternate1.woff"
+  },
+  {
+    "name": "KyivType Sans-bold3",
+    "file": "KyivType Sans/KyivType Sans-bold3.woff"
+  },
+  {
+    "name": "KyivType Sans-thin",
+    "file": "KyivType Sans/KyivType Sans-thin.woff"
+  },
+  {
+    "name": "KyivType Sans-bold2",
+    "file": "KyivType Sans/KyivType Sans-bold2.woff"
+  },
+  {
+    "name": "KyivType Sans-regular3",
+    "file": "KyivType Sans/KyivType Sans-regular3.woff"
+  },
+  {
+    "name": "KyivType Sans-",
+    "file": "KyivType Sans/KyivType Sans-.woff"
+  },
+  {
+    "name": "KyivType Sans-black3",
+    "file": "KyivType Sans/KyivType Sans-black3.woff"
+  },
+  {
+    "name": "KyivType Sans-medium",
+    "file": "KyivType Sans/KyivType Sans-medium.woff"
+  },
+  {
+    "name": "KyivType Sans-medium2",
+    "file": "KyivType Sans/KyivType Sans-medium2.woff"
+  },
+  {
+    "name": "KyivType Sans-regular",
+    "file": "KyivType Sans/KyivType Sans-regular.woff"
+  },
+  {
+    "name": "KyivType Sans-heavy3",
+    "file": "KyivType Sans/KyivType Sans-heavy3.woff"
+  },
+  {
+    "name": "KyivType Sans-heavy",
+    "file": "KyivType Sans/KyivType Sans-heavy.woff"
+  },
+  {
+    "name": "KyivType Sans-light2",
+    "file": "KyivType Sans/KyivType Sans-light2.woff"
+  },
+  {
+    "name": "KyivType Sans-black2",
+    "file": "KyivType Sans/KyivType Sans-black2.woff"
+  },
+  {
+    "name": "KyivType Sans-medium3",
+    "file": "KyivType Sans/KyivType Sans-medium3.woff"
+  },
+  {
+    "name": "KyivType Sans-heavy2",
+    "file": "KyivType Sans/KyivType Sans-heavy2.woff"
+  },
+  {
+    "name": "KyivType Sans-regular2",
+    "file": "KyivType Sans/KyivType Sans-regular2.woff"
+  },
+  {
+    "name": "KyivType Sans-light",
+    "file": "KyivType Sans/KyivType Sans-light.woff"
+  },
+  {
+    "name": "KyivType Sans-bold",
+    "file": "KyivType Sans/KyivType Sans-bold.woff"
+  },
+  {
+    "name": "KyivType Sans-black",
+    "file": "KyivType Sans/KyivType Sans-black.woff"
+  },
+  {
+    "name": "KyivType Sans-light3",
+    "file": "KyivType Sans/KyivType Sans-light3.woff"
+  },
+  {
+    "name": "Brycen Med-blackitalic",
+    "file": "Brycen Med/Brycen Med-blackitalic.woff"
+  },
+  {
+    "name": "Brycen Med-black",
+    "file": "Brycen Med/Brycen Med-black.woff"
+  },
+  {
+    "name": "Groningen-regular",
+    "file": "Groningen/Groningen-regular.woff"
+  },
+  {
+    "name": "Groningen Light-light",
+    "file": "Groningen/Groningen Light-light.woff"
+  },
+  {
+    "name": "Groningen Bold-bold",
+    "file": "Groningen/Groningen Bold-bold.woff"
+  },
+  {
+    "name": "Groningen Thin-thin",
+    "file": "Groningen/Groningen Thin-thin.woff"
+  },
+  {
+    "name": "CoupeurMonospace-Bold-bold",
+    "file": "CoupeurMonospace/CoupeurMonospace-Bold-bold.woff"
+  },
+  {
+    "name": "CoupeurMonospace-Normal-normal",
+    "file": "CoupeurMonospace/CoupeurMonospace-Normal-normal.woff"
+  },
+  {
+    "name": "Boulia Distorted-distorted",
+    "file": "Boulia Distorted/Boulia Distorted-distorted.woff"
+  },
+  {
+    "name": "Abril Med-mediumitalic",
+    "file": "Abril Med/Abril Med-mediumitalic.woff"
+  },
+  {
+    "name": "Abril Med-abrilmedium",
+    "file": "Abril Med/Abril Med-abrilmedium.woff"
+  },
+  {
+    "name": "Black romance shadow-shadow",
+    "file": "romance shadow/Black romance shadow-shadow.woff"
+  },
+  {
+    "name": "Mixy Missy Outline-outline",
+    "file": "Mixy Missy Outline outline/Mixy Missy Outline-outline.woff"
+  },
+  {
+    "name": "Nera-heavy",
+    "file": "Nera/Nera-heavy.woff"
+  },
+  {
+    "name": "Sporting Chance JNL-sporting chance jnl",
+    "file": "Sporting Chance JNL/Sporting Chance JNL-sporting chance jnl.woff"
+  },
+  {
+    "name": "Monrad ExtraLight-extralightit",
+    "file": "Monrad Extra/Monrad ExtraLight-extralightit.woff"
+  },
+  {
+    "name": "Monrad ExtraLight-extralight",
+    "file": "Monrad Extra/Monrad ExtraLight-extralight.woff"
+  },
+  {
+    "name": "Monrad Semibold-semibold",
+    "file": "Monrad bold/Monrad Semibold-semibold.woff"
+  },
+  {
+    "name": "Monrad Semibold-semiboldit",
+    "file": "Monrad bold/Monrad Semibold-semiboldit.woff"
+  },
+  {
+    "name": "Daania Outline-outline",
+    "file": "Daania Outline/Daania Outline-outline.woff"
+  },
+  {
+    "name": "wonderella medium-wonderella medium",
+    "file": "wonderella medium/wonderella medium-wonderella medium.woff"
+  },
+  {
+    "name": "StormFont LightShadow-stormfont lightshadow",
+    "file": "StormFont Shadow/StormFont LightShadow-stormfont lightshadow.woff"
+  },
+  {
+    "name": "Cyrulik Sharp-sharp",
+    "file": "Cyrulik Sharp/Cyrulik Sharp-sharp.woff"
+  },
+  {
+    "name": "Cyrulik Sharp-sharpbold",
+    "file": "Cyrulik Sharp/Cyrulik Sharp-sharpbold.woff"
+  },
+  {
+    "name": "Mixy Missy Slab-slab",
+    "file": "Mixy Missy Slab slab/Mixy Missy Slab-slab.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v12 sharp",
+    "file": "ATC Duel/ATC Duel-atc duel v12 sharp.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v6 sharp",
+    "file": "ATC Duel/ATC Duel-atc duel v6 sharp.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v10 rounded",
+    "file": "ATC Duel/ATC Duel-atc duel v10 rounded.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v4 sharp",
+    "file": "ATC Duel/ATC Duel-atc duel v4 sharp.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v10 sharp",
+    "file": "ATC Duel/ATC Duel-atc duel v10 sharp.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v8 rounded",
+    "file": "ATC Duel/ATC Duel-atc duel v8 rounded.woff"
+  },
+  {
+    "name": "ATC Duel-atc duel v12 rounded",
+    "file": "ATC Duel/ATC Duel-atc duel v12 rounded.woff"
+  },
+  {
+    "name": "Ariston Comic Base-ariston base",
+    "file": "Ariston Comic Base/Ariston Comic Base-ariston base.woff"
+  },
+  {
+    "name": "Bank Sectioned-webfont",
+    "file": "Bank Sectioned/Bank Sectioned-webfont.woff"
+  },
+  {
+    "name": "Aludra-blackitalic",
+    "file": "Aludra/Aludra-blackitalic.woff"
+  },
+  {
+    "name": "Aludra-black",
+    "file": "Aludra/Aludra-black.woff"
+  },
+  {
+    "name": "Chrys Light-light",
+    "file": "Chrys/Chrys Light-light.woff"
+  },
+  {
+    "name": "Chrys Thin-thin",
+    "file": "Chrys/Chrys Thin-thin.woff"
+  },
+  {
+    "name": "Chrys-regular",
+    "file": "Chrys/Chrys-regular.woff"
+  },
+  {
+    "name": "Attomi Gilbert-attomi gilbert",
+    "file": "Attomi Gilbert/Attomi Gilbert-attomi gilbert.woff"
+  },
+  {
+    "name": "Adallyn Smooth-smooth",
+    "file": "Adallyn Smooth/Adallyn Smooth-smooth.woff"
+  },
+  {
+    "name": "Winter story-regular",
+    "file": "Winter story/Winter story-regular.woff"
+  },
+  {
+    "name": "Butler-ultralight",
+    "file": "Butler ultralight/Butler-ultralight.woff"
+  },
+  {
+    "name": "Russlock rough-russlockrough",
+    "file": "Russlock rough/Russlock rough-russlockrough.woff"
+  },
+  {
+    "name": "Barric Round-round",
+    "file": "Barric Round/Barric Round-round.woff"
+  },
+  {
+    "name": "Roxborough CF-bolditalic",
+    "file": "Roxborough CF bolditalic/Roxborough CF-bolditalic.woff"
+  },
+  {
+    "name": "Reisenberg 2.0 Outlines-webfont",
+    "file": "Reisenberg 2.0 Outlines/Reisenberg 2.0 Outlines-webfont.woff"
+  },
+  {
+    "name": "Roxborough CF-demibold",
+    "file": "Roxborough CF demibold/Roxborough CF-demibold.woff"
+  },
+  {
+    "name": "Gabrialle-gabrialle",
+    "file": "Gabrialle/Gabrialle-gabrialle.woff"
+  },
+  {
+    "name": "Moho OT Condensed Black-moho ot condensed black",
+    "file": "Moho OT Condensed/Moho OT Condensed Black-moho ot condensed black.woff"
+  },
+  {
+    "name": "Moho OT Condensed Italic-moho ot condensed italic",
+    "file": "Moho OT Condensed/Moho OT Condensed Italic-moho ot condensed italic.woff"
+  },
+  {
+    "name": "Moho OT Condensed Medium-moho ot condensed medium",
+    "file": "Moho OT Condensed/Moho OT Condensed Medium-moho ot condensed medium.woff"
+  },
+  {
+    "name": "Moho OT Condensed Bold Italic-moho ot condensed bold italic",
+    "file": "Moho OT Condensed/Moho OT Condensed Bold Italic-moho ot condensed bold italic.woff"
+  },
+  {
+    "name": "Moho OT Condensed Medium Italic-moho ot condensed medium italic",
+    "file": "Moho OT Condensed/Moho OT Condensed Medium Italic-moho ot condensed medium italic.woff"
+  },
+  {
+    "name": "Moho OT Condensed Bold-moho ot condensed bold",
+    "file": "Moho OT Condensed/Moho OT Condensed Bold-moho ot condensed bold.woff"
+  },
+  {
+    "name": "Moho OT Condensed-moho ot condensed",
+    "file": "Moho OT Condensed/Moho OT Condensed-moho ot condensed.woff"
+  },
+  {
+    "name": "Moho OT Condensed Light-moho ot condensed light",
+    "file": "Moho OT Condensed/Moho OT Condensed Light-moho ot condensed light.woff"
+  },
+  {
+    "name": "Moho OT Condensed Light Italic-moho ot condensed light italic",
+    "file": "Moho OT Condensed/Moho OT Condensed Light Italic-moho ot condensed light italic.woff"
+  },
+  {
+    "name": "Moho OT Condensed Black Italic-moho ot condensed black italic",
+    "file": "Moho OT Condensed/Moho OT Condensed Black Italic-moho ot condensed black italic.woff"
+  },
+  {
+    "name": "SPOTNIK-bold",
+    "file": "SPOTNIK/SPOTNIK-bold.woff"
+  },
+  {
+    "name": "SPOTNIK-spotnik",
+    "file": "SPOTNIK/SPOTNIK-spotnik.woff"
+  },
+  {
+    "name": "Ambient-regular",
+    "file": "Ambient/Ambient-regular.woff"
+  },
+  {
+    "name": "Ambient Medium-medium",
+    "file": "Ambient/Ambient Medium-medium.woff"
+  },
+  {
+    "name": "Ambient Bold-bold",
+    "file": "Ambient/Ambient Bold-bold.woff"
+  },
+  {
+    "name": "wonderella thin-wonderella thin",
+    "file": "wonderella thin/wonderella thin-wonderella thin.woff"
+  },
+  {
+    "name": "Boulia Thin-thin",
+    "file": "Boulia/Boulia Thin-thin.woff"
+  },
+  {
+    "name": "Boulia Light-light",
+    "file": "Boulia/Boulia Light-light.woff"
+  },
+  {
+    "name": "Boulia-regular",
+    "file": "Boulia/Boulia-regular.woff"
+  },
+  {
+    "name": "Boulia-bold",
+    "file": "Boulia/Boulia-bold.woff"
+  },
+  {
+    "name": "Abner ExtBd-extrabold",
+    "file": "Abner ExtBd/Abner ExtBd-extrabold.woff"
+  },
+  {
+    "name": "CA CapeRock-regular",
+    "file": "CA CapeRock/CA CapeRock-regular.woff"
+  },
+  {
+    "name": "CA CapeRock-italic",
+    "file": "CA CapeRock/CA CapeRock-italic.woff"
+  },
+  {
+    "name": "Butler Stencil-extrabold",
+    "file": "Butler Stencil extrabold/Butler Stencil-extrabold.woff"
+  },
+  {
+    "name": "Aara Regular-regular",
+    "file": "Aara/Aara Regular-regular.woff"
+  },
+  {
+    "name": "Aara Thin-thinitalic",
+    "file": "Aara/Aara Thin-thinitalic.woff"
+  },
+  {
+    "name": "Aara Light-light",
+    "file": "Aara/Aara Light-light.woff"
+  },
+  {
+    "name": "Aara Thin-thin",
+    "file": "Aara/Aara Thin-thin.woff"
+  },
+  {
+    "name": "Aara Light-lightitalic",
+    "file": "Aara/Aara Light-lightitalic.woff"
+  },
+  {
+    "name": "Cyrulik Stencil-stencil",
+    "file": "Cyrulik Stencil/Cyrulik Stencil-stencil.woff"
+  },
+  {
+    "name": "Fritz-regular",
+    "file": "Fritz/Fritz-regular.woff"
+  },
+  {
+    "name": "The Circus Font-the circus font",
+    "file": "The Circus Font/The Circus Font-the circus font.woff"
+  },
+  {
+    "name": "Groteska Book-book",
+    "file": "Groteska Book/Groteska Book-book.woff"
+  },
+  {
+    "name": "Groteska Book-bookitalic",
+    "file": "Groteska Book/Groteska Book-bookitalic.woff"
+  },
+  {
+    "name": "Reiju One-webfont",
+    "file": "Reiju One/Reiju One-webfont.woff"
+  },
+  {
+    "name": "TRUMANS Stencil-trumansstencil",
+    "file": "TRUMANS Stencil/TRUMANS Stencil-trumansstencil.woff"
+  },
+  {
+    "name": "Dellamonde Italic-dellamonde italic",
+    "file": "Dellamonde/Dellamonde Italic-dellamonde italic.woff"
+  },
+  {
+    "name": "Dellamonde Regular-dellamonde regular",
+    "file": "Dellamonde/Dellamonde Regular-dellamonde regular.woff"
+  },
+  {
+    "name": "Nord Black-blackitalic",
+    "file": "Nord  blackitalic/Nord Black-blackitalic.woff"
+  },
+  {
+    "name": "Hamelin Extrude-hamelin extrude",
+    "file": "Hamelin Extrude/Hamelin Extrude-hamelin extrude.woff"
+  },
+  {
+    "name": "Rozex-rozex",
+    "file": "Rozex/Rozex-rozex.woff"
+  },
+  {
+    "name": "Esther Exhaust-exhaust",
+    "file": "Esther Exhaust/Esther Exhaust-exhaust.woff"
+  },
+  {
+    "name": "Carra Med-regular",
+    "file": "Carra Med/Carra Med-regular.woff"
+  },
+  {
+    "name": "Carra Med-bold",
+    "file": "Carra Med/Carra Med-bold.woff"
+  },
+  {
+    "name": "Presson Rough-presson rough",
+    "file": "Presson Rough/Presson Rough-presson rough.woff"
+  },
+  {
+    "name": "Alex 2-alex_regular",
+    "file": "Alex 2/Alex 2-alex_regular.woff"
+  },
+  {
+    "name": "Fabulous Caps-fabulous caps",
+    "file": "Fabulous Caps/Fabulous Caps-fabulous caps.woff"
+  },
+  {
+    "name": "Fabulous Caps Light-fabulous caps light",
+    "file": "Fabulous Caps/Fabulous Caps Light-fabulous caps light.woff"
+  },
+  {
+    "name": "College Grunge-college grunge",
+    "file": "College Grunge/College Grunge-college grunge.woff"
+  },
+  {
+    "name": "Berton-light",
+    "file": "Berton/Berton-light.woff"
+  },
+  {
+    "name": "Berton-regular",
+    "file": "Berton/Berton-regular.woff"
+  },
+  {
+    "name": "Forbes Typeface Alt Two-forbestypefacealttwo",
+    "file": "Forbes Typeface Alt Two/Forbes Typeface Alt Two-forbestypefacealttwo.woff"
+  },
+  {
+    "name": "Beacher Med-medium",
+    "file": "Beacher Med/Beacher Med-medium.woff"
+  },
+  {
+    "name": "Banquo SemBd-semibold",
+    "file": "Banquo SemBd/Banquo SemBd-semibold.woff"
+  },
+  {
+    "name": "Coral waves extras-regular",
+    "file": "Coral waves extras/Coral waves extras-regular.woff"
+  },
+  {
+    "name": "Darmond Clean-darmond clean",
+    "file": "Darmond Clean/Darmond Clean-darmond clean.woff"
+  },
+  {
+    "name": "Presson Clean-presson clean",
+    "file": "Presson Clean/Presson Clean-presson clean.woff"
+  },
+  {
+    "name": "SUNN Line-bold",
+    "file": "SUNN Line/SUNN Line-bold.woff"
+  },
+  {
+    "name": "SUNN Line-regular",
+    "file": "SUNN Line/SUNN Line-regular.woff"
+  },
+  {
+    "name": "Roxborough CF-thinitalic",
+    "file": "Roxborough CF thinitalic/Roxborough CF-thinitalic.woff"
+  },
+  {
+    "name": "The Bridger-the bridger script font",
+    "file": "The Bridger/The Bridger-the bridger script font.woff"
+  },
+  {
+    "name": "Caelan-regular",
+    "file": "Caelan/Caelan-regular.woff"
+  },
+  {
+    "name": "Caelan-bold",
+    "file": "Caelan/Caelan-bold.woff"
+  },
+  {
+    "name": "Nord Thin-thin",
+    "file": "Nord  thin/Nord Thin-thin.woff"
+  },
+  {
+    "name": "Daania Thin-thin",
+    "file": "Daania/Daania Thin-thin.woff"
+  },
+  {
+    "name": "Daania Light-light",
+    "file": "Daania/Daania Light-light.woff"
+  },
+  {
+    "name": "Daania-regular",
+    "file": "Daania/Daania-regular.woff"
+  },
+  {
+    "name": "Alex-thinitalic",
+    "file": "Alex/Alex-thinitalic.woff"
+  },
+  {
+    "name": "Alex Black-black",
+    "file": "Alex/Alex Black-black.woff"
+  },
+  {
+    "name": "Alex Light-light",
+    "file": "Alex/Alex Light-light.woff"
+  },
+  {
+    "name": "Alex Light-lightitalic",
+    "file": "Alex/Alex Light-lightitalic.woff"
+  },
+  {
+    "name": "Alex-alex_thin",
+    "file": "Alex/Alex-alex_thin.woff"
+  },
+  {
+    "name": "Alex Black-blackitalic",
+    "file": "Alex/Alex Black-blackitalic.woff"
+  },
+  {
+    "name": "college_block_2.0-webfont-webfont",
+    "file": "college_block_2.0/college_block_2.0-webfont-webfont.woff"
+  },
+  {
+    "name": "Galactus Med-medium",
+    "file": "Galactus Med/Galactus Med-medium.woff"
+  },
+  {
+    "name": "Galactus Med-mediumitalic",
+    "file": "Galactus Med/Galactus Med-mediumitalic.woff"
+  },
+  {
+    "name": "Ace Sans Thin-acesansthin",
+    "file": "Ace Sans  acesansthin/Ace Sans Thin-acesansthin.woff"
+  },
+  {
+    "name": "Darmond Shadow-darmond shadow",
+    "file": "Darmond Shadow/Darmond Shadow-darmond shadow.woff"
+  },
+  {
+    "name": "Billy Ohio Dua-webfont",
+    "file": "Billy Ohio Dua/Billy Ohio Dua-webfont.woff"
+  },
+  {
+    "name": "Afrah Round-round",
+    "file": "Afrah Round/Afrah Round-round.woff"
+  },
+  {
+    "name": "Carla Light-light",
+    "file": "Carla/Carla Light-light.woff"
+  },
+  {
+    "name": "Carla Thin-thin",
+    "file": "Carla/Carla Thin-thin.woff"
+  },
+  {
+    "name": "Carla-regular",
+    "file": "Carla/Carla-regular.woff"
+  },
+  {
+    "name": "lovely rustica-lovely rustica",
+    "file": "lovely rustica/lovely rustica-lovely rustica.woff"
+  },
+  {
+    "name": "Stammark Shadow Oblique-stammark shadow oblique",
+    "file": "Stammark Shadow Oblique/Stammark Shadow Oblique-stammark shadow oblique.woff"
+  },
+  {
+    "name": "Lollapolaooza Large-lollapolaooza large",
+    "file": "Lollapolaooza Large/Lollapolaooza Large-lollapolaooza large.woff"
+  },
+  {
+    "name": "Butler-black",
+    "file": "Butler black/Butler-black.woff"
+  },
+  {
+    "name": "Marie-regular",
+    "file": "Marie/Marie-regular.woff"
+  },
+  {
+    "name": "Nord-italic",
+    "file": "Nord italic/Nord-italic.woff"
+  },
+  {
+    "name": "Florest Textured-floresttextured",
+    "file": "Florest Textured/Florest Textured-floresttextured.woff"
+  },
+  {
+    "name": "Garcedo Alt-garcedoalt",
+    "file": "Garcedo Alt/Garcedo Alt-garcedoalt.woff"
+  },
+  {
+    "name": "BoonTook-regular",
+    "file": "BoonTook/BoonTook-regular.woff"
+  },
+  {
+    "name": "BoonTook-italic",
+    "file": "BoonTook/BoonTook-italic.woff"
+  },
+  {
+    "name": "Portland slove ligature-ligature",
+    "file": "Portland slove ligature/Portland slove ligature-ligature.woff"
+  },
+  {
+    "name": "Garine Third-webfont",
+    "file": "Garine Third/Garine Third-webfont.woff"
+  },
+  {
+    "name": "Dalmation Core-webfont",
+    "file": "Dalmation Core webfont/Dalmation Core-webfont.woff"
+  },
+  {
+    "name": "StormFont LightFX-stormfont lightfx",
+    "file": "StormFont FX/StormFont LightFX-stormfont lightfx.woff"
+  },
+  {
+    "name": "Aster ExtBd-extrabold",
+    "file": "Aster ExtBd/Aster ExtBd-extrabold.woff"
+  },
+  {
+    "name": "Edinburgh-regular",
+    "file": "Edinburgh/Edinburgh-regular.woff"
+  },
+  {
+    "name": "Ace Sans-acesansregular",
+    "file": "Ace Sans acesansregular/Ace Sans-acesansregular.woff"
+  },
+  {
+    "name": "Walcot-regular",
+    "file": "Walcot/Walcot-regular.woff"
+  },
+  {
+    "name": "Walcot-bold",
+    "file": "Walcot/Walcot-bold.woff"
+  },
+  {
+    "name": "Brazie-brazie",
+    "file": "Brazie/Brazie-brazie.woff"
+  },
+  {
+    "name": "LAROSH Sithal Signature-larosh sithal signature",
+    "file": "LAROSH Sithal Signature/LAROSH Sithal Signature-larosh sithal signature.woff"
+  },
+  {
+    "name": "Sondra Outline-outline",
+    "file": "Sondra Outline/Sondra Outline-outline.woff"
+  },
+  {
+    "name": "Carla Sans Semibold-carlasanssemibold",
+    "file": "Carla Sans bold/Carla Sans Semibold-carlasanssemibold.woff"
+  },
+  {
+    "name": "Hellena Script-webfont",
+    "file": "Hellena Script/Hellena Script-webfont.woff"
+  },
+  {
+    "name": "Due Credit Horror Alternate-webfont",
+    "file": "Due Credit Horror Alternate/Due Credit Horror Alternate-webfont.woff"
+  },
+  {
+    "name": "Mixy Missy Fire-fire",
+    "file": "Mixy Missy Fire fire/Mixy Missy Fire-fire.woff"
+  },
+  {
+    "name": "Rezpector-rezpector regular",
+    "file": "Rezpector/Rezpector-rezpector regular.woff"
+  },
+  {
+    "name": "Rezpector-rezpector bold",
+    "file": "Rezpector/Rezpector-rezpector bold.woff"
+  },
+  {
+    "name": "Rezpector-rezpector regular italic",
+    "file": "Rezpector/Rezpector-rezpector regular italic.woff"
+  },
+  {
+    "name": "Rezpector-rezpector bold italic",
+    "file": "Rezpector/Rezpector-rezpector bold italic.woff"
+  },
+  {
+    "name": "Marco Valmory-valmory",
+    "file": "Marco Valmory/Marco Valmory-valmory.woff"
+  },
+  {
+    "name": "Dinomo-dinomo",
+    "file": "Dinomo/Dinomo-dinomo.woff"
+  },
+  {
+    "name": "Makise-makise",
+    "file": "Makise/Makise-makise.woff"
+  },
+  {
+    "name": "Measter Pioneer-measterpioneer",
+    "file": "Measter Pioneer/Measter Pioneer-measterpioneer.woff"
+  },
+  {
+    "name": "SUNN Serif-bold",
+    "file": "SUNN Serif/SUNN Serif-bold.woff"
+  },
+  {
+    "name": "SUNN Serif-regular",
+    "file": "SUNN Serif/SUNN Serif-regular.woff"
+  },
+  {
+    "name": "WT Hilton Script Thin-thin",
+    "file": "WT Hilton Script/WT Hilton Script Thin-thin.woff"
+  },
+  {
+    "name": "WT Hilton Script-regular",
+    "file": "WT Hilton Script/WT Hilton Script-regular.woff"
+  },
+  {
+    "name": "Scotties-scotties",
+    "file": "Scotties/Scotties-scotties.woff"
+  },
+  {
+    "name": "Fabulous Script Pro-fabulous script pro",
+    "file": "Fabulous Script Pro/Fabulous Script Pro-fabulous script pro.woff"
+  },
+  {
+    "name": "Monrad Grotesk ExtraLight-extralight",
+    "file": "Monrad Grotesk Extra/Monrad Grotesk ExtraLight-extralight.woff"
+  },
+  {
+    "name": "Monrad Grotesk ExtraLight-extralightit",
+    "file": "Monrad Grotesk Extra/Monrad Grotesk ExtraLight-extralightit.woff"
+  },
+  {
+    "name": "Mixy Missy Drop-drop",
+    "file": "Mixy Missy Drop drop/Mixy Missy Drop-drop.woff"
+  },
+  {
+    "name": "Carlos barker-barker",
+    "file": "Carlos barker/Carlos barker-barker.woff"
+  },
+  {
+    "name": "Blackheat Line Italic-blackheat line italic",
+    "file": "heat Line/Blackheat Line Italic-blackheat line italic.woff"
+  },
+  {
+    "name": "Blackheat Line-blackheat line",
+    "file": "heat Line/Blackheat Line-blackheat line.woff"
+  },
+  {
+    "name": "Kionsa Script Slant-kionsa script slant",
+    "file": "Kionsa Script Slant/Kionsa Script Slant-kionsa script slant.woff"
+  },
+  {
+    "name": "Stammark Rough Oblique-stammark rough oblique",
+    "file": "Stammark Rough Oblique/Stammark Rough Oblique-stammark rough oblique.woff"
+  },
+  {
+    "name": "Aiden SemLt-semilightitalic",
+    "file": "Aiden SemLt/Aiden SemLt-semilightitalic.woff"
+  },
+  {
+    "name": "Kionsa Condensed-kionsa condensed",
+    "file": "Kionsa Condensed/Kionsa Condensed-kionsa condensed.woff"
+  },
+  {
+    "name": "Fiona-regular",
+    "file": "Fiona/Fiona-regular.woff"
+  },
+  {
+    "name": "Aara 7-bolditalic",
+    "file": "Aara 7/Aara 7-bolditalic.woff"
+  },
+  {
+    "name": "Aara 7-bold",
+    "file": "Aara 7/Aara 7-bold.woff"
+  },
+  {
+    "name": "SUNN Line Serif-regular",
+    "file": "SUNN Line Serif/SUNN Line Serif-regular.woff"
+  },
+  {
+    "name": "SUNN Line Serif-bold",
+    "file": "SUNN Line Serif/SUNN Line Serif-bold.woff"
+  },
+  {
+    "name": "Roxborough CF-regular",
+    "file": "Roxborough CF regular/Roxborough CF-regular.woff"
+  },
+  {
+    "name": "Galactus Thin-thinitalic",
+    "file": "Galactus/Galactus Thin-thinitalic.woff"
+  },
+  {
+    "name": "Galactus Thin-thin",
+    "file": "Galactus/Galactus Thin-thin.woff"
+  },
+  {
+    "name": "Galactus-bold",
+    "file": "Galactus/Galactus-bold.woff"
+  },
+  {
+    "name": "Galactus-bolditalic",
+    "file": "Galactus/Galactus-bolditalic.woff"
+  },
+  {
+    "name": "ENTRA-extended",
+    "file": "ENTRA/ENTRA-extended.woff"
+  },
+  {
+    "name": "Maxi-Plus-thin",
+    "file": "Maxi/Maxi-Plus-thin.woff"
+  },
+  {
+    "name": "Maxi-Plus-demibold",
+    "file": "Maxi/Maxi-Plus-demibold.woff"
+  },
+  {
+    "name": "Maxi-Plus-regular",
+    "file": "Maxi/Maxi-Plus-regular.woff"
+  },
+  {
+    "name": "Maxi-demibold",
+    "file": "Maxi/Maxi-demibold.woff"
+  },
+  {
+    "name": "Maxi-Plus-bold",
+    "file": "Maxi/Maxi-Plus-bold.woff"
+  },
+  {
+    "name": "Maxi-Plus-light",
+    "file": "Maxi/Maxi-Plus-light.woff"
+  },
+  {
+    "name": "Maxi-light",
+    "file": "Maxi/Maxi-light.woff"
+  },
+  {
+    "name": "Maxi-bold",
+    "file": "Maxi/Maxi-bold.woff"
+  },
+  {
+    "name": "Maxi-thin",
+    "file": "Maxi/Maxi-thin.woff"
+  },
+  {
+    "name": "Maxi-regular",
+    "file": "Maxi/Maxi-regular.woff"
+  },
+  {
+    "name": "Hipster Script Semibold-hipsterscriptsemibold",
+    "file": "Hipster Script bold/Hipster Script Semibold-hipsterscriptsemibold.woff"
+  },
+  {
+    "name": "storybook_ending-webfont-webfont",
+    "file": "storybook_ending/storybook_ending-webfont-webfont.woff"
+  },
+  {
+    "name": "Ancient-geometry",
+    "file": "Ancient/Ancient-geometry.woff"
+  },
+  {
+    "name": "Laser Dots-dots",
+    "file": "Laser Dots/Laser Dots-dots.woff"
+  },
+  {
+    "name": "Aiden ExtExp Tracked-medextexptracked",
+    "file": "Aiden ExtExp Tracked/Aiden ExtExp Tracked-medextexptracked.woff"
+  },
+  {
+    "name": "Dinomo Alt-dinomoalt",
+    "file": "Dinomo Alt/Dinomo Alt-dinomoalt.woff"
+  },
+  {
+    "name": "Manchester Signature Alt-manchester signature alt",
+    "file": "Manchester Signature Alt/Manchester Signature Alt-manchester signature alt.woff"
+  },
+  {
+    "name": "Nord Book-book",
+    "file": "Nord Book book/Nord Book-book.woff"
+  },
+  {
+    "name": "Begum Semibold-begum semibold",
+    "file": "Begum bold/Begum Semibold-begum semibold.woff"
+  },
+  {
+    "name": "Brewski - Original-brewskioriginalregular",
+    "file": "Brewski/Brewski - Original-brewskioriginalregular.woff"
+  },
+  {
+    "name": "HelloAutumn-regular",
+    "file": "HelloAutumn/HelloAutumn-regular.woff"
+  },
+  {
+    "name": "Dalmation Oblique-webfont",
+    "file": "Dalmation Oblique webfont/Dalmation Oblique-webfont.woff"
+  },
+  {
+    "name": "AdoulissMag-thinitalic",
+    "file": "AdoulissMag/AdoulissMag-thinitalic.woff"
+  },
+  {
+    "name": "AdoulissMag Light-lightitalic",
+    "file": "AdoulissMag/AdoulissMag Light-lightitalic.woff"
+  },
+  {
+    "name": "AdoulissMag Light-light",
+    "file": "AdoulissMag/AdoulissMag Light-light.woff"
+  },
+  {
+    "name": "AdoulissMag Black-black",
+    "file": "AdoulissMag/AdoulissMag Black-black.woff"
+  },
+  {
+    "name": "AdoulissMag Black-blackitalic",
+    "file": "AdoulissMag/AdoulissMag Black-blackitalic.woff"
+  },
+  {
+    "name": "AdoulissMag-thin",
+    "file": "AdoulissMag/AdoulissMag-thin.woff"
+  },
+  {
+    "name": "ROYALE-royaleregular",
+    "file": "ROYALE/ROYALE-royaleregular.woff"
+  },
+  {
+    "name": "ROYALE-royalebold",
+    "file": "ROYALE/ROYALE-royalebold.woff"
+  },
+  {
+    "name": "ROYALE Light-royalelight",
+    "file": "ROYALE/ROYALE Light-royalelight.woff"
+  },
+  {
+    "name": "Chicago Rockers-chicago rockers woff",
+    "file": "Chicago Rockers/Chicago Rockers-chicago rockers woff.woff"
+  },
+  {
+    "name": "Chicago Rockers-chicago rockers italic woff",
+    "file": "Chicago Rockers/Chicago Rockers-chicago rockers italic woff.woff"
+  },
+  {
+    "name": "Manchester Signature-manchester signature",
+    "file": "Manchester Signature/Manchester Signature-manchester signature.woff"
+  },
+  {
+    "name": "Black Quality Holed-blackqualityholed",
+    "file": "Quality Holed/Black Quality Holed-blackqualityholed.woff"
+  },
+  {
+    "name": "Black Quality Holed-italic",
+    "file": "Quality Holed/Black Quality Holed-italic.woff"
+  },
+  {
+    "name": "Ace Serif Thin-webfont",
+    "file": "Ace Serif  webfont/Ace Serif Thin-webfont.woff"
+  },
+  {
+    "name": "Ace Serif Black-webfont",
+    "file": "Ace Serif  webfont/Ace Serif Black-webfont.woff"
+  },
+  {
+    "name": "Ace Serif Light-webfont",
+    "file": "Ace Serif  webfont/Ace Serif Light-webfont.woff"
+  },
+  {
+    "name": "Ace Serif Medium-webfont",
+    "file": "Ace Serif  webfont/Ace Serif Medium-webfont.woff"
+  },
+  {
+    "name": "Heypatricks-heypatricks",
+    "file": "Heypatricks/Heypatricks-heypatricks.woff"
+  },
+  {
+    "name": "Blackey-blackey",
+    "file": "ey/Blackey-blackey.woff"
+  },
+  {
+    "name": "Brownsville-webfont",
+    "file": "Brownsville/Brownsville-webfont.woff"
+  },
+  {
+    "name": "Mixy Missy Rope-rope",
+    "file": "Mixy Missy Rope rope/Mixy Missy Rope-rope.woff"
+  },
+  {
+    "name": "Stammark Clean Oblique-stammark clean oblique",
+    "file": "Stammark Clean Oblique/Stammark Clean Oblique-stammark clean oblique.woff"
+  },
+  {
+    "name": "Larssonia Script-webfont",
+    "file": "Larssonia Script/Larssonia Script-webfont.woff"
+  },
+  {
+    "name": "Roger Serif-webfont",
+    "file": "Roger Serif/Roger Serif-webfont.woff"
+  },
+  {
+    "name": "Acacio-regular",
+    "file": "Acacio/Acacio-regular.woff"
+  },
+  {
+    "name": "Acacio-bold",
+    "file": "Acacio/Acacio-bold.woff"
+  },
+  {
+    "name": "Brewski Textured-brewskitextured",
+    "file": "Brewski Textured/Brewski Textured-brewskitextured.woff"
+  },
+  {
+    "name": "Aaliyah Black-black",
+    "file": "Aaliyah/Aaliyah Black-black.woff"
+  },
+  {
+    "name": "Aaliyah-regular",
+    "file": "Aaliyah/Aaliyah-regular.woff"
+  },
+  {
+    "name": "Aaliyah-bold",
+    "file": "Aaliyah/Aaliyah-bold.woff"
+  },
+  {
+    "name": "Aaliyah Light-light",
+    "file": "Aaliyah/Aaliyah Light-light.woff"
+  },
+  {
+    "name": "Aaliyah Thin-thin",
+    "file": "Aaliyah/Aaliyah Thin-thin.woff"
+  },
+  {
+    "name": "ATOMOSFER-atomosfer",
+    "file": "ATOMOSFER/ATOMOSFER-atomosfer.woff"
+  },
+  {
+    "name": "Aludra Distorted-distorted",
+    "file": "Aludra Distorted/Aludra Distorted-distorted.woff"
+  },
+  {
+    "name": "Ace Sans-acesansbold",
+    "file": "Ace Sans acesansbold/Ace Sans-acesansbold.woff"
+  },
+  {
+    "name": "Bank Lined-webfont",
+    "file": "Bank Lined/Bank Lined-webfont.woff"
+  },
+  {
+    "name": "JVNEMinervae Chalk-chalk",
+    "file": "JVNEMinervae Chalk/JVNEMinervae Chalk-chalk.woff"
+  },
+  {
+    "name": "Hartwood Rough Oblique-hartwood rough oblique",
+    "file": "Hartwood Rough Oblique/Hartwood Rough Oblique-hartwood rough oblique.woff"
+  },
+  {
+    "name": "AT Violent Youth-webfont",
+    "file": "AT Violent Youth/AT Violent Youth-webfont.woff"
+  },
+  {
+    "name": "Sally Morrison-sally morrison",
+    "file": "Sally Morrison/Sally Morrison-sally morrison.woff"
+  },
+  {
+    "name": "Aludra Med-bold",
+    "file": "Aludra Med/Aludra Med-bold.woff"
+  },
+  {
+    "name": "Aludra Med-bolditalic",
+    "file": "Aludra Med/Aludra Med-bolditalic.woff"
+  },
+  {
+    "name": "Stickler Pro-pro",
+    "file": "Stickler Pro/Stickler Pro-pro.woff"
+  },
+  {
+    "name": "Amidala-amidalaregular",
+    "file": "Amidala/Amidala-amidalaregular.woff"
+  },
+  {
+    "name": "Signist 04 Clean-signist 04 clean",
+    "file": "Signist 04 Clean/Signist 04 Clean-signist 04 clean.woff"
+  },
+  {
+    "name": "Due Credit Light-webfont",
+    "file": "Due Credit/Due Credit Light-webfont.woff"
+  },
+  {
+    "name": "Due Credit-webfont",
+    "file": "Due Credit/Due Credit-webfont.woff"
+  },
+  {
+    "name": "Abed-bold",
+    "file": "Abed/Abed-bold.woff"
+  },
+  {
+    "name": "Abed Light-light",
+    "file": "Abed/Abed Light-light.woff"
+  },
+  {
+    "name": "Abed-regular",
+    "file": "Abed/Abed-regular.woff"
+  },
+  {
+    "name": "Abed Black-black",
+    "file": "Abed/Abed Black-black.woff"
+  },
+  {
+    "name": "Abed Thin-thin",
+    "file": "Abed/Abed Thin-thin.woff"
+  },
+  {
+    "name": "Mikela-mikelaregular",
+    "file": "Mikela/Mikela-mikelaregular.woff"
+  },
+  {
+    "name": "Mikela-mikelabold",
+    "file": "Mikela/Mikela-mikelabold.woff"
+  },
+  {
+    "name": "Mikela Light-mikelalight",
+    "file": "Mikela/Mikela Light-mikelalight.woff"
+  },
+  {
+    "name": "Cador-bold",
+    "file": "Cador/Cador-bold.woff"
+  },
+  {
+    "name": "Cador-regular",
+    "file": "Cador/Cador-regular.woff"
+  },
+  {
+    "name": "Cammron Round-round",
+    "file": "Cammron Round/Cammron Round-round.woff"
+  },
+  {
+    "name": "Southgirl-southgirl",
+    "file": "Southgirl/Southgirl-southgirl.woff"
+  },
+  {
+    "name": "Abrasha-regular",
+    "file": "Abrasha/Abrasha-regular.woff"
+  },
+  {
+    "name": "Besties Matthew-besties matthew",
+    "file": "Besties Matthew/Besties Matthew-besties matthew.woff"
+  },
+  {
+    "name": "Sally Morrison Serif-sally morrison serif",
+    "file": "Sally Morrison Serif/Sally Morrison Serif-sally morrison serif.woff"
+  },
+  {
+    "name": "WT Hilton Script Monoline-monoline",
+    "file": "WT Hilton Script Monoline/WT Hilton Script Monoline-monoline.woff"
+  },
+  {
+    "name": "Fritz Retro-retro",
+    "file": "Fritz Retro/Fritz Retro-retro.woff"
+  },
+  {
+    "name": "Solomon Semi-regular",
+    "file": "Solomon/Solomon Semi-regular.woff"
+  },
+  {
+    "name": "Solomon-light",
+    "file": "Solomon/Solomon-light.woff"
+  },
+  {
+    "name": "Solomon Semi-semibold",
+    "file": "Solomon/Solomon Semi-semibold.woff"
+  },
+  {
+    "name": "Boisterous Script Regular-boisterous script regular",
+    "file": "Boisterous Script/Boisterous Script Regular-boisterous script regular.woff"
+  },
+  {
+    "name": "Ace Serif ExtraLight-webfont",
+    "file": "Ace Serif Extra webfont/Ace Serif ExtraLight-webfont.woff"
+  },
+  {
+    "name": "Ace Serif ExtraBold-webfont",
+    "file": "Ace Serif Extra webfont/Ace Serif ExtraBold-webfont.woff"
+  },
+  {
+    "name": "Gesture Black-black",
+    "file": "Gesture/Gesture Black-black.woff"
+  },
+  {
+    "name": "Taylor Semibold-taylorsemibold",
+    "file": "Taylor bold/Taylor Semibold-taylorsemibold.woff"
+  },
+  {
+    "name": "Darmond Rough-darmond rough",
+    "file": "Darmond Rough/Darmond Rough-darmond rough.woff"
+  },
+  {
+    "name": "VIVITA-medium",
+    "file": "VIVITA/VIVITA-medium.woff"
+  },
+  {
+    "name": "VIVITA-regular",
+    "file": "VIVITA/VIVITA-regular.woff"
+  },
+  {
+    "name": "VIVITA-light",
+    "file": "VIVITA/VIVITA-light.woff"
+  },
+  {
+    "name": "VIVITA-bold",
+    "file": "VIVITA/VIVITA-bold.woff"
+  },
+  {
+    "name": "Summertime-summertime",
+    "file": "Summertime/Summertime-summertime.woff"
+  },
+  {
+    "name": "Harbinger-harbinger",
+    "file": "Harbinger/Harbinger-harbinger.woff"
+  },
+  {
+    "name": "Densfort-densfort ",
+    "file": "Densfort/Densfort-densfort .woff"
+  },
+  {
+    "name": "Brookset Shadow Oblique-brookset shadow oblique",
+    "file": "Brookset Shadow Oblique/Brookset Shadow Oblique-brookset shadow oblique.woff"
+  },
+  {
+    "name": "Roxborough CF-extrabold",
+    "file": "Roxborough CF extrabold/Roxborough CF-extrabold.woff"
+  },
+  {
+    "name": "Yarelli Outline-outline",
+    "file": "Yarelli Outline/Yarelli Outline-outline.woff"
+  },
+  {
+    "name": "Signist 02 Clean-signist 02 clean",
+    "file": "Signist 02 Clean/Signist 02 Clean-signist 02 clean.woff"
+  },
+  {
+    "name": "Abell Light-light",
+    "file": "Abell/Abell Light-light.woff"
+  },
+  {
+    "name": "Abell Thin-thinitalic",
+    "file": "Abell/Abell Thin-thinitalic.woff"
+  },
+  {
+    "name": "Abell Thin-thin",
+    "file": "Abell/Abell Thin-thin.woff"
+  },
+  {
+    "name": "Abell Black-black",
+    "file": "Abell/Abell Black-black.woff"
+  },
+  {
+    "name": "Abell-regular",
+    "file": "Abell/Abell-regular.woff"
+  },
+  {
+    "name": "KyivType Serif-thin",
+    "file": "KyivType Serif/KyivType Serif-thin.woff"
+  },
+  {
+    "name": "KyivType Serif-black",
+    "file": "KyivType Serif/KyivType Serif-black.woff"
+  },
+  {
+    "name": "KyivType Serif-light3",
+    "file": "KyivType Serif/KyivType Serif-light3.woff"
+  },
+  {
+    "name": "KyivType Serif-regular",
+    "file": "KyivType Serif/KyivType Serif-regular.woff"
+  },
+  {
+    "name": "KyivType Serif-bold2",
+    "file": "KyivType Serif/KyivType Serif-bold2.woff"
+  },
+  {
+    "name": "KyivType Serif-medium",
+    "file": "KyivType Serif/KyivType Serif-medium.woff"
+  },
+  {
+    "name": "KyivType Serif-regular2",
+    "file": "KyivType Serif/KyivType Serif-regular2.woff"
+  },
+  {
+    "name": "KyivType Serif-heavy",
+    "file": "KyivType Serif/KyivType Serif-heavy.woff"
+  },
+  {
+    "name": "KyivType Serif-bold3",
+    "file": "KyivType Serif/KyivType Serif-bold3.woff"
+  },
+  {
+    "name": "KyivType Serif-medium3",
+    "file": "KyivType Serif/KyivType Serif-medium3.woff"
+  },
+  {
+    "name": "KyivType Serif-bold",
+    "file": "KyivType Serif/KyivType Serif-bold.woff"
+  },
+  {
+    "name": "KyivType Serif-regular3",
+    "file": "KyivType Serif/KyivType Serif-regular3.woff"
+  },
+  {
+    "name": "KyivType Serif-heavy2",
+    "file": "KyivType Serif/KyivType Serif-heavy2.woff"
+  },
+  {
+    "name": "KyivType Serif-light",
+    "file": "KyivType Serif/KyivType Serif-light.woff"
+  },
+  {
+    "name": "KyivType Serif-medium2",
+    "file": "KyivType Serif/KyivType Serif-medium2.woff"
+  },
+  {
+    "name": "KyivType Serif-black3",
+    "file": "KyivType Serif/KyivType Serif-black3.woff"
+  },
+  {
+    "name": "KyivType Serif-light2",
+    "file": "KyivType Serif/KyivType Serif-light2.woff"
+  },
+  {
+    "name": "KyivType Serif-heavy3",
+    "file": "KyivType Serif/KyivType Serif-heavy3.woff"
+  },
+  {
+    "name": "KyivType Serif-black2",
+    "file": "KyivType Serif/KyivType Serif-black2.woff"
+  },
+  {
+    "name": "LegalObligationSans Light-legalobligationsanslight",
+    "file": "LegalObligationSans/LegalObligationSans Light-legalobligationsanslight.woff"
+  },
+  {
+    "name": "LegalObligationSans-legalobligationsansbold",
+    "file": "LegalObligationSans/LegalObligationSans-legalobligationsansbold.woff"
+  },
+  {
+    "name": "LegalObligationSans-legalobligationsansregular",
+    "file": "LegalObligationSans/LegalObligationSans-legalobligationsansregular.woff"
+  },
+  {
+    "name": "I Am In Love Color L-i am in love color latin",
+    "file": "I Am In Love Color L/I Am In Love Color L-i am in love color latin.woff"
+  },
+  {
+    "name": "Bergen Mono-italic",
+    "file": "Bergen Mono/Bergen Mono-italic.woff"
+  },
+  {
+    "name": "Bergen Mono-regular",
+    "file": "Bergen Mono/Bergen Mono-regular.woff"
+  },
+  {
+    "name": "Bergen Mono-bold",
+    "file": "Bergen Mono/Bergen Mono-bold.woff"
+  },
+  {
+    "name": "Bergen Mono-semibold",
+    "file": "Bergen Mono/Bergen Mono-semibold.woff"
+  },
+  {
+    "name": "Bergen Mono-semibolditalic",
+    "file": "Bergen Mono/Bergen Mono-semibolditalic.woff"
+  },
+  {
+    "name": "Bergen Mono-bolditalic",
+    "file": "Bergen Mono/Bergen Mono-bolditalic.woff"
+  },
+  {
+    "name": "Chrys Distorted-distorted",
+    "file": "Chrys Distorted/Chrys Distorted-distorted.woff"
+  },
+  {
+    "name": "Vegas Nova Black-blackitalic",
+    "file": "Vegas Nova/Vegas Nova Black-blackitalic.woff"
+  },
+  {
+    "name": "Vegas Nova-italic",
+    "file": "Vegas Nova/Vegas Nova-italic.woff"
+  },
+  {
+    "name": "Vegas Nova-bold",
+    "file": "Vegas Nova/Vegas Nova-bold.woff"
+  },
+  {
+    "name": "Vegas Nova-regular",
+    "file": "Vegas Nova/Vegas Nova-regular.woff"
+  },
+  {
+    "name": "Vegas Nova Black-black",
+    "file": "Vegas Nova/Vegas Nova Black-black.woff"
+  },
+  {
+    "name": "Vegas Nova Thin-thin",
+    "file": "Vegas Nova/Vegas Nova Thin-thin.woff"
+  },
+  {
+    "name": "Vegas Nova-bolditalic",
+    "file": "Vegas Nova/Vegas Nova-bolditalic.woff"
+  },
+  {
+    "name": "Vegas Nova Thin-thinitalic",
+    "file": "Vegas Nova/Vegas Nova Thin-thinitalic.woff"
+  },
+  {
+    "name": "Vegas Nova Light-lightitalic",
+    "file": "Vegas Nova/Vegas Nova Light-lightitalic.woff"
+  },
+  {
+    "name": "Vegas Nova Light-light",
+    "file": "Vegas Nova/Vegas Nova Light-light.woff"
+  },
+  {
+    "name": "Ace Sans Light-acesanslight",
+    "file": "Ace Sans  acesanslight/Ace Sans Light-acesanslight.woff"
+  },
+  {
+    "name": "Adriell-bold",
+    "file": "Adriell/Adriell-bold.woff"
+  },
+  {
+    "name": "Adriell-regular",
+    "file": "Adriell/Adriell-regular.woff"
+  },
+  {
+    "name": "Adriell Black-black",
+    "file": "Adriell/Adriell Black-black.woff"
+  },
+  {
+    "name": "Nord Light-light",
+    "file": "Nord  light/Nord Light-light.woff"
+  },
+  {
+    "name": "Platanos Shadow-platanos shadow",
+    "file": "Platanos Shadow/Platanos Shadow-platanos shadow.woff"
+  },
+  {
+    "name": "Carla Sans Light-carlasanslight",
+    "file": "Carla Sans/Carla Sans Light-carlasanslight.woff"
+  },
+  {
+    "name": "Carla Sans-carlasansregular",
+    "file": "Carla Sans/Carla Sans-carlasansregular.woff"
+  },
+  {
+    "name": "Carla Sans-carlasansbold",
+    "file": "Carla Sans/Carla Sans-carlasansbold.woff"
+  },
+  {
+    "name": "Pervinca-regular",
+    "file": "Pervinca/Pervinca-regular.woff"
+  },
+  {
+    "name": "Aludra Med 4-light",
+    "file": "Aludra Med 4/Aludra Med 4-light.woff"
+  },
+  {
+    "name": "Möfita Po-italic",
+    "file": "Möfita Po/Möfita Po-italic.woff"
+  },
+  {
+    "name": "Möfita Po-mofitapo",
+    "file": "Möfita Po/Möfita Po-mofitapo.woff"
+  },
+  {
+    "name": "deko_blakk-webfont-webfont",
+    "file": "deko_blakk/deko_blakk-webfont-webfont.woff"
+  },
+  {
+    "name": "BROKENZ INLINE-brokenz inline",
+    "file": "BROKENZ INLINE/BROKENZ INLINE-brokenz inline.woff"
+  },
+  {
+    "name": "Rezpector Outlined-rezpector outlined",
+    "file": "Rezpector Outlined/Rezpector Outlined-rezpector outlined.woff"
+  },
+  {
+    "name": "Rezpector Outlined-rezpector outlined italic",
+    "file": "Rezpector Outlined/Rezpector Outlined-rezpector outlined italic.woff"
+  },
+  {
+    "name": "California-regular",
+    "file": "California/California-regular.woff"
+  },
+  {
+    "name": "JVNEMinervae WideChalk-widechalk",
+    "file": "JVNEMinervae WideChalk/JVNEMinervae WideChalk-widechalk.woff"
+  },
+  {
+    "name": "Lollapolaooza Small-lollapolaooza small",
+    "file": "Lollapolaooza Small/Lollapolaooza Small-lollapolaooza small.woff"
+  },
+  {
+    "name": "Signist 01 Clean-signist 01 clean",
+    "file": "Signist 01 Clean/Signist 01 Clean-signist 01 clean.woff"
+  },
+  {
+    "name": "Michegar-michegar",
+    "file": "Michegar/Michegar-michegar.woff"
+  },
+  {
+    "name": "Due Credit Horror-webfont",
+    "file": "Due Credit Horror/Due Credit Horror-webfont.woff"
+  },
+  {
+    "name": "Delirio-delirio poker",
+    "file": "Delirio/Delirio-delirio poker.woff"
+  },
+  {
+    "name": "Delirio-delirio one",
+    "file": "Delirio/Delirio-delirio one.woff"
+  },
+  {
+    "name": "Delirio-delirio three",
+    "file": "Delirio/Delirio-delirio three.woff"
+  },
+  {
+    "name": "Delirio-delirio basic",
+    "file": "Delirio/Delirio-delirio basic.woff"
+  },
+  {
+    "name": "Kathlyn-kathlyn",
+    "file": "Kathlyn/Kathlyn-kathlyn.woff"
+  },
+  {
+    "name": "JVNEMinervae Ink Outline-inkoutline",
+    "file": "JVNEMinervae Ink Outline/JVNEMinervae Ink Outline-inkoutline.woff"
+  },
+  {
+    "name": "Empirez Slant-empirez slant",
+    "file": "Empirez Slant/Empirez Slant-empirez slant.woff"
+  },
+  {
+    "name": "Aludra Med 7-thin",
+    "file": "Aludra Med 7/Aludra Med 7-thin.woff"
+  },
+  {
+    "name": "Aludra Med 5-lightitalic",
+    "file": "Aludra Med 5/Aludra Med 5-lightitalic.woff"
+  },
+  {
+    "name": "Braque-braque",
+    "file": "Braque/Braque-braque.woff"
+  },
+  {
+    "name": "Magnolia-webfont",
+    "file": "Magnolia/Magnolia-webfont.woff"
+  },
+  {
+    "name": "Wild and Folk Font-wild & folk font",
+    "file": "Wild and Folk Font/Wild and Folk Font-wild & folk font.woff"
+  },
+  {
+    "name": "Moonshine-moonshine",
+    "file": "Moonshine/Moonshine-moonshine.woff"
+  },
+  {
+    "name": "Volante-light",
+    "file": "Volante/Volante-light.woff"
+  },
+  {
+    "name": "Volante-regular",
+    "file": "Volante/Volante-regular.woff"
+  },
+  {
+    "name": "Volante-bold",
+    "file": "Volante/Volante-bold.woff"
+  },
+  {
+    "name": "Volante-extrabold",
+    "file": "Volante/Volante-extrabold.woff"
+  },
+  {
+    "name": "Volante-thin",
+    "file": "Volante/Volante-thin.woff"
+  },
+  {
+    "name": "Volante-heavy",
+    "file": "Volante/Volante-heavy.woff"
+  },
+  {
+    "name": "Houstiny-houstiny",
+    "file": "Houstiny/Houstiny-houstiny.woff"
+  },
+  {
+    "name": "Slovic_Demo-semiserif",
+    "file": "Slovic_Demo/Slovic_Demo-semiserif.woff"
+  },
+  {
+    "name": "Slovic_Demo-serif",
+    "file": "Slovic_Demo/Slovic_Demo-serif.woff"
+  },
+  {
+    "name": "Slovic_Demo-historic",
+    "file": "Slovic_Demo/Slovic_Demo-historic.woff"
+  },
+  {
+    "name": "Slovic_Demo-sansserif",
+    "file": "Slovic_Demo/Slovic_Demo-sansserif.woff"
+  },
+  {
+    "name": "Slovic_Demo-slabserif",
+    "file": "Slovic_Demo/Slovic_Demo-slabserif.woff"
+  },
+  {
+    "name": "Tuck Shop Outline-outline",
+    "file": "Tuck Shop Outline/Tuck Shop Outline-outline.woff"
+  },
+  {
+    "name": "Sacred Geometry-sacred geometry",
+    "file": "Sacred Geometry/Sacred Geometry-sacred geometry.woff"
+  },
+  {
+    "name": "Mixy Missy Speed-speed",
+    "file": "Mixy Missy Speed speed/Mixy Missy Speed-speed.woff"
+  },
+  {
+    "name": "Etapi Sans-webfont",
+    "file": "Etapi Sans/Etapi Sans-webfont.woff"
+  },
+  {
+    "name": "Aaron Distorted-distorted",
+    "file": "Aaron Distorted/Aaron Distorted-distorted.woff"
+  },
+  {
+    "name": "Aster Light-light",
+    "file": "Aster/Aster Light-light.woff"
+  },
+  {
+    "name": "Aster-regular",
+    "file": "Aster/Aster-regular.woff"
+  },
+  {
+    "name": "Aster Thin-thin",
+    "file": "Aster/Aster Thin-thin.woff"
+  },
+  {
+    "name": "Aster Black-black",
+    "file": "Aster/Aster Black-black.woff"
+  },
+  {
+    "name": "Barric Smooth-smooth",
+    "file": "Barric Smooth/Barric Smooth-smooth.woff"
+  },
+  {
+    "name": "I Am In Love Color K-i am in love color cyrillc",
+    "file": "I Am In Love Color K/I Am In Love Color K-i am in love color cyrillc.woff"
+  },
+  {
+    "name": "Ackley Light-light",
+    "file": "Ackley/Ackley Light-light.woff"
+  },
+  {
+    "name": "Ackley Thin-thin",
+    "file": "Ackley/Ackley Thin-thin.woff"
+  },
+  {
+    "name": "Ackley-regular",
+    "file": "Ackley/Ackley-regular.woff"
+  },
+  {
+    "name": "Ackley-bold",
+    "file": "Ackley/Ackley-bold.woff"
+  },
+  {
+    "name": "Ackley Thin-thinitalic",
+    "file": "Ackley/Ackley Thin-thinitalic.woff"
+  },
+  {
+    "name": "Ackley Light-lightitalic",
+    "file": "Ackley/Ackley Light-lightitalic.woff"
+  },
+  {
+    "name": "Ackley-bolditalic",
+    "file": "Ackley/Ackley-bolditalic.woff"
+  },
+  {
+    "name": "Esther-webfont",
+    "file": "Esther/Esther-webfont.woff"
+  },
+  {
+    "name": "Esther-regular",
+    "file": "Esther/Esther-regular.woff"
+  },
+  {
+    "name": "Aiden Outline-newsoutline",
+    "file": "Aiden Outline/Aiden Outline-newsoutline.woff"
+  },
+  {
+    "name": "Abira Blur-blur",
+    "file": "Abira Blur/Abira Blur-blur.woff"
+  },
+  {
+    "name": "Brittanya Goldenite-brittanya goldenite",
+    "file": "Brittanya Goldenite/Brittanya Goldenite-brittanya goldenite.woff"
+  },
+  {
+    "name": "BRUSH TANGSE-tangse",
+    "file": "BRUSH TANGSE/BRUSH TANGSE-tangse.woff"
+  },
+  {
+    "name": "BEAUX Display-display",
+    "file": "BEAUX Display/BEAUX Display-display.woff"
+  },
+  {
+    "name": "Cason Light-light",
+    "file": "Cason/Cason Light-light.woff"
+  },
+  {
+    "name": "Cason Thin-thin",
+    "file": "Cason/Cason Thin-thin.woff"
+  },
+  {
+    "name": "Cason-regular",
+    "file": "Cason/Cason-regular.woff"
+  },
+  {
+    "name": "Cason-bold",
+    "file": "Cason/Cason-bold.woff"
+  },
+  {
+    "name": "Monrad Grotesk-it",
+    "file": "Monrad Grotesk/Monrad Grotesk-it.woff"
+  },
+  {
+    "name": "Monrad Grotesk-regular",
+    "file": "Monrad Grotesk/Monrad Grotesk-regular.woff"
+  },
+  {
+    "name": "Monrad Grotesk-light",
+    "file": "Monrad Grotesk/Monrad Grotesk-light.woff"
+  },
+  {
+    "name": "Monrad Grotesk-boldit",
+    "file": "Monrad Grotesk/Monrad Grotesk-boldit.woff"
+  },
+  {
+    "name": "Monrad Grotesk Black-italic",
+    "file": "Monrad Grotesk/Monrad Grotesk Black-italic.woff"
+  },
+  {
+    "name": "Monrad Grotesk-bold",
+    "file": "Monrad Grotesk/Monrad Grotesk-bold.woff"
+  },
+  {
+    "name": "Monrad Grotesk Black-monradgroteskblack",
+    "file": "Monrad Grotesk/Monrad Grotesk Black-monradgroteskblack.woff"
+  },
+  {
+    "name": "Monrad Grotesk Light-lightit",
+    "file": "Monrad Grotesk/Monrad Grotesk Light-lightit.woff"
+  },
+  {
+    "name": "Rono-black",
+    "file": "Rono/Rono-black.woff"
+  },
+  {
+    "name": "BROKENZ REG-brokenz",
+    "file": "BROKENZ REG/BROKENZ REG-brokenz.woff"
+  },
+  {
+    "name": "Riverstar-riverstar",
+    "file": "Riverstar/Riverstar-riverstar.woff"
+  },
+  {
+    "name": "Fat Porn Font-fat porn font",
+    "file": "Fat Porn Font/Fat Porn Font-fat porn font.woff"
+  },
+  {
+    "name": "Adallyn-light",
+    "file": "Adallyn/Adallyn-light.woff"
+  },
+  {
+    "name": "Adallyn-bold",
+    "file": "Adallyn/Adallyn-bold.woff"
+  },
+  {
+    "name": "Abril Med 3-thin",
+    "file": "Abril Med 3/Abril Med 3-thin.woff"
+  },
+  {
+    "name": "Signist 05 Rough-signist 05 rough",
+    "file": "Signist 05 Rough/Signist 05 Rough-signist 05 rough.woff"
+  },
+  {
+    "name": "Roxborough CF-thin",
+    "file": "Roxborough CF thin/Roxborough CF-thin.woff"
+  },
+  {
+    "name": "Bahemoth-bahemoth",
+    "file": "Bahemoth/Bahemoth-bahemoth.woff"
+  },
+  {
+    "name": "Cordaro-bold",
+    "file": "Cordaro/Cordaro-bold.woff"
+  },
+  {
+    "name": "Cordaro-regular",
+    "file": "Cordaro/Cordaro-regular.woff"
+  },
+  {
+    "name": "Aariel Med 3-thin",
+    "file": "Aariel Med 3/Aariel Med 3-thin.woff"
+  },
+  {
+    "name": "Florest Textured 2-floresttextured2",
+    "file": "Florest Textured 2/Florest Textured 2-floresttextured2.woff"
+  },
+  {
+    "name": "Kionsa Condensed Slant-kionsa condensed slant",
+    "file": "Kionsa Condensed Slant/Kionsa Condensed Slant-kionsa condensed slant.woff"
+  },
+  {
+    "name": "college_block_2.0_outlines-webfont-webfont",
+    "file": "college_block_2.0_outlines/college_block_2.0_outlines-webfont-webfont.woff"
+  },
+  {
+    "name": "Aariel Outline-outline",
+    "file": "Aariel Outline/Aariel Outline-outline.woff"
+  },
+  {
+    "name": "Birallina-birallinaregular",
+    "file": "Birallina/Birallina-birallinaregular.woff"
+  },
+  {
+    "name": "Cheddar Gothic Serif-webfont",
+    "file": "Cheddar Gothic Serif/Cheddar Gothic Serif-webfont.woff"
+  },
+  {
+    "name": "Inkcantation BB-inkcantation bb",
+    "file": "Inkcantation BB/Inkcantation BB-inkcantation bb.woff"
+  },
+  {
+    "name": "Inkcantation BB Italic-inkcantation bb italic",
+    "file": "Inkcantation BB/Inkcantation BB Italic-inkcantation bb italic.woff"
+  },
+  {
+    "name": "Inkcantation BB Bold-inkcantation bb bold",
+    "file": "Inkcantation BB/Inkcantation BB Bold-inkcantation bb bold.woff"
+  },
+  {
+    "name": "Black Quality-blackquality",
+    "file": "Quality/Black Quality-blackquality.woff"
+  },
+  {
+    "name": "Black Quality-italic",
+    "file": "Quality/Black Quality-italic.woff"
+  },
+  {
+    "name": "Adriell Med-medium",
+    "file": "Adriell Med/Adriell Med-medium.woff"
+  },
+  {
+    "name": "Cansu Outline-outline",
+    "file": "Cansu Outline/Cansu Outline-outline.woff"
+  },
+  {
+    "name": "Qronik-qronik",
+    "file": "Qronik/Qronik-qronik.woff"
+  },
+  {
+    "name": "SunGold-webfont",
+    "file": "SunGold/SunGold-webfont.woff"
+  },
+  {
+    "name": "Bellinor-bellinorregular",
+    "file": "Bellinor/Bellinor-bellinorregular.woff"
+  },
+  {
+    "name": "Hadasa Round-round",
+    "file": "Hadasa Round/Hadasa Round-round.woff"
+  },
+  {
+    "name": "Qanaya Round-round",
+    "file": "Qanaya Round/Qanaya Round-round.woff"
+  },
+  {
+    "name": "Etapi Sans Rough-webfont",
+    "file": "Etapi Sans Rough/Etapi Sans Rough-webfont.woff"
+  },
+  {
+    "name": "Garcedo Alt Two-garcedoalttwo",
+    "file": "Garcedo Alt Two/Garcedo Alt Two-garcedoalttwo.woff"
+  },
+  {
+    "name": "Kasandra Script Regular-kasandra script regular",
+    "file": "Kasandra Script/Kasandra Script Regular-kasandra script regular.woff"
+  },
+  {
+    "name": "Begum Medium-begum medium",
+    "file": "Begum/Begum Medium-begum medium.woff"
+  },
+  {
+    "name": "Begum-begum",
+    "file": "Begum/Begum-begum.woff"
+  },
+  {
+    "name": "Begum Bold-begum bold",
+    "file": "Begum/Begum Bold-begum bold.woff"
+  },
+  {
+    "name": "Begum Light-begum light",
+    "file": "Begum/Begum Light-begum light.woff"
+  },
+  {
+    "name": "Ace Sans Extralight-acesansextralight",
+    "file": "Ace Sans Extralight acesansextralight/Ace Sans Extralight-acesansextralight.woff"
+  },
+  {
+    "name": "Achazia Distorted-distorted",
+    "file": "Achazia Distorted/Achazia Distorted-distorted.woff"
+  },
+  {
+    "name": "Abril-lightitalic",
+    "file": "Abril/Abril-lightitalic.woff"
+  },
+  {
+    "name": "Abril Light-light",
+    "file": "Abril/Abril Light-light.woff"
+  },
+  {
+    "name": "Aderes Outline-outline",
+    "file": "Aderes Outline/Aderes Outline-outline.woff"
+  },
+  {
+    "name": "Bendicion Extrabold-extrabold_modular",
+    "file": "Bendicion Extrabold/Bendicion Extrabold-extrabold_modular.woff"
+  },
+  {
+    "name": "LAROSH Sithal Sans Serif-larosh sithal sans serif",
+    "file": "LAROSH Sithal Sans Serif/LAROSH Sithal Sans Serif-larosh sithal sans serif.woff"
+  },
+  {
+    "name": "Vernazza-vernazzatall",
+    "file": "Vernazza/Vernazza-vernazzatall.woff"
+  },
+  {
+    "name": "Vacations Brush-vacations brush",
+    "file": "Vacations Brush/Vacations Brush-vacations brush.woff"
+  },
+  {
+    "name": "wonderella-wonderella",
+    "file": "wonderella/wonderella-wonderella.woff"
+  },
+  {
+    "name": "Markella-markella",
+    "file": "Markella/Markella-markella.woff"
+  },
+  {
+    "name": "Beacher Outline-outline",
+    "file": "Beacher Outline/Beacher Outline-outline.woff"
+  },
+  {
+    "name": "DeathZone-webfont",
+    "file": "DeathZone/DeathZone-webfont.woff"
+  },
+  {
+    "name": "Boutique-boutiqueserif",
+    "file": "Boutique/Boutique-boutiqueserif.woff"
+  },
+  {
+    "name": "Hartwood Shadow Oblique-hartwood shadow oblique",
+    "file": "Hartwood Shadow Oblique/Hartwood Shadow Oblique-hartwood shadow oblique.woff"
+  },
+  {
+    "name": "NUNU-nunu italic",
+    "file": "NUNU/NUNU-nunu italic.woff"
+  },
+  {
+    "name": "NUNU-nunu bold",
+    "file": "NUNU/NUNU-nunu bold.woff"
+  },
+  {
+    "name": "NUNU Regular-nunu regular",
+    "file": "NUNU/NUNU Regular-nunu regular.woff"
+  },
+  {
+    "name": "NUNU Bold Italic-nunu bold italic",
+    "file": "NUNU/NUNU Bold Italic-nunu bold italic.woff"
+  },
+  {
+    "name": "Tuck Shop Decoration-decoration",
+    "file": "Tuck Shop Decoration/Tuck Shop Decoration-decoration.woff"
+  },
+  {
+    "name": "Signist 04 Shadow-signist 04 shadow",
+    "file": "Signist 04 Shadow/Signist 04 Shadow-signist 04 shadow.woff"
+  },
+  {
+    "name": "Brendon-regular",
+    "file": "Brendon/Brendon-regular.woff"
+  },
+  {
+    "name": "Brendon Light-light",
+    "file": "Brendon/Brendon Light-light.woff"
+  },
+  {
+    "name": "Aadam Round-round",
+    "file": "Aadam Round/Aadam Round-round.woff"
+  },
+  {
+    "name": "Nord-bolditalic",
+    "file": "Nord bolditalic/Nord-bolditalic.woff"
+  },
+  {
+    "name": "Gulf-gulf",
+    "file": "Gulf/Gulf-gulf.woff"
+  },
+  {
+    "name": "Abira Outline-outline",
+    "file": "Abira Outline/Abira Outline-outline.woff"
+  },
+  {
+    "name": "Austine Slant-slant",
+    "file": "Austine Slant/Austine Slant-slant.woff"
+  },
+  {
+    "name": "Southgirl Slant-southgirl slant",
+    "file": "Southgirl Slant/Southgirl Slant-southgirl slant.woff"
+  },
+  {
+    "name": "Austine-austine",
+    "file": "Austine/Austine-austine.woff"
+  },
+  {
+    "name": "Kayooh-kayooh",
+    "file": "Kayooh/Kayooh-kayooh.woff"
+  },
+  {
+    "name": "Blackey Alt-blackeyalt",
+    "file": "ey Alt/Blackey Alt-blackeyalt.woff"
+  },
+  {
+    "name": "Grid-grid",
+    "file": "Grid/Grid-grid.woff"
+  },
+  {
+    "name": "Boulia Round-round",
+    "file": "Boulia Round/Boulia Round-round.woff"
+  },
+  {
+    "name": "Stammark Shadow-stammark shadow",
+    "file": "Stammark Shadow/Stammark Shadow-stammark shadow.woff"
+  },
+  {
+    "name": "Roxborough CF-heavy",
+    "file": "Roxborough CF heavy/Roxborough CF-heavy.woff"
+  },
+  {
+    "name": "Brendon Smooth-smooth",
+    "file": "Brendon Smooth/Brendon Smooth-smooth.woff"
+  },
+  {
+    "name": "Rosie Light-rosielight",
+    "file": "Rosie/Rosie Light-rosielight.woff"
+  },
+  {
+    "name": "Rosie-rosieregular",
+    "file": "Rosie/Rosie-rosieregular.woff"
+  },
+  {
+    "name": "Rosie-rosiebold",
+    "file": "Rosie/Rosie-rosiebold.woff"
+  },
+  {
+    "name": "Espa Extended-extended",
+    "file": "Espa Extended/Espa Extended-extended.woff"
+  },
+  {
+    "name": "Bendicion-regular_modular",
+    "file": "Bendicion/Bendicion-regular_modular.woff"
+  },
+  {
+    "name": "Bendicion Light-light_modular",
+    "file": "Bendicion/Bendicion Light-light_modular.woff"
+  },
+  {
+    "name": "Bendicion-bold_modular",
+    "file": "Bendicion/Bendicion-bold_modular.woff"
+  },
+  {
+    "name": "Cleon-webfont",
+    "file": "Cleon webfont/Cleon-webfont.woff"
+  },
+  {
+    "name": "Rezpector Rounded-rezpector rounded bold",
+    "file": "Rezpector Rounded/Rezpector Rounded-rezpector rounded bold.woff"
+  },
+  {
+    "name": "Rezpector Rounded-rezpector rounded bold italic",
+    "file": "Rezpector Rounded/Rezpector Rounded-rezpector rounded bold italic.woff"
+  },
+  {
+    "name": "Rezpector Rounded-rezpector rounded",
+    "file": "Rezpector Rounded/Rezpector Rounded-rezpector rounded.woff"
+  },
+  {
+    "name": "Rezpector Rounded-rezpector rounded italic",
+    "file": "Rezpector Rounded/Rezpector Rounded-rezpector rounded italic.woff"
+  },
+  {
+    "name": "Cansu Round-round",
+    "file": "Cansu Round/Cansu Round-round.woff"
+  },
+  {
+    "name": "Hadwin Thin-thin",
+    "file": "Hadwin/Hadwin Thin-thin.woff"
+  },
+  {
+    "name": "Hadwin-regular",
+    "file": "Hadwin/Hadwin-regular.woff"
+  },
+  {
+    "name": "Hadwin Light-light",
+    "file": "Hadwin/Hadwin Light-light.woff"
+  },
+  {
+    "name": "Hadwin Light-bold",
+    "file": "Hadwin/Hadwin Light-bold.woff"
+  },
+  {
+    "name": "Melanott-melanott",
+    "file": "Melanott/Melanott-melanott.woff"
+  },
+  {
+    "name": "Abell Med-medium",
+    "file": "Abell Med/Abell Med-medium.woff"
+  },
+  {
+    "name": "Carollines-carollines",
+    "file": "Carollines/Carollines-carollines.woff"
+  },
+  {
+    "name": "Abiah Distorted-distorted",
+    "file": "Abiah Distorted/Abiah Distorted-distorted.woff"
+  },
+  {
+    "name": "Sun and Her Font-sun & her font",
+    "file": "Sun and Her Font/Sun and Her Font-sun & her font.woff"
+  },
+  {
+    "name": "Malika-malika",
+    "file": "Malika/Malika-malika.woff"
+  },
+  {
+    "name": "Bronova-bronova bold",
+    "file": "Bronova/Bronova-bronova bold.woff"
+  },
+  {
+    "name": "Bronova-bronova regular",
+    "file": "Bronova/Bronova-bronova regular.woff"
+  },
+  {
+    "name": "Butler-bold",
+    "file": "Butler bold/Butler-bold.woff"
+  },
+  {
+    "name": "Abiah-regular",
+    "file": "Abiah/Abiah-regular.woff"
+  },
+  {
+    "name": "Abiah Light-light",
+    "file": "Abiah/Abiah Light-light.woff"
+  },
+  {
+    "name": "Abiah-bold",
+    "file": "Abiah/Abiah-bold.woff"
+  },
+  {
+    "name": "Abiah Thin-thin",
+    "file": "Abiah/Abiah Thin-thin.woff"
+  },
+  {
+    "name": "wonderella bold-wonderella bold",
+    "file": "wonderella bold/wonderella bold-wonderella bold.woff"
+  },
+  {
+    "name": "Groteska Heavy-heavy",
+    "file": "Groteska/Groteska Heavy-heavy.woff"
+  },
+  {
+    "name": "Groteska Light-light",
+    "file": "Groteska/Groteska Light-light.woff"
+  },
+  {
+    "name": "Groteska Heavy-heavyitalic",
+    "file": "Groteska/Groteska Heavy-heavyitalic.woff"
+  },
+  {
+    "name": "Groteska Thin-thin",
+    "file": "Groteska/Groteska Thin-thin.woff"
+  },
+  {
+    "name": "Groteska Medium-medium",
+    "file": "Groteska/Groteska Medium-medium.woff"
+  },
+  {
+    "name": "Groteska Bold-bold",
+    "file": "Groteska/Groteska Bold-bold.woff"
+  },
+  {
+    "name": "Groteska Medium-mediumitalic",
+    "file": "Groteska/Groteska Medium-mediumitalic.woff"
+  },
+  {
+    "name": "Groteska Light-lightitalic",
+    "file": "Groteska/Groteska Light-lightitalic.woff"
+  },
+  {
+    "name": "Groteska-bolditalic",
+    "file": "Groteska/Groteska-bolditalic.woff"
+  },
+  {
+    "name": "Groteska Thin-thinitalic",
+    "file": "Groteska/Groteska Thin-thinitalic.woff"
+  },
+  {
+    "name": "Groteska-regular",
+    "file": "Groteska/Groteska-regular.woff"
+  },
+  {
+    "name": "Groteska-italic",
+    "file": "Groteska/Groteska-italic.woff"
+  },
+  {
+    "name": "Billy Ohio-webfont",
+    "file": "Billy Ohio/Billy Ohio-webfont.woff"
+  },
+  {
+    "name": "ADD-add",
+    "file": "ADD/ADD-add.woff"
+  },
+  {
+    "name": "Ace Serif-webfont",
+    "file": "Ace Serif webfont/Ace Serif-webfont.woff"
+  },
+  {
+    "name": "Dalmation-webfont",
+    "file": "Dalmation webfont/Dalmation-webfont.woff"
+  },
+  {
+    "name": "Fabulous Caps Slim-fabulous caps slim",
+    "file": "Fabulous Caps Slim/Fabulous Caps Slim-fabulous caps slim.woff"
+  },
+  {
+    "name": "Lumen-regular",
+    "file": "Lumen/Lumen-regular.woff"
+  },
+  {
+    "name": "Lumen-bold",
+    "file": "Lumen/Lumen-bold.woff"
+  },
+  {
+    "name": "Lumen-bolditalic",
+    "file": "Lumen/Lumen-bolditalic.woff"
+  },
+  {
+    "name": "Lumen-italic",
+    "file": "Lumen/Lumen-italic.woff"
+  },
+  {
+    "name": "Vadderick-vadderick",
+    "file": "Vadderick/Vadderick-vadderick.woff"
+  },
+  {
+    "name": "Ovsyanka-ovsyanka",
+    "file": "Ovsyanka/Ovsyanka-ovsyanka.woff"
+  },
+  {
+    "name": "JVNEMinervae-jvneminervae",
+    "file": "JVNEMinervae/JVNEMinervae-jvneminervae.woff"
+  },
+  {
+    "name": "Mayenne Sans Regular-regular_web",
+    "file": "Mayenne Sans/Mayenne Sans Regular-regular_web.woff"
+  },
+  {
+    "name": "Hyperion Regular-hyperion regular",
+    "file": "Hyperion/Hyperion Regular-hyperion regular.woff"
+  },
+  {
+    "name": "Hyperion Bold-hyperion bold",
+    "file": "Hyperion/Hyperion Bold-hyperion bold.woff"
+  },
+  {
+    "name": "Hyperion Thin-hyperion light",
+    "file": "Hyperion/Hyperion Thin-hyperion light.woff"
+  },
+  {
+    "name": "Nord-bold",
+    "file": "Nord bold/Nord-bold.woff"
+  },
+  {
+    "name": "Roxborough CF-mediumitalic",
+    "file": "Roxborough CF mediumitalic/Roxborough CF-mediumitalic.woff"
+  },
+  {
+    "name": "Black Quality Victo-blackqualityvicto",
+    "file": "Quality Victo/Black Quality Victo-blackqualityvicto.woff"
+  },
+  {
+    "name": "Black Quality Victo-italic",
+    "file": "Quality Victo/Black Quality Victo-italic.woff"
+  },
+  {
+    "name": "Kathlyn Alt- alt",
+    "file": "Kathlyn Alt/Kathlyn Alt- alt.woff"
+  },
+  {
+    "name": "Kathlyn Alt- swash",
+    "file": "Kathlyn Alt/Kathlyn Alt- swash.woff"
+  },
+  {
+    "name": "Garine First-webfont",
+    "file": "Garine First/Garine First-webfont.woff"
+  },
+  {
+    "name": "BackOut-backout",
+    "file": "BackOut/BackOut-backout.woff"
+  },
+  {
+    "name": "Carra-semibold",
+    "file": "Carra/Carra-semibold.woff"
+  },
+  {
+    "name": "George Signature-george signature",
+    "file": "George Signature/George Signature-george signature.woff"
+  },
+  {
+    "name": "Adley Black-black",
+    "file": "Adley/Adley Black-black.woff"
+  },
+  {
+    "name": "Adley-regular",
+    "file": "Adley/Adley-regular.woff"
+  },
+  {
+    "name": "Adley Light-light",
+    "file": "Adley/Adley Light-light.woff"
+  },
+  {
+    "name": "Mixy Missy-mixymissy",
+    "file": "Mixy Missy mixymissy/Mixy Missy-mixymissy.woff"
+  },
+  {
+    "name": "republica_minor_2.0-webfont-webfont",
+    "file": "republica_minor_2.0/republica_minor_2.0-webfont-webfont.woff"
+  },
+  {
+    "name": "Asthenia Outline-asthenia outline",
+    "file": "Asthenia Outline/Asthenia Outline-asthenia outline.woff"
+  },
+  {
+    "name": "Automono Medium Italic-automono medium italic",
+    "file": "Automono/Automono Medium Italic-automono medium italic.woff"
+  },
+  {
+    "name": "Automono Italic-automono italic",
+    "file": "Automono/Automono Italic-automono italic.woff"
+  },
+  {
+    "name": "Automono-automono",
+    "file": "Automono/Automono-automono.woff"
+  },
+  {
+    "name": "Automono Thin-automono thin",
+    "file": "Automono/Automono Thin-automono thin.woff"
+  },
+  {
+    "name": "Automono Thin Italic-automono thin italic",
+    "file": "Automono/Automono Thin Italic-automono thin italic.woff"
+  },
+  {
+    "name": "Automono Medium-automono medium",
+    "file": "Automono/Automono Medium-automono medium.woff"
+  },
+  {
+    "name": "Amalfi-regular",
+    "file": "Amalfi/Amalfi-regular.woff"
+  },
+  {
+    "name": "Black Quality Ornaments-regular",
+    "file": "Quality Ornaments/Black Quality Ornaments-regular.woff"
+  },
+  {
+    "name": "Solomiya-solomiya",
+    "file": "Solomiya/Solomiya-solomiya.woff"
+  },
+  {
+    "name": "Empirez Hollow-empirez hollow",
+    "file": "Empirez Hollow/Empirez Hollow-empirez hollow.woff"
+  },
+  {
+    "name": "Aaron Meduim-medium",
+    "file": "Aaron Meduim/Aaron Meduim-medium.woff"
+  },
+  {
+    "name": "Barric Light-light",
+    "file": "Barric/Barric Light-light.woff"
+  },
+  {
+    "name": "Barric-bold",
+    "file": "Barric/Barric-bold.woff"
+  },
+  {
+    "name": "Barric-regular",
+    "file": "Barric/Barric-regular.woff"
+  },
+  {
+    "name": "Aster Outline-outline",
+    "file": "Aster Outline/Aster Outline-outline.woff"
+  },
+  {
+    "name": "Sunstrike-sunstrike",
+    "file": "Sunstrike/Sunstrike-sunstrike.woff"
+  },
+  {
+    "name": "VIDIZ-pro",
+    "file": "VIDIZ/VIDIZ-pro.woff"
+  },
+  {
+    "name": "Pintenium Script-webfont",
+    "file": "Pintenium Script/Pintenium Script-webfont.woff"
+  },
+  {
+    "name": "Monly Serif Extended-light",
+    "file": "Monly Serif Extended/Monly Serif Extended-light.woff"
+  },
+  {
+    "name": "Monly Serif Extended-bold",
+    "file": "Monly Serif Extended/Monly Serif Extended-bold.woff"
+  },
+  {
+    "name": "Barques Heavy-heavy",
+    "file": "Barques/Barques Heavy-heavy.woff"
+  },
+  {
+    "name": "Barques-regular",
+    "file": "Barques/Barques-regular.woff"
+  },
+  {
+    "name": "Barques-bold",
+    "file": "Barques/Barques-bold.woff"
+  },
+  {
+    "name": "Barques Light-light",
+    "file": "Barques/Barques Light-light.woff"
+  },
+  {
+    "name": "Barques Thin-thin",
+    "file": "Barques/Barques Thin-thin.woff"
+  },
+  {
+    "name": "Roxborough CF-demibolditalic",
+    "file": "Roxborough CF demibolditalic/Roxborough CF-demibolditalic.woff"
+  },
+  {
+    "name": "Aadam-bold",
+    "file": "Aadam/Aadam-bold.woff"
+  },
+  {
+    "name": "Aadam-regular",
+    "file": "Aadam/Aadam-regular.woff"
+  },
+  {
+    "name": "westerdams-westerdams",
+    "file": "westerdams/westerdams-westerdams.woff"
+  },
+  {
+    "name": "Orlande-orlande",
+    "file": "Orlande/Orlande-orlande.woff"
+  },
+  {
+    "name": "BROKENZ INLINE ITALIC-brokenz inline italic",
+    "file": "BROKENZ INLINE ITALIC/BROKENZ INLINE ITALIC-brokenz inline italic.woff"
+  },
+  {
+    "name": "Alex Med-medium",
+    "file": "Alex Med/Alex Med-medium.woff"
+  },
+  {
+    "name": "Alex Med-mediumitalic",
+    "file": "Alex Med/Alex Med-mediumitalic.woff"
+  },
+  {
+    "name": "Hamelin-hamelin",
+    "file": "Hamelin/Hamelin-hamelin.woff"
+  },
+  {
+    "name": "Allessa Script-webfont",
+    "file": "Allessa Script/Allessa Script-webfont.woff"
+  },
+  {
+    "name": "durango_western_eroded-webfont-webfont",
+    "file": "durango_western_eroded/durango_western_eroded-webfont-webfont.woff"
+  },
+  {
+    "name": "JVNEMinervae Outline-outline",
+    "file": "JVNEMinervae Outline/JVNEMinervae Outline-outline.woff"
+  },
+  {
+    "name": "Berton Med-thin",
+    "file": "Berton Med/Berton Med-thin.woff"
+  },
+  {
+    "name": "Abira-light",
+    "file": "Abira/Abira-light.woff"
+  },
+  {
+    "name": "Abira-bold",
+    "file": "Abira/Abira-bold.woff"
+  },
+  {
+    "name": "Axell Med-medium",
+    "file": "Axell Med/Axell Med-medium.woff"
+  },
+  {
+    "name": "Cabales-regular",
+    "file": "Cabales/Cabales-regular.woff"
+  },
+  {
+    "name": "Cabales-bold",
+    "file": "Cabales/Cabales-bold.woff"
+  },
+  {
+    "name": "Cabales Light-light",
+    "file": "Cabales/Cabales Light-light.woff"
+  },
+  {
+    "name": "Axell-bold",
+    "file": "Axell/Axell-bold.woff"
+  },
+  {
+    "name": "Axell-regular",
+    "file": "Axell/Axell-regular.woff"
+  },
+  {
+    "name": "Etheline Sans Oblique-webfont",
+    "file": "Etheline Sans Oblique/Etheline Sans Oblique-webfont.woff"
+  },
+  {
+    "name": "Signist 03 Shadow-signist 03 shadow",
+    "file": "Signist 03 Shadow/Signist 03 Shadow-signist 03 shadow.woff"
+  },
+  {
+    "name": "Balclown-balclown",
+    "file": "Balclown/Balclown-balclown.woff"
+  },
+  {
+    "name": "Barques ExtraBold-extrabold",
+    "file": "Barques Extra/Barques ExtraBold-extrabold.woff"
+  },
+  {
+    "name": "Zimra-regular",
+    "file": "Zimra/Zimra-regular.woff"
+  },
+  {
+    "name": "Zimra Black-black",
+    "file": "Zimra/Zimra Black-black.woff"
+  },
+  {
+    "name": "Zimra Thin-thin",
+    "file": "Zimra/Zimra Thin-thin.woff"
+  },
+  {
+    "name": "Zimra Light-light",
+    "file": "Zimra/Zimra Light-light.woff"
+  },
+  {
+    "name": "Zimra-bold",
+    "file": "Zimra/Zimra-bold.woff"
+  },
+  {
+    "name": "Etheline Sans-webfont",
+    "file": "Etheline Sans/Etheline Sans-webfont.woff"
+  },
+  {
+    "name": "Signist 04 Rough-signist 04 rough",
+    "file": "Signist 04 Rough/Signist 04 Rough-signist 04 rough.woff"
+  },
+  {
+    "name": "Adney Med-regular",
+    "file": "Adney Med/Adney Med-regular.woff"
+  },
+  {
+    "name": "Architectural-architectural",
+    "file": "Architectural/Architectural-architectural.woff"
+  },
+  {
+    "name": "Signist 05 Clean-signist 05 clean",
+    "file": "Signist 05 Clean/Signist 05 Clean-signist 05 clean.woff"
+  },
+  {
+    "name": "Adney-light",
+    "file": "Adney/Adney-light.woff"
+  },
+  {
+    "name": "Adney-bold",
+    "file": "Adney/Adney-bold.woff"
+  },
+  {
+    "name": "LAROSH Sithal Extra-larosh sithal extra",
+    "file": "LAROSH Sithal Extra/LAROSH Sithal Extra-larosh sithal extra.woff"
+  },
+  {
+    "name": "Rose petals two-regular",
+    "file": "Rose petals two/Rose petals two-regular.woff"
+  },
+  {
+    "name": "Abrasha Round-round",
+    "file": "Abrasha Round/Abrasha Round-round.woff"
+  },
+  {
+    "name": "Asthenia Medium-asthenia medium",
+    "file": "Asthenia/Asthenia Medium-asthenia medium.woff"
+  },
+  {
+    "name": "Asthenia-asthenia",
+    "file": "Asthenia/Asthenia-asthenia.woff"
+  },
+  {
+    "name": "Asthenia-asthenia bold",
+    "file": "Asthenia/Asthenia-asthenia bold.woff"
+  },
+  {
+    "name": "Balclown alternate2-alternate2",
+    "file": "Balclown alternate2/Balclown alternate2-alternate2.woff"
+  },
+  {
+    "name": "Vinegart-webfont",
+    "file": "Vinegart/Vinegart-webfont.woff"
+  },
+  {
+    "name": "Agus Sans-regular",
+    "file": "Agus Sans/Agus Sans-regular.woff"
+  },
+  {
+    "name": "Ace Sans Black-acesansblack",
+    "file": "Ace Sans  acesansblack/Ace Sans Black-acesansblack.woff"
+  },
+  {
+    "name": "Cyrulik Rounded-rounded",
+    "file": "Cyrulik Rounded/Cyrulik Rounded-rounded.woff"
+  },
+  {
+    "name": "Butler Stencil-butlerstencil",
+    "file": "Butler Stencil butlerstencil/Butler Stencil-butlerstencil.woff"
+  },
+  {
+    "name": "Cansu-light",
+    "file": "Cansu/Cansu-light.woff"
+  },
+  {
+    "name": "Cansu-regular",
+    "file": "Cansu/Cansu-regular.woff"
+  },
+  {
+    "name": "Colus-regular",
+    "file": "Colus/Colus-regular.woff"
+  },
+  {
+    "name": "Aleita-aleita",
+    "file": "Aleita/Aleita-aleita.woff"
+  },
+  {
+    "name": "JD-regular",
+    "file": "JD/JD-regular.woff"
+  },
+  {
+    "name": "Turin-turin bold",
+    "file": "Turin/Turin-turin bold.woff"
+  },
+  {
+    "name": "Turin-Serif-turin serif",
+    "file": "Turin/Turin-Serif-turin serif.woff"
+  },
+  {
+    "name": "Norm-thin",
+    "file": "Norm/Norm-thin.woff"
+  },
+  {
+    "name": "Norm-bold",
+    "file": "Norm/Norm-bold.woff"
+  },
+  {
+    "name": "Norm-lightitalic",
+    "file": "Norm/Norm-lightitalic.woff"
+  },
+  {
+    "name": "Norm-extralightitalic",
+    "file": "Norm/Norm-extralightitalic.woff"
+  },
+  {
+    "name": "Norm-mediumitalic",
+    "file": "Norm/Norm-mediumitalic.woff"
+  },
+  {
+    "name": "Norm-regularitalic",
+    "file": "Norm/Norm-regularitalic.woff"
+  },
+  {
+    "name": "Norm-light",
+    "file": "Norm/Norm-light.woff"
+  },
+  {
+    "name": "Norm-bolditalic",
+    "file": "Norm/Norm-bolditalic.woff"
+  },
+  {
+    "name": "Norm-thinitalic",
+    "file": "Norm/Norm-thinitalic.woff"
+  },
+  {
+    "name": "Norm-semibolditalic",
+    "file": "Norm/Norm-semibolditalic.woff"
+  },
+  {
+    "name": "Norm-extralight",
+    "file": "Norm/Norm-extralight.woff"
+  },
+  {
+    "name": "Norm-semibold",
+    "file": "Norm/Norm-semibold.woff"
+  },
+  {
+    "name": "Norm-regular",
+    "file": "Norm/Norm-regular.woff"
+  },
+  {
+    "name": "Norm-medium",
+    "file": "Norm/Norm-medium.woff"
+  },
+  {
+    "name": "Aglow Outline-aglow",
+    "file": "Aglow Outline/Aglow Outline-aglow.woff"
+  },
+  {
+    "name": "Aglow Outline Italic-aglow outline italic",
+    "file": "Aglow Outline/Aglow Outline Italic-aglow outline italic.woff"
+  },
+  {
+    "name": "Hipster Sans Light-hipstersanslight",
+    "file": "Hipster Sans/Hipster Sans Light-hipstersanslight.woff"
+  },
+  {
+    "name": "Hipster Sans Light Italic-hipstersanslightitalic",
+    "file": "Hipster Sans/Hipster Sans Light Italic-hipstersanslightitalic.woff"
+  },
+  {
+    "name": "Hipster Sans-hipstersansitalic",
+    "file": "Hipster Sans/Hipster Sans-hipstersansitalic.woff"
+  },
+  {
+    "name": "Hipster Sans Thin-hipstersansthin",
+    "file": "Hipster Sans/Hipster Sans Thin-hipstersansthin.woff"
+  },
+  {
+    "name": "Hipster Sans-hipstersansbold",
+    "file": "Hipster Sans/Hipster Sans-hipstersansbold.woff"
+  },
+  {
+    "name": "Hipster Sans-hipstersansregular",
+    "file": "Hipster Sans/Hipster Sans-hipstersansregular.woff"
+  },
+  {
+    "name": "Hipster Sans-hipstersansbolditalic",
+    "file": "Hipster Sans/Hipster Sans-hipstersansbolditalic.woff"
+  },
+  {
+    "name": "Beautiful Vibes-beatiful vibes",
+    "file": "Beautiful Vibes/Beautiful Vibes-beatiful vibes.woff"
+  },
+  {
+    "name": "Dalmation XStrips-webfont",
+    "file": "Dalmation XStrips webfont/Dalmation XStrips-webfont.woff"
+  },
+  {
+    "name": "Asma Outline-outline",
+    "file": "Asma Outline/Asma Outline-outline.woff"
+  },
+  {
+    "name": "Longrider-webfont",
+    "file": "Longrider/Longrider-webfont.woff"
+  },
+  {
+    "name": "Avina-avina",
+    "file": "Avina/Avina-avina.woff"
+  },
+  {
+    "name": "Fabeena-fabeenaregular",
+    "file": "Fabeena/Fabeena-fabeenaregular.woff"
+  },
+  {
+    "name": "Cason ExtBd-extrabold",
+    "file": "Cason ExtBd/Cason ExtBd-extrabold.woff"
+  },
+  {
+    "name": "Letterpress TM-letterpress tm",
+    "file": "Letterpress TM/Letterpress TM-letterpress tm.woff"
+  },
+  {
+    "name": "Fritz Outline-outline",
+    "file": "Fritz Outline/Fritz Outline-outline.woff"
+  },
+  {
+    "name": "Carlcosby Alternates-carlcosbyalternates",
+    "file": "Carlcosby Alternates/Carlcosby Alternates-carlcosbyalternates.woff"
+  },
+  {
+    "name": "Houstiny Slant-houstiny_slant",
+    "file": "Houstiny Slant/Houstiny Slant-houstiny_slant.woff"
+  },
+  {
+    "name": "Vintii Extended-extended",
+    "file": "Vintii Extended/Vintii Extended-extended.woff"
+  },
+  {
+    "name": "Brookset Clean-brookset clean",
+    "file": "Brookset Clean/Brookset Clean-brookset clean.woff"
+  },
+  {
+    "name": "Leafy Extended-extended",
+    "file": "Leafy Extended/Leafy Extended-extended.woff"
+  },
+  {
+    "name": "The Ancient-theancient",
+    "file": "The Ancient/The Ancient-theancient.woff"
+  },
+  {
+    "name": "Woodpecker-woodpecker",
+    "file": "Woodpecker/Woodpecker-woodpecker.woff"
+  },
+  {
+    "name": "Adie Thin-thin",
+    "file": "Adie/Adie Thin-thin.woff"
+  },
+  {
+    "name": "Adie-regular",
+    "file": "Adie/Adie-regular.woff"
+  },
+  {
+    "name": "Adie-bold",
+    "file": "Adie/Adie-bold.woff"
+  },
+  {
+    "name": "Adie Light-light",
+    "file": "Adie/Adie Light-light.woff"
+  },
+  {
+    "name": "Kernit Outline-outline",
+    "file": "Kernit Outline/Kernit Outline-outline.woff"
+  },
+  {
+    "name": "Monly Extended-light",
+    "file": "Monly Extended/Monly Extended-light.woff"
+  },
+  {
+    "name": "Monly Extended-bold",
+    "file": "Monly Extended/Monly Extended-bold.woff"
+  },
+  {
+    "name": "Blackheat Italic-blackheat italic",
+    "file": "heat/Blackheat Italic-blackheat italic.woff"
+  },
+  {
+    "name": "Blackheat-blackheat",
+    "file": "heat/Blackheat-blackheat.woff"
+  },
+  {
+    "name": "Tharwat-tharwat",
+    "file": "Tharwat/Tharwat-tharwat.woff"
+  },
+  {
+    "name": "Collabro-collabro",
+    "file": "Collabro/Collabro-collabro.woff"
+  },
+  {
+    "name": "Rectory Display-webfont",
+    "file": "Rectory Display/Rectory Display-webfont.woff"
+  },
+  {
+    "name": "JellySugar-webfont",
+    "file": "JellySugar/JellySugar-webfont.woff"
+  },
+  {
+    "name": "Roxborough CF-heavyitalic",
+    "file": "Roxborough CF heavyitalic/Roxborough CF-heavyitalic.woff"
+  },
+  {
+    "name": "Clarra Round-round",
+    "file": "Clarra Round/Clarra Round-round.woff"
+  },
+  {
+    "name": "Garine Fourth-webfont",
+    "file": "Garine Fourth/Garine Fourth-webfont.woff"
+  },
+  {
+    "name": "Monrad Grotesk Semibold-semiboldit",
+    "file": "Monrad Grotesk bold/Monrad Grotesk Semibold-semiboldit.woff"
+  },
+  {
+    "name": "Monrad Grotesk Semibold-semibold",
+    "file": "Monrad Grotesk bold/Monrad Grotesk Semibold-semibold.woff"
+  },
+  {
+    "name": "Brookset Clean Oblique-brookset clean oblique",
+    "file": "Brookset Clean Oblique/Brookset Clean Oblique-brookset clean oblique.woff"
+  },
+  {
+    "name": "Deidra Light-bold",
+    "file": "Deidra/Deidra Light-bold.woff"
+  },
+  {
+    "name": "Deidra Light-light",
+    "file": "Deidra/Deidra Light-light.woff"
+  },
+  {
+    "name": "Deidra-regular",
+    "file": "Deidra/Deidra-regular.woff"
+  },
+  {
+    "name": "Cantique-webfont",
+    "file": "Cantique/Cantique-webfont.woff"
+  },
+  {
+    "name": "Ariston Comic-ariston extrude",
+    "file": "Ariston Comic/Ariston Comic-ariston extrude.woff"
+  },
+  {
+    "name": "Ariston Comic-ariston outline",
+    "file": "Ariston Comic/Ariston Comic-ariston outline.woff"
+  },
+  {
+    "name": "JIMMY BOYZ-jimmyboyz",
+    "file": "JIMMY BOYZ/JIMMY BOYZ-jimmyboyz.woff"
+  },
+  {
+    "name": "Phenomena-thin",
+    "file": "Phenomena/Phenomena-thin.woff"
+  },
+  {
+    "name": "Phenomena-extralight",
+    "file": "Phenomena/Phenomena-extralight.woff"
+  },
+  {
+    "name": "Phenomena-extrabold",
+    "file": "Phenomena/Phenomena-extrabold.woff"
+  },
+  {
+    "name": "Phenomena-black",
+    "file": "Phenomena/Phenomena-black.woff"
+  },
+  {
+    "name": "Phenomena-light",
+    "file": "Phenomena/Phenomena-light.woff"
+  },
+  {
+    "name": "Phenomena-regular",
+    "file": "Phenomena/Phenomena-regular.woff"
+  },
+  {
+    "name": "Phenomena-bold",
+    "file": "Phenomena/Phenomena-bold.woff"
+  },
+  {
+    "name": "Butler-butler",
+    "file": "Butler butler/Butler-butler.woff"
+  },
+  {
+    "name": "Madering-madering",
+    "file": "Madering/Madering-madering.woff"
+  },
+  {
+    "name": "Garde-garde",
+    "file": "Garde/Garde-garde.woff"
+  },
+  {
+    "name": "Butler Stencil-medium",
+    "file": "Butler Stencil medium/Butler Stencil-medium.woff"
+  },
+  {
+    "name": "Elastika-elastika",
+    "file": "Elastika/Elastika-elastika.woff"
+  },
+  {
+    "name": "Codevein-codevein",
+    "file": "Codevein/Codevein-codevein.woff"
+  },
+  {
+    "name": "Ahijah-bold",
+    "file": "Ahijah/Ahijah-bold.woff"
+  },
+  {
+    "name": "Ahijah-regular",
+    "file": "Ahijah/Ahijah-regular.woff"
+  },
+  {
+    "name": "Ahijah Thin-thin",
+    "file": "Ahijah/Ahijah Thin-thin.woff"
+  },
+  {
+    "name": "BD Retrocentric-bd retrocentric",
+    "file": "BD Retrocentric/BD Retrocentric-bd retrocentric.woff"
+  },
+  {
+    "name": "Cageworld-cageworld",
+    "file": "Cageworld/Cageworld-cageworld.woff"
+  },
+  {
+    "name": "Benett Round-round",
+    "file": "Benett Round/Benett Round-round.woff"
+  },
+  {
+    "name": "Aludra Med 3-extrabold",
+    "file": "Aludra Med 3/Aludra Med 3-extrabold.woff"
+  },
+  {
+    "name": "Aludra Med 3-extrabolditalic",
+    "file": "Aludra Med 3/Aludra Med 3-extrabolditalic.woff"
+  },
+  {
+    "name": "Jackster-jackster",
+    "file": "Jackster/Jackster-jackster.woff"
+  },
+  {
+    "name": "Rubellion Script-rubellion script",
+    "file": "Rubellion Script/Rubellion Script-rubellion script.woff"
+  },
+  {
+    "name": "Enrique Round-round",
+    "file": "Enrique Round/Enrique Round-round.woff"
+  },
+  {
+    "name": "Enrique Round-boldround",
+    "file": "Enrique Round/Enrique Round-boldround.woff"
+  },
+  {
+    "name": "Aiden-regular",
+    "file": "Aiden/Aiden-regular.woff"
+  },
+  {
+    "name": "Darklands-darklands",
+    "file": "Darklands/Darklands-darklands.woff"
+  },
+  {
+    "name": "Caelan Round-round",
+    "file": "Caelan Round/Caelan Round-round.woff"
+  },
+  {
+    "name": "Hartwood Clean Oblique-hartwood clean oblique",
+    "file": "Hartwood Clean Oblique/Hartwood Clean Oblique-hartwood clean oblique.woff"
+  },
+  {
+    "name": "Achazia Med-bold",
+    "file": "Achazia Med/Achazia Med-bold.woff"
+  },
+  {
+    "name": "Achazia Med-meduim",
+    "file": "Achazia Med/Achazia Med-meduim.woff"
+  },
+  {
+    "name": "durango_western-webfont-webfont",
+    "file": "durango_western/durango_western-webfont-webfont.woff"
+  },
+  {
+    "name": "StormFont LightShadowFX-stormfont lightshadowfx",
+    "file": "StormFont ShadowFX/StormFont LightShadowFX-stormfont lightshadowfx.woff"
+  },
+  {
+    "name": "StormFont ShadowFX-stormfont shadowfx",
+    "file": "StormFont ShadowFX/StormFont ShadowFX-stormfont shadowfx.woff"
+  },
+  {
+    "name": "Achazia-regular",
+    "file": "Achazia/Achazia-regular.woff"
+  },
+  {
+    "name": "Afrah-bold",
+    "file": "Afrah/Afrah-bold.woff"
+  },
+  {
+    "name": "Afrah Thin-thin",
+    "file": "Afrah/Afrah Thin-thin.woff"
+  },
+  {
+    "name": "Afrah Light-light",
+    "file": "Afrah/Afrah Light-light.woff"
+  },
+  {
+    "name": "Afrah-regular",
+    "file": "Afrah/Afrah-regular.woff"
+  },
+  {
+    "name": "Janes Smith-janessmith",
+    "file": "Janes Smith/Janes Smith-janessmith.woff"
+  },
+  {
+    "name": "Style Clubs-serif",
+    "file": "Style Clubs/Style Clubs-serif.woff"
+  },
+  {
+    "name": "Style Clubs-serifitalic",
+    "file": "Style Clubs/Style Clubs-serifitalic.woff"
+  },
+  {
+    "name": "Empresso Bold-bold",
+    "file": "Empresso/Empresso Bold-bold.woff"
+  },
+  {
+    "name": "Empresso Light-light",
+    "file": "Empresso/Empresso Light-light.woff"
+  },
+  {
+    "name": "Empresso Thin-thin_italic",
+    "file": "Empresso/Empresso Thin-thin_italic.woff"
+  },
+  {
+    "name": "Empresso-regular",
+    "file": "Empresso/Empresso-regular.woff"
+  },
+  {
+    "name": "Empresso Thin-thin",
+    "file": "Empresso/Empresso Thin-thin.woff"
+  },
+  {
+    "name": "Aludra Med 6-regular",
+    "file": "Aludra Med 6/Aludra Med 6-regular.woff"
+  },
+  {
+    "name": "Tuck Shop-regular",
+    "file": "Tuck Shop/Tuck Shop-regular.woff"
+  },
+  {
+    "name": "Black Quality Outline-blackqualityoutline",
+    "file": "Quality Outline/Black Quality Outline-blackqualityoutline.woff"
+  },
+  {
+    "name": "Black Quality Outline-italic",
+    "file": "Quality Outline/Black Quality Outline-italic.woff"
+  },
+  {
+    "name": "Cambridge-cambridge",
+    "file": "Cambridge/Cambridge-cambridge.woff"
+  },
+  {
+    "name": "Adyson Distorted-distorted",
+    "file": "Adyson Distorted/Adyson Distorted-distorted.woff"
+  },
+  {
+    "name": "Victorine-regular",
+    "file": "Victorine/Victorine-regular.woff"
+  },
+  {
+    "name": "Caslon-BoldItalic-webfont-webfont",
+    "file": "Caslon/Caslon-BoldItalic-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-BookItalic-webfont-webfont",
+    "file": "Caslon/Caslon-BookItalic-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-BlackItalic-webfont-webfont",
+    "file": "Caslon/Caslon-BlackItalic-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-MediumItalic-webfont-webfont",
+    "file": "Caslon/Caslon-MediumItalic-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-Book-webfont-webfont",
+    "file": "Caslon/Caslon-Book-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-Bold-webfont-webfont",
+    "file": "Caslon/Caslon-Bold-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-Black-webfont-webfont",
+    "file": "Caslon/Caslon-Black-webfont-webfont.woff"
+  },
+  {
+    "name": "Caslon-Medium-webfont-webfont",
+    "file": "Caslon/Caslon-Medium-webfont-webfont.woff"
+  },
+  {
+    "name": "Roxborough CF-bold",
+    "file": "Roxborough CF bold/Roxborough CF-bold.woff"
+  },
+  {
+    "name": "Mixy Missy Inline-inline",
+    "file": "Mixy Missy Inline inline/Mixy Missy Inline-inline.woff"
+  },
+  {
+    "name": "Black Quality Rough-blackqualityrough",
+    "file": "Quality Rough/Black Quality Rough-blackqualityrough.woff"
+  },
+  {
+    "name": "Black Quality Rough-italic",
+    "file": "Quality Rough/Black Quality Rough-italic.woff"
+  },
+  {
+    "name": "Roxborough CF-regularitalic",
+    "file": "Roxborough CF regularitalic/Roxborough CF-regularitalic.woff"
+  },
+  {
+    "name": "Adon-extrabold",
+    "file": "Adon/Adon-extrabold.woff"
+  },
+  {
+    "name": "Adon-bold",
+    "file": "Adon/Adon-bold.woff"
+  },
+  {
+    "name": "Reiju Two-webfont",
+    "file": "Reiju Two/Reiju Two-webfont.woff"
+  },
+  {
+    "name": "Aariel Med 2-regular",
+    "file": "Aariel Med 2/Aariel Med 2-regular.woff"
+  },
+  {
+    "name": "Aaron-black",
+    "file": "Aaron/Aaron-black.woff"
+  },
+  {
+    "name": "Aaron-regular",
+    "file": "Aaron/Aaron-regular.woff"
+  },
+  {
+    "name": "Aaron Thin-thin",
+    "file": "Aaron/Aaron Thin-thin.woff"
+  },
+  {
+    "name": "Aaron Light-light",
+    "file": "Aaron/Aaron Light-light.woff"
+  },
+  {
+    "name": "Aariel Med-light",
+    "file": "Aariel Med/Aariel Med-light.woff"
+  },
+  {
+    "name": "GTHaptikThin-Oblique-oblique",
+    "file": "GTHaptik/GTHaptikThin-Oblique-oblique.woff"
+  },
+  {
+    "name": "GTHaptikMedium-Oblique-oblique",
+    "file": "GTHaptik/GTHaptikMedium-Oblique-oblique.woff"
+  },
+  {
+    "name": "GTHaptikBlack-black",
+    "file": "GTHaptik/GTHaptikBlack-black.woff"
+  },
+  {
+    "name": "GTHaptikBold-Oblique-oblique",
+    "file": "GTHaptik/GTHaptikBold-Oblique-oblique.woff"
+  },
+  {
+    "name": "GTHaptikLight-Oblique-oblique",
+    "file": "GTHaptik/GTHaptikLight-Oblique-oblique.woff"
+  },
+  {
+    "name": "GTHaptikBold-bold",
+    "file": "GTHaptik/GTHaptikBold-bold.woff"
+  },
+  {
+    "name": "GTHaptikLight-light",
+    "file": "GTHaptik/GTHaptikLight-light.woff"
+  },
+  {
+    "name": "GTHaptikRegular-Oblique-oblique",
+    "file": "GTHaptik/GTHaptikRegular-Oblique-oblique.woff"
+  },
+  {
+    "name": "GTHaptikBlack-Oblique-oblique",
+    "file": "GTHaptik/GTHaptikBlack-Oblique-oblique.woff"
+  },
+  {
+    "name": "GTHaptikThin-thin",
+    "file": "GTHaptik/GTHaptikThin-thin.woff"
+  },
+  {
+    "name": "GTHaptikMedium-medium",
+    "file": "GTHaptik/GTHaptikMedium-medium.woff"
+  },
+  {
+    "name": "GTHaptikBlack-Rotalic-rotalic",
+    "file": "GTHaptik/GTHaptikBlack-Rotalic-rotalic.woff"
+  },
+  {
+    "name": "GTHaptikRegular-regular",
+    "file": "GTHaptik/GTHaptikRegular-regular.woff"
+  },
+  {
+    "name": "republica_minor_2.0_bold_italic-webfont-webfont",
+    "file": "republica_minor_2.0_bold_italic/republica_minor_2.0_bold_italic-webfont-webfont.woff"
+  },
+  {
+    "name": "Nord Book-bookitalic",
+    "file": "Nord Book bookitalic/Nord Book-bookitalic.woff"
+  },
+  {
+    "name": "Abner-bold",
+    "file": "Abner/Abner-bold.woff"
+  },
+  {
+    "name": "Abner-regular",
+    "file": "Abner/Abner-regular.woff"
+  },
+  {
+    "name": "Abner Light-light",
+    "file": "Abner/Abner Light-light.woff"
+  },
+  {
+    "name": "Abner Thin-thin",
+    "file": "Abner/Abner Thin-thin.woff"
+  },
+  {
+    "name": "Nord Light-lightitalic",
+    "file": "Nord  lightitalic/Nord Light-lightitalic.woff"
+  },
+  {
+    "name": "Angelista-webfont",
+    "file": "Angelista/Angelista-webfont.woff"
+  },
+  {
+    "name": "Nord Black-black",
+    "file": "Nord  black/Nord Black-black.woff"
+  },
+  {
+    "name": "Banquo Round-round",
+    "file": "Banquo Round/Banquo Round-round.woff"
+  },
+  {
+    "name": "Brookset Rough-brookset rough",
+    "file": "Brookset Rough/Brookset Rough-brookset rough.woff"
+  },
+  {
+    "name": "ROYALE Semibold-royalesemibold",
+    "file": "ROYALE bold/ROYALE Semibold-royalesemibold.woff"
+  },
+  {
+    "name": "Perugia-perugia",
+    "file": "Perugia/Perugia-perugia.woff"
+  },
+  {
+    "name": "Carita Med-thin",
+    "file": "Carita Med/Carita Med-thin.woff"
+  },
+  {
+    "name": "SpringBreak-regular",
+    "file": "SpringBreak/SpringBreak-regular.woff"
+  },
+  {
+    "name": "Coral waves-regular",
+    "file": "Coral waves/Coral waves-regular.woff"
+  },
+  {
+    "name": "Roger Sans-webfont",
+    "file": "Roger Sans/Roger Sans-webfont.woff"
+  },
+  {
+    "name": "Benfield-regular",
+    "file": "Benfield/Benfield-regular.woff"
+  },
+  {
+    "name": "Ceica Outline-outline",
+    "file": "Ceica Outline/Ceica Outline-outline.woff"
+  },
+  {
+    "name": "GTHaptikLazer-lazer",
+    "file": "GTHaptikLazer/GTHaptikLazer-lazer.woff"
+  },
+  {
+    "name": "GTHaptikLazer-Oblique-oblique",
+    "file": "GTHaptikLazer/GTHaptikLazer-Oblique-oblique.woff"
+  },
+  {
+    "name": "Carla Outline-outline",
+    "file": "Carla Outline/Carla Outline-outline.woff"
+  },
+  {
+    "name": "Brookset Rough Oblique-brookset rough oblique",
+    "file": "Brookset Rough Oblique/Brookset Rough Oblique-brookset rough oblique.woff"
+  },
+  {
+    "name": "Cheston-regular",
+    "file": "Cheston/Cheston-regular.woff"
+  },
+  {
+    "name": "Cheston Light-light",
+    "file": "Cheston/Cheston Light-light.woff"
+  },
+  {
+    "name": "Cheston-bold",
+    "file": "Cheston/Cheston-bold.woff"
+  },
+  {
+    "name": "Cheston Black-black",
+    "file": "Cheston/Cheston Black-black.woff"
+  },
+  {
+    "name": "Champion-champion",
+    "file": "Champion/Champion-champion.woff"
+  },
+  {
+    "name": "Adon Med-regular",
+    "file": "Adon Med/Adon Med-regular.woff"
+  },
+  {
+    "name": "Adon Med-thin",
+    "file": "Adon Med/Adon Med-thin.woff"
+  },
+  {
+    "name": "Cheddar Gothic Stencil-webfont",
+    "file": "Cheddar Gothic Stencil/Cheddar Gothic Stencil-webfont.woff"
+  },
+  {
+    "name": "Rosalia-rosalia",
+    "file": "Rosalia/Rosalia-rosalia.woff"
+  },
+  {
+    "name": "Worthy-worthy",
+    "file": "Worthy/Worthy-worthy.woff"
+  },
+  {
+    "name": "Bagiewise-bagiewise",
+    "file": "Bagiewise/Bagiewise-bagiewise.woff"
+  },
+  {
+    "name": "Yarelli Round-round",
+    "file": "Yarelli Round/Yarelli Round-round.woff"
+  },
+  {
+    "name": "Leath-leath",
+    "file": "Leath/Leath-leath.woff"
+  },
+  {
+    "name": "Leath -rough",
+    "file": "Leath/Leath -rough.woff"
+  },
+  {
+    "name": "Stepbrother-regular",
+    "file": "Stepbrother/Stepbrother-regular.woff"
+  },
+  {
+    "name": "Mixy Missy Shadow-shadow",
+    "file": "Mixy Missy Shadow shadow/Mixy Missy Shadow-shadow.woff"
+  },
+  {
+    "name": "Sondra-bold",
+    "file": "Sondra/Sondra-bold.woff"
+  },
+  {
+    "name": "Sondra Light-light",
+    "file": "Sondra/Sondra Light-light.woff"
+  },
+  {
+    "name": "Sondra-regular",
+    "file": "Sondra/Sondra-regular.woff"
+  },
+  {
+    "name": "Sondra Thin-thin",
+    "file": "Sondra/Sondra Thin-thin.woff"
+  },
+  {
+    "name": "Aariel-extrablack",
+    "file": "Aariel/Aariel-extrablack.woff"
+  },
+  {
+    "name": "Aariel-black",
+    "file": "Aariel/Aariel-black.woff"
+  },
+  {
+    "name": "Brightside Typeface-webfont",
+    "file": "Brightside Typeface/Brightside Typeface-webfont.woff"
+  },
+  {
+    "name": "Signist 02 Textured-signist 02 textured",
+    "file": "Signist 02 Textured/Signist 02 Textured-signist 02 textured.woff"
+  },
+  {
+    "name": "Monrad Black-blackit",
+    "file": "Monrad/Monrad Black-blackit.woff"
+  },
+  {
+    "name": "Monrad-boldit",
+    "file": "Monrad/Monrad-boldit.woff"
+  },
+  {
+    "name": "Monrad-it",
+    "file": "Monrad/Monrad-it.woff"
+  },
+  {
+    "name": "Monrad Black-black",
+    "file": "Monrad/Monrad Black-black.woff"
+  },
+  {
+    "name": "Monrad-bold",
+    "file": "Monrad/Monrad-bold.woff"
+  },
+  {
+    "name": "Monrad-light",
+    "file": "Monrad/Monrad-light.woff"
+  },
+  {
+    "name": "Monrad Light-lightit",
+    "file": "Monrad/Monrad Light-lightit.woff"
+  },
+  {
+    "name": "Monrad-regular",
+    "file": "Monrad/Monrad-regular.woff"
+  },
+  {
+    "name": "Moho Std Condensed Black-moho std condensed black",
+    "file": "Moho Std Condensed/Moho Std Condensed Black-moho std condensed black.woff"
+  },
+  {
+    "name": "Moho Std Condensed Black Italic-moho std condensed black italic",
+    "file": "Moho Std Condensed/Moho Std Condensed Black Italic-moho std condensed black italic.woff"
+  },
+  {
+    "name": "Moho Std Condensed Light Italic-moho std condensed light italic",
+    "file": "Moho Std Condensed/Moho Std Condensed Light Italic-moho std condensed light italic.woff"
+  },
+  {
+    "name": "Moho Std Condensed Bold-moho std condensed bold",
+    "file": "Moho Std Condensed/Moho Std Condensed Bold-moho std condensed bold.woff"
+  },
+  {
+    "name": "Moho Std Condensed Medium-moho std condensed medium",
+    "file": "Moho Std Condensed/Moho Std Condensed Medium-moho std condensed medium.woff"
+  },
+  {
+    "name": "Moho Std Condensed Bold Italic-moho std condensed bold italic",
+    "file": "Moho Std Condensed/Moho Std Condensed Bold Italic-moho std condensed bold italic.woff"
+  },
+  {
+    "name": "Moho Std Condensed Italic-moho std condensed italic",
+    "file": "Moho Std Condensed/Moho Std Condensed Italic-moho std condensed italic.woff"
+  },
+  {
+    "name": "Moho Std Condensed-moho std condensed",
+    "file": "Moho Std Condensed/Moho Std Condensed-moho std condensed.woff"
+  },
+  {
+    "name": "Moho Std Condensed Medium Italic-moho std condensed medium italic",
+    "file": "Moho Std Condensed/Moho Std Condensed Medium Italic-moho std condensed medium italic.woff"
+  },
+  {
+    "name": "Moho Std Condensed Light-moho std condensed light",
+    "file": "Moho Std Condensed/Moho Std Condensed Light-moho std condensed light.woff"
+  },
+  {
+    "name": "Radon-radon bold",
+    "file": "Radon/Radon-radon bold.woff"
+  },
+  {
+    "name": "Radon-radon regular",
+    "file": "Radon/Radon-radon regular.woff"
+  },
+  {
+    "name": "Hartwood Clean-hartwood clean",
+    "file": "Hartwood Clean/Hartwood Clean-hartwood clean.woff"
+  },
+  {
+    "name": "Dalmation Strips-webfont",
+    "file": "Dalmation Strips webfont/Dalmation Strips-webfont.woff"
+  },
+  {
+    "name": "Feeling Good-feelinggood",
+    "file": "Feeling Good/Feeling Good-feelinggood.woff"
+  },
+  {
+    "name": "Presson Shadow Oblique-presson shadow oblique",
+    "file": "Presson Shadow Oblique/Presson Shadow Oblique-presson shadow oblique.woff"
+  },
+  {
+    "name": "Queenly-queenly",
+    "file": "Queenly/Queenly-queenly.woff"
+  },
+  {
+    "name": "brillia Script-webfont",
+    "file": "brillia Script/brillia Script-webfont.woff"
+  },
+  {
+    "name": "Daesy Script-script",
+    "file": "Daesy Script/Daesy Script-script.woff"
+  },
+  {
+    "name": "Orion Sans-regular",
+    "file": "Orion Sans/Orion Sans-regular.woff"
+  },
+  {
+    "name": "Anzil Medium-medium",
+    "file": "Anzil/Anzil Medium-medium.woff"
+  },
+  {
+    "name": "Anzil Light-light",
+    "file": "Anzil/Anzil Light-light.woff"
+  },
+  {
+    "name": "Anzil-thin",
+    "file": "Anzil/Anzil-thin.woff"
+  },
+  {
+    "name": "Anzil Regular-regular",
+    "file": "Anzil/Anzil Regular-regular.woff"
+  },
+  {
+    "name": "Anzil Black-black",
+    "file": "Anzil/Anzil Black-black.woff"
+  },
+  {
+    "name": "Swingsnug-swingsnug",
+    "file": "Swingsnug/Swingsnug-swingsnug.woff"
+  },
+  {
+    "name": "Swingsnug Bold-swingsnug bold",
+    "file": "Swingsnug/Swingsnug Bold-swingsnug bold.woff"
+  },
+  {
+    "name": "Republica Minor 2.0-webfont",
+    "file": "Republica Minor 2.0/Republica Minor 2.0-webfont.woff"
+  },
+  {
+    "name": "Catheryn Light-light",
+    "file": "Catheryn/Catheryn Light-light.woff"
+  },
+  {
+    "name": "Catheryn-bold",
+    "file": "Catheryn/Catheryn-bold.woff"
+  },
+  {
+    "name": "Catheryn-regular",
+    "file": "Catheryn/Catheryn-regular.woff"
+  },
+  {
+    "name": "Catheryn Thin-thin",
+    "file": "Catheryn/Catheryn Thin-thin.woff"
+  },
+  {
+    "name": "Sigma-regular",
+    "file": "Sigma/Sigma-regular.woff"
+  },
+  {
+    "name": "Afternoon Tea-afternoon tea",
+    "file": "Afternoon Tea/Afternoon Tea-afternoon tea.woff"
+  },
+  {
+    "name": "Portland slove-slove",
+    "file": "Portland slove/Portland slove-slove.woff"
+  },
+  {
+    "name": "Jadrien Light-light",
+    "file": "Jadrien/Jadrien Light-light.woff"
+  },
+  {
+    "name": "Jadrien-regular",
+    "file": "Jadrien/Jadrien-regular.woff"
+  },
+  {
+    "name": "Qanaya-bold",
+    "file": "Qanaya/Qanaya-bold.woff"
+  },
+  {
+    "name": "Qanaya-regular",
+    "file": "Qanaya/Qanaya-regular.woff"
+  },
+  {
+    "name": "Aster Distorted-semilightdistorted",
+    "file": "Aster Distorted/Aster Distorted-semilightdistorted.woff"
+  },
+  {
+    "name": "Winter lettering-regular",
+    "file": "Winter lettering/Winter lettering-regular.woff"
+  },
+  {
+    "name": "Author Junior Plain-author junior plain",
+    "file": "Author Junior Plain/Author Junior Plain-author junior plain.woff"
+  },
+  {
+    "name": "Sangit-sangit",
+    "file": "Sangit/Sangit-sangit.woff"
+  },
+  {
+    "name": "Abasalom-abasalomregular",
+    "file": "Abasalom/Abasalom-abasalomregular.woff"
+  },
+  {
+    "name": "Butler-extrabold",
+    "file": "Butler extrabold/Butler-extrabold.woff"
+  },
+  {
+    "name": "Querins-querins",
+    "file": "Querins/Querins-querins.woff"
+  },
+  {
+    "name": "Oxstars-regular",
+    "file": "Oxstars/Oxstars-regular.woff"
+  },
+  {
+    "name": "Tumbrella Script-tumbrellascript",
+    "file": "Tumbrella Script/Tumbrella Script-tumbrellascript.woff"
+  },
+  {
+    "name": "Kernit Filled-filled",
+    "file": "Kernit Filled/Kernit Filled-filled.woff"
+  },
+  {
+    "name": "DJADOEL-djadoel",
+    "file": "DJADOEL/DJADOEL-djadoel.woff"
+  },
+  {
+    "name": "Drifter-regular",
+    "file": "Drifter/Drifter-regular.woff"
+  },
+  {
+    "name": "Reisenberg 2.0-webfont",
+    "file": "Reisenberg 2.0/Reisenberg 2.0-webfont.woff"
+  },
+  {
+    "name": "Revolver-revolver",
+    "file": "Revolver/Revolver-revolver.woff"
+  },
+  {
+    "name": "Presson Clean Oblique-presson clean oblique",
+    "file": "Presson Clean Oblique/Presson Clean Oblique-presson clean oblique.woff"
+  },
+  {
+    "name": "Sondra ExtBd-extrabold",
+    "file": "Sondra ExtBd/Sondra ExtBd-extrabold.woff"
+  },
+  {
+    "name": "Empirez-empirez",
+    "file": "Empirez/Empirez-empirez.woff"
+  },
+  {
+    "name": "Carolin- Outline-outline",
+    "file": "Carolin/Carolin- Outline-outline.woff"
+  },
+  {
+    "name": "Carolin- Thin-thin",
+    "file": "Carolin/Carolin- Thin-thin.woff"
+  },
+  {
+    "name": "Carolin- Light-light",
+    "file": "Carolin/Carolin- Light-light.woff"
+  },
+  {
+    "name": "Carolin--regular",
+    "file": "Carolin/Carolin--regular.woff"
+  },
+  {
+    "name": "Radiohead-webfont",
+    "file": "Radiohead/Radiohead-webfont.woff"
+  },
+  {
+    "name": "Themysion-themysion",
+    "file": "Themysion/Themysion-themysion.woff"
+  },
+  {
+    "name": "Lisa Angel-lisa angel",
+    "file": "Lisa Angel/Lisa Angel-lisa angel.woff"
+  },
+  {
+    "name": "CEDRIC-cedric",
+    "file": "CEDRIC/CEDRIC-cedric.woff"
+  },
+  {
+    "name": "Angelia Script-webfont",
+    "file": "Angelia Script/Angelia Script-webfont.woff"
+  },
+  {
+    "name": "Mixy Missy Bubble-bubble",
+    "file": "Mixy Missy Bubble bubble/Mixy Missy Bubble-bubble.woff"
+  },
+  {
+    "name": "Signist 05 Shadow-signist 05 shadow",
+    "file": "Signist 05 Shadow/Signist 05 Shadow-signist 05 shadow.woff"
+  },
+  {
+    "name": "TRUMANS Outline-trumansoutline",
+    "file": "TRUMANS Outline/TRUMANS Outline-trumansoutline.woff"
+  },
+  {
+    "name": "Bethan-regular",
+    "file": "Bethan/Bethan-regular.woff"
+  },
+  {
+    "name": "Bethan Thin-thin",
+    "file": "Bethan/Bethan Thin-thin.woff"
+  },
+  {
+    "name": "Bethan Light-light",
+    "file": "Bethan/Bethan Light-light.woff"
+  },
+  {
+    "name": "Bethan-bold",
+    "file": "Bethan/Bethan-bold.woff"
+  },
+  {
+    "name": "Butler-light",
+    "file": "Butler light/Butler-light.woff"
+  },
+  {
+    "name": "Author Junior-author junior",
+    "file": "Author Junior/Author Junior-author junior.woff"
+  },
+  {
+    "name": "Carita-light",
+    "file": "Carita/Carita-light.woff"
+  },
+  {
+    "name": "Carita-regular",
+    "file": "Carita/Carita-regular.woff"
+  },
+  {
+    "name": "Carlos barker ligature-ligature",
+    "file": "Carlos barker ligature/Carlos barker ligature-ligature.woff"
+  },
+  {
+    "name": "Banquo-regular",
+    "file": "Banquo/Banquo-regular.woff"
+  },
+  {
+    "name": "Banquo-bold",
+    "file": "Banquo/Banquo-bold.woff"
+  },
+  {
+    "name": "Forbes Typeface-forbestypeface",
+    "file": "Forbes Typeface/Forbes Typeface-forbestypeface.woff"
+  },
+  {
+    "name": "Mixy Missy Sans-sans",
+    "file": "Mixy Missy Sans sans/Mixy Missy Sans-sans.woff"
+  },
+  {
+    "name": "Rosaline Script-webfont",
+    "file": "Rosaline Script/Rosaline Script-webfont.woff"
+  },
+  {
+    "name": "Westpart Regular-westpart regular",
+    "file": "Westpart/Westpart Regular-westpart regular.woff"
+  },
+  {
+    "name": "Presson Shadow-presson shadow",
+    "file": "Presson Shadow/Presson Shadow-presson shadow.woff"
+  },
+  {
+    "name": "KyivType Titling-regular2",
+    "file": "KyivType Titling/KyivType Titling-regular2.woff"
+  },
+  {
+    "name": "KyivType Titling-heavy2",
+    "file": "KyivType Titling/KyivType Titling-heavy2.woff"
+  },
+  {
+    "name": "KyivType Titling-regular",
+    "file": "KyivType Titling/KyivType Titling-regular.woff"
+  },
+  {
+    "name": "KyivType Titling-light3",
+    "file": "KyivType Titling/KyivType Titling-light3.woff"
+  },
+  {
+    "name": "KyivType Titling-bold3",
+    "file": "KyivType Titling/KyivType Titling-bold3.woff"
+  },
+  {
+    "name": "KyivType Titling-light2",
+    "file": "KyivType Titling/KyivType Titling-light2.woff"
+  },
+  {
+    "name": "KyivType Titling-medium3",
+    "file": "KyivType Titling/KyivType Titling-medium3.woff"
+  },
+  {
+    "name": "KyivType Titling-regular3",
+    "file": "KyivType Titling/KyivType Titling-regular3.woff"
+  },
+  {
+    "name": "KyivType Titling-light",
+    "file": "KyivType Titling/KyivType Titling-light.woff"
+  },
+  {
+    "name": "KyivType Titling-black2",
+    "file": "KyivType Titling/KyivType Titling-black2.woff"
+  },
+  {
+    "name": "KyivType Titling-black3",
+    "file": "KyivType Titling/KyivType Titling-black3.woff"
+  },
+  {
+    "name": "KyivType Titling-bold2",
+    "file": "KyivType Titling/KyivType Titling-bold2.woff"
+  },
+  {
+    "name": "KyivType Titling-heavy",
+    "file": "KyivType Titling/KyivType Titling-heavy.woff"
+  },
+  {
+    "name": "KyivType Titling-black",
+    "file": "KyivType Titling/KyivType Titling-black.woff"
+  },
+  {
+    "name": "KyivType Titling-thin",
+    "file": "KyivType Titling/KyivType Titling-thin.woff"
+  },
+  {
+    "name": "KyivType Titling-medium2",
+    "file": "KyivType Titling/KyivType Titling-medium2.woff"
+  },
+  {
+    "name": "KyivType Titling-bold",
+    "file": "KyivType Titling/KyivType Titling-bold.woff"
+  },
+  {
+    "name": "KyivType Titling-medium",
+    "file": "KyivType Titling/KyivType Titling-medium.woff"
+  },
+  {
+    "name": "KyivType Titling-heavy3",
+    "file": "KyivType Titling/KyivType Titling-heavy3.woff"
+  },
+  {
+    "name": "Banny Light Round-lightround",
+    "file": "Banny  Round/Banny Light Round-lightround.woff"
+  },
+  {
+    "name": "Cheddar Gothic Sans-webfont",
+    "file": "Cheddar Gothic Sans/Cheddar Gothic Sans-webfont.woff"
+  },
+  {
+    "name": "BRUTUX-OL-regular",
+    "file": "BRUTUX/BRUTUX-OL-regular.woff"
+  },
+  {
+    "name": "Garcedo-garcedo",
+    "file": "Garcedo/Garcedo-garcedo.woff"
+  },
+  {
+    "name": "Nord-regular",
+    "file": "Nord regular/Nord-regular.woff"
+  },
+  {
+    "name": "Cherio-cherio",
+    "file": "Cherio/Cherio-cherio.woff"
+  },
+  {
+    "name": "Longrider Alternate-webfont",
+    "file": "Longrider Alternate/Longrider Alternate-webfont.woff"
+  },
+  {
+    "name": "GTHaptikLazerRotalic-rotalic",
+    "file": "GTHaptikLazerRotalic/GTHaptikLazerRotalic-rotalic.woff"
+  },
+  {
+    "name": "Ace Sans Medium-acesansmedium",
+    "file": "Ace Sans  acesansmedium/Ace Sans Medium-acesansmedium.woff"
+  },
+  {
+    "name": "Painting Script-webfont",
+    "file": "Painting Script/Painting Script-webfont.woff"
+  },
+  {
+    "name": "Manusquared-regular",
+    "file": "Manusquared/Manusquared-regular.woff"
+  },
+  {
+    "name": "Manusquared-bold",
+    "file": "Manusquared/Manusquared-bold.woff"
+  },
+  {
+    "name": "Adriell Outline-outline",
+    "file": "Adriell Outline/Adriell Outline-outline.woff"
+  },
+  {
+    "name": "Butler Stencil-bold",
+    "file": "Butler Stencil bold/Butler Stencil-bold.woff"
+  },
+  {
+    "name": "Brycen Thin-thinitalic",
+    "file": "Brycen/Brycen Thin-thinitalic.woff"
+  },
+  {
+    "name": "Brycen Light-light",
+    "file": "Brycen/Brycen Light-light.woff"
+  },
+  {
+    "name": "Brycen-regular",
+    "file": "Brycen/Brycen-regular.woff"
+  },
+  {
+    "name": "Brycen Thin-thin",
+    "file": "Brycen/Brycen Thin-thin.woff"
+  },
+  {
+    "name": "Brycen Light-lightitalic",
+    "file": "Brycen/Brycen Light-lightitalic.woff"
+  },
+  {
+    "name": "Boiling-ultralight",
+    "file": "Boiling/Boiling-ultralight.woff"
+  },
+  {
+    "name": "Boiling-medium",
+    "file": "Boiling/Boiling-medium.woff"
+  },
+  {
+    "name": "Boiling-semibold",
+    "file": "Boiling/Boiling-semibold.woff"
+  },
+  {
+    "name": "Boiling-demibold",
+    "file": "Boiling/Boiling-demibold.woff"
+  },
+  {
+    "name": "Boiling-light",
+    "file": "Boiling/Boiling-light.woff"
+  },
+  {
+    "name": "Boiling-black",
+    "file": "Boiling/Boiling-black.woff"
+  },
+  {
+    "name": "Boiling-extralight",
+    "file": "Boiling/Boiling-extralight.woff"
+  },
+  {
+    "name": "Boiling-regular",
+    "file": "Boiling/Boiling-regular.woff"
+  },
+  {
+    "name": "Boiling-normal",
+    "file": "Boiling/Boiling-normal.woff"
+  },
+  {
+    "name": "Boiling-thin",
+    "file": "Boiling/Boiling-thin.woff"
+  },
+  {
+    "name": "Boiling-bold",
+    "file": "Boiling/Boiling-bold.woff"
+  },
+  {
+    "name": "Roxborough CF-lightitalic",
+    "file": "Roxborough CF lightitalic/Roxborough CF-lightitalic.woff"
+  },
+  {
+    "name": "Banny Round-round",
+    "file": "Banny Round/Banny Round-round.woff"
+  },
+  {
+    "name": "Banny Round-boldround",
+    "file": "Banny Round/Banny Round-boldround.woff"
+  },
+  {
+    "name": "Aariel 2-bold",
+    "file": "Aariel 2/Aariel 2-bold.woff"
+  },
+  {
+    "name": "Adyson Light-light",
+    "file": "Adyson/Adyson Light-light.woff"
+  },
+  {
+    "name": "Adyson-regular",
+    "file": "Adyson/Adyson-regular.woff"
+  },
+  {
+    "name": "Adyson Thin-thin",
+    "file": "Adyson/Adyson Thin-thin.woff"
+  },
+  {
+    "name": "Lillianesque-lillianesque",
+    "file": "Lillianesque/Lillianesque-lillianesque.woff"
+  },
+  {
+    "name": "Adallyn 2-regular",
+    "file": "Adallyn 2/Adallyn 2-regular.woff"
+  },
+  {
+    "name": "Garine Second-webfont",
+    "file": "Garine Second/Garine Second-webfont.woff"
+  },
+  {
+    "name": "Florest Rough-florestrough",
+    "file": "Florest Rough/Florest Rough-florestrough.woff"
+  },
+  {
+    "name": "Hartwood Shadow-hartwood shadow",
+    "file": "Hartwood Shadow/Hartwood Shadow-hartwood shadow.woff"
+  },
+  {
+    "name": "Fenrir Gothic-fenrir gothic",
+    "file": "Fenrir Gothic/Fenrir Gothic-fenrir gothic.woff"
+  },
+  {
+    "name": "The Graffiti-the graffiti",
+    "file": "The Graffiti/The Graffiti-the graffiti.woff"
+  },
+  {
+    "name": "Collision-regular",
+    "file": "Collision/Collision-regular.woff"
+  },
+  {
+    "name": "Nightfall-nightfall sript",
+    "file": "Nightfall/Nightfall-nightfall sript.woff"
+  },
+  {
+    "name": "Hunter-webfont",
+    "file": "Hunter/Hunter-webfont.woff"
+  },
+  {
+    "name": "Roxborough CF-extrabolditalic",
+    "file": "Roxborough CF extrabolditalic/Roxborough CF-extrabolditalic.woff"
+  },
+  {
+    "name": "Noirden-regular",
+    "file": "Noirden/Noirden-regular.woff"
+  },
+  {
+    "name": "Noirden-bold",
+    "file": "Noirden/Noirden-bold.woff"
+  },
+  {
+    "name": "Noirden-extralight",
+    "file": "Noirden/Noirden-extralight.woff"
+  },
+  {
+    "name": "Noirden-light",
+    "file": "Noirden/Noirden-light.woff"
+  },
+  {
+    "name": "Noirden-semiboldoblique",
+    "file": "Noirden/Noirden-semiboldoblique.woff"
+  },
+  {
+    "name": "Noirden-boldoblique",
+    "file": "Noirden/Noirden-boldoblique.woff"
+  },
+  {
+    "name": "Noirden-lightoblique",
+    "file": "Noirden/Noirden-lightoblique.woff"
+  },
+  {
+    "name": "Noirden-regularoblique",
+    "file": "Noirden/Noirden-regularoblique.woff"
+  },
+  {
+    "name": "Noirden-semibold",
+    "file": "Noirden/Noirden-semibold.woff"
+  },
+  {
+    "name": "Noirden-thin",
+    "file": "Noirden/Noirden-thin.woff"
+  },
+  {
+    "name": "Noirden-thinoblique",
+    "file": "Noirden/Noirden-thinoblique.woff"
+  },
+  {
+    "name": "Noirden-extralightoblique",
+    "file": "Noirden/Noirden-extralightoblique.woff"
+  },
+  {
+    "name": "Stefhanie Typeface-webfont",
+    "file": "Stefhanie Typeface/Stefhanie Typeface-webfont.woff"
+  },
+  {
+    "name": "Cammron -light",
+    "file": "Cammron/Cammron -light.woff"
+  },
+  {
+    "name": "Cammron-bold",
+    "file": "Cammron/Cammron-bold.woff"
+  },
+  {
+    "name": "Cammron-regular",
+    "file": "Cammron/Cammron-regular.woff"
+  },
+  {
+    "name": "Nighiri-nighiri",
+    "file": "Nighiri/Nighiri-nighiri.woff"
+  },
+  {
+    "name": "Aara Book-bookitalic",
+    "file": "Aara Book/Aara Book-bookitalic.woff"
+  },
+  {
+    "name": "Aara Book-book",
+    "file": "Aara Book/Aara Book-book.woff"
+  },
+  {
+    "name": "Addington CF-bolditalic",
+    "file": "Addington CF/Addington CF-bolditalic.woff"
+  },
+  {
+    "name": "Addington CF-demibold",
+    "file": "Addington CF/Addington CF-demibold.woff"
+  },
+  {
+    "name": "Addington CF-thinitalic",
+    "file": "Addington CF/Addington CF-thinitalic.woff"
+  },
+  {
+    "name": "Addington CF-light",
+    "file": "Addington CF/Addington CF-light.woff"
+  },
+  {
+    "name": "Addington CF-thin",
+    "file": "Addington CF/Addington CF-thin.woff"
+  },
+  {
+    "name": "Addington CF-demibolditalic",
+    "file": "Addington CF/Addington CF-demibolditalic.woff"
+  },
+  {
+    "name": "Addington CF-regular",
+    "file": "Addington CF/Addington CF-regular.woff"
+  },
+  {
+    "name": "Addington CF-medium",
+    "file": "Addington CF/Addington CF-medium.woff"
+  },
+  {
+    "name": "Addington CF-extrabolditalic",
+    "file": "Addington CF/Addington CF-extrabolditalic.woff"
+  },
+  {
+    "name": "Addington CF-extrabold",
+    "file": "Addington CF/Addington CF-extrabold.woff"
+  },
+  {
+    "name": "Addington CF-regularitalic",
+    "file": "Addington CF/Addington CF-regularitalic.woff"
+  },
+  {
+    "name": "Addington CF-bold",
+    "file": "Addington CF/Addington CF-bold.woff"
+  },
+  {
+    "name": "Addington CF-lightitalic",
+    "file": "Addington CF/Addington CF-lightitalic.woff"
+  },
+  {
+    "name": "Addington CF-mediumitalic",
+    "file": "Addington CF/Addington CF-mediumitalic.woff"
+  },
+  {
+    "name": "Cheddar Gothic Slab-webfont",
+    "file": "Cheddar Gothic Slab/Cheddar Gothic Slab-webfont.woff"
+  },
+  {
+    "name": "AdoulissMag 2-bold",
+    "file": "AdoulissMag 2/AdoulissMag 2-bold.woff"
+  },
+  {
+    "name": "AdoulissMag 2-bolditalic",
+    "file": "AdoulissMag 2/AdoulissMag 2-bolditalic.woff"
+  },
+  {
+    "name": "AdoulissMag 2-regular",
+    "file": "AdoulissMag 2/AdoulissMag 2-regular.woff"
+  },
+  {
+    "name": "Platanos Regular-platanos regular",
+    "file": "Platanos/Platanos Regular-platanos regular.woff"
+  },
+  {
+    "name": "Evina Thin-thin",
+    "file": "Evina/Evina Thin-thin.woff"
+  },
+  {
+    "name": "Evina-regular",
+    "file": "Evina/Evina-regular.woff"
+  },
+  {
+    "name": "Evina Light-light",
+    "file": "Evina/Evina Light-light.woff"
+  },
+  {
+    "name": "Walcot Round-round",
+    "file": "Walcot Round/Walcot Round-round.woff"
+  },
+  {
+    "name": "Abrasha Smooth-smooth",
+    "file": "Abrasha Smooth/Abrasha Smooth-smooth.woff"
+  },
+  {
+    "name": "Automono Plain-automono plain",
+    "file": "Automono Plain/Automono Plain-automono plain.woff"
+  },
+  {
+    "name": "Automono Plain Italic-automono plain italic",
+    "file": "Automono Plain/Automono Plain Italic-automono plain italic.woff"
+  },
+  {
+    "name": "Vernazza Serif-vernazzaserif",
+    "file": "Vernazza Serif/Vernazza Serif-vernazzaserif.woff"
+  },
+  {
+    "name": "Kalyna-kalyna",
+    "file": "Kalyna/Kalyna-kalyna.woff"
+  },
+  {
+    "name": "CaslonCaps-Medium-webfont-webfont",
+    "file": "CaslonCaps/CaslonCaps-Medium-webfont-webfont.woff"
+  },
+  {
+    "name": "CaslonCaps-Book-webfont-webfont",
+    "file": "CaslonCaps/CaslonCaps-Book-webfont-webfont.woff"
+  },
+  {
+    "name": "Ace Sans Extrabold-acesansextrabold",
+    "file": "Ace Sans Extrabold acesansextrabold/Ace Sans Extrabold-acesansextrabold.woff"
+  },
+  {
+    "name": "Nord Thin Italic-thinitalic",
+    "file": "Nord   thinitalic/Nord Thin Italic-thinitalic.woff"
+  },
+  {
+    "name": "BoonTook Mon-regular",
+    "file": "BoonTook Mon/BoonTook Mon-regular.woff"
+  },
+  {
+    "name": "BoonTook Mon-italic",
+    "file": "BoonTook Mon/BoonTook Mon-italic.woff"
+  },
+  {
+    "name": "Oliverkind-oliverkind",
+    "file": "Oliverkind/Oliverkind-oliverkind.woff"
+  },
+  {
+    "name": "Aabel-bold",
+    "file": "Aabel/Aabel-bold.woff"
+  },
+  {
+    "name": "Aabel-regular",
+    "file": "Aabel/Aabel-regular.woff"
+  },
+  {
+    "name": "Aabel Light-light",
+    "file": "Aabel/Aabel Light-light.woff"
+  },
+  {
+    "name": "Hipster Script Light-hipsterscriptlight",
+    "file": "Hipster Script/Hipster Script Light-hipsterscriptlight.woff"
+  },
+  {
+    "name": "Hipster Script Thin-hipsterscriptthin",
+    "file": "Hipster Script/Hipster Script Thin-hipsterscriptthin.woff"
+  },
+  {
+    "name": "Hipster Script-hipsterscriptregular",
+    "file": "Hipster Script/Hipster Script-hipsterscriptregular.woff"
+  },
+  {
+    "name": "Hipster Script-hipsterscriptbold",
+    "file": "Hipster Script/Hipster Script-hipsterscriptbold.woff"
+  },
+  {
+    "name": "Aster 2-bold",
+    "file": "Aster 2/Aster 2-bold.woff"
+  },
+  {
+    "name": "HealthGoth-regular",
+    "file": "HealthGoth/HealthGoth-regular.woff"
+  },
+  {
+    "name": "Clickbait-webfont",
+    "file": "Clickbait/Clickbait-webfont.woff"
+  },
+  {
+    "name": "Ceica-ceicaregular",
+    "file": "Ceica/Ceica-ceicaregular.woff"
+  },
+  {
+    "name": "Cabales Outline-outline",
+    "file": "Cabales Outline/Cabales Outline-outline.woff"
+  },
+  {
+    "name": "Clarra-bold",
+    "file": "Clarra/Clarra-bold.woff"
+  },
+  {
+    "name": "Clarra Thin-thin",
+    "file": "Clarra/Clarra Thin-thin.woff"
+  },
+  {
+    "name": "Clarra-regular",
+    "file": "Clarra/Clarra-regular.woff"
+  },
+  {
+    "name": "Clarra Light-light",
+    "file": "Clarra/Clarra Light-light.woff"
+  },
+  {
+    "name": "Bali-bali",
+    "file": "Bali/Bali-bali.woff"
+  },
+  {
+    "name": "HI Gaffa Sans-higaffasanslight",
+    "file": "HI Gaffa Sans/HI Gaffa Sans-higaffasanslight.woff"
+  },
+  {
+    "name": "Möfita-italic",
+    "file": "Möfita/Möfita-italic.woff"
+  },
+  {
+    "name": "Möfita-mofita",
+    "file": "Möfita/Möfita-mofita.woff"
+  },
+  {
+    "name": "DJADOEL outline-outline",
+    "file": "DJADOEL outline/DJADOEL outline-outline.woff"
+  },
+  {
+    "name": "Nord Medium-medium",
+    "file": "Nord  medium/Nord Medium-medium.woff"
+  },
+  {
+    "name": "Butler Stencil-black",
+    "file": "Butler Stencil black/Butler Stencil-black.woff"
+  },
+  {
+    "name": "Greatpark-webfont",
+    "file": "Greatpark/Greatpark-webfont.woff"
+  },
+  {
+    "name": "Tumbrella Sans-tumbrellasans",
+    "file": "Tumbrella Sans/Tumbrella Sans-tumbrellasans.woff"
+  },
+  {
+    "name": "Roxborough CF-medium",
+    "file": "Roxborough CF medium/Roxborough CF-medium.woff"
+  },
+  {
+    "name": "Black romance-romance",
+    "file": "romance/Black romance-romance.woff"
+  },
+  {
+    "name": "Beacher Light-light",
+    "file": "Beacher/Beacher Light-light.woff"
+  },
+  {
+    "name": "Beacher Thin-thin",
+    "file": "Beacher/Beacher Thin-thin.woff"
+  },
+  {
+    "name": "Beacher-bold",
+    "file": "Beacher/Beacher-bold.woff"
+  },
+  {
+    "name": "Beacher-regular",
+    "file": "Beacher/Beacher-regular.woff"
+  },
+  {
+    "name": "Etheline Sans Rough Oblique-webfont",
+    "file": "Etheline Sans Rough Oblique/Etheline Sans Rough Oblique-webfont.woff"
+  },
+  {
+    "name": "republica_minor_2.0_bold-webfont-webfont",
+    "file": "republica_minor_2.0_bold/republica_minor_2.0_bold-webfont-webfont.woff"
+  },
+  {
+    "name": "Hartwood Rough-hartwood rough",
+    "file": "Hartwood Rough/Hartwood Rough-hartwood rough.woff"
+  },
+  {
+    "name": "Old Charlotte-charlotte",
+    "file": "Old Charlotte/Old Charlotte-charlotte.woff"
+  },
+  {
+    "name": "Enrique Light Round-lightround",
+    "file": "Enrique  Round/Enrique Light Round-lightround.woff"
+  },
+  {
+    "name": "Aderes-regular",
+    "file": "Aderes/Aderes-regular.woff"
+  },
+  {
+    "name": "Russely-russely",
+    "file": "Russely/Russely-russely.woff"
+  },
+  {
+    "name": "Ovsyanka Press-press",
+    "file": "Ovsyanka Press/Ovsyanka Press-press.woff"
+  },
+  {
+    "name": "Tenika-tenikaregular",
+    "file": "Tenika/Tenika-tenikaregular.woff"
+  },
+  {
+    "name": "Malcolm naville-naville",
+    "file": "Malcolm naville/Malcolm naville-naville.woff"
+  },
+  {
+    "name": "Hands Brush-hands brush",
+    "file": "Hands Brush/Hands Brush-hands brush.woff"
+  },
+  {
+    "name": "Roxborough CF-light",
+    "file": "Roxborough CF light/Roxborough CF-light.woff"
+  },
+  {
+    "name": "Carlcosby-carlcosby",
+    "file": "Carlcosby/Carlcosby-carlcosby.woff"
+  },
+  {
+    "name": "Black Gold-blackgoldregular",
+    "file": "Gold/Black Gold-blackgoldregular.woff"
+  },
+  {
+    "name": "Hyogo-black",
+    "file": "Hyogo/Hyogo-black.woff"
+  },
+  {
+    "name": "Hyogo-regular",
+    "file": "Hyogo/Hyogo-regular.woff"
+  },
+  {
+    "name": "Due Credit Extra Bold-webfont",
+    "file": "Due Credit Extra/Due Credit Extra Bold-webfont.woff"
+  },
+  {
+    "name": "Etheline Sans Rough-webfont",
+    "file": "Etheline Sans Rough/Etheline Sans Rough-webfont.woff"
+  },
+  {
+    "name": "Abril Med 2-regular",
+    "file": "Abril Med 2/Abril Med 2-regular.woff"
+  },
+  {
+    "name": "Delirio Dingbats-delirio dinghbats",
+    "file": "Delirio Dingbats/Delirio Dingbats-delirio dinghbats.woff"
+  },
+  {
+    "name": "Osake-osake",
+    "file": "Osake/Osake-osake.woff"
+  },
+  {
+    "name": "Balleho-balleho",
+    "file": "Balleho/Balleho-balleho.woff"
+  },
+  {
+    "name": "Srinthile Script-srinthile script",
+    "file": "Srinthile Script/Srinthile Script-srinthile script.woff"
+  },
+  {
+    "name": "Rose Petals-regular",
+    "file": "Rose Petals/Rose Petals-regular.woff"
+  }
+]
