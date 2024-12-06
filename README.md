@@ -167,3 +167,64 @@ This will generate a comprehensive README.md file in your project's root directo
 
 
 You can further customize the content by editing the `readme.py` script as needed.
+
+# Project Structure
+
+## Root Directory
+- .gitignore
+- README.md
+- font_pipeline.py
+- gen_meta.py
+- structure.py
+
+## gift-box/
+- .eslintrc.json
+- .gitignore
+- README.md
+- components.json
+- next.config.mjs
+- package-lock.json
+- package.json
+- postcss.config.mjs
+- tailwind.config.ts
+- tsconfig.json
+
+### app/
+- favicon.ico
+- globals.css
+- layout.tsx
+- not-found.tsx
+- page.tsx
+
+#### api/fonts/
+- route.ts
+
+#### fonts/
+- GeistMonoVF.woff
+- GeistVF.woff
+
+### components/
+- card.tsx
+- font-selector.tsx
+- gift-box.tsx
+- ground.tsx
+- snowfall.tsx
+
+### lib/
+- fonts.ts
+- utils.ts
+
+### public/fonts/
+- font_metadata.json
+
+#### Various font directories (e.g., AfternoonTea, BoisterousScriptRegular, etc.)
+Each containing their respective .woff files
+
+## font_pipeline/
+- failed/
+- logs/
+  - pipeline.log
+- font_metadata.json
+
+### ttf/, woff/, woff2/
+Directories containing various font files in their respective formats
