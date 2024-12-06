@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
-import { FontMetadata, getFontUrl } from '@/lib/fonts'
+import { X, CircleIcon as Chain } from 'lucide-react'
+import { loadFontMetadata, getFontUrl, getRandomFont, FontMetadata } from '../lib/fonts'
 
 const CARD_IMAGES = [
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-exxBcSIYSV9pgXTgiHa47WxEqUhStb.png',
@@ -11,66 +12,72 @@ const CARD_IMAGES = [
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gAN7t7GQiwMX8x4LJVPILoyC2xF2ko.png'
 ]
 
-const GREETINGS = [
-  "Wishing you much joy this holiday season!",
-  "I wish you a Merry Christmas!",
-  "HO HO HOLIDAYS!",
-  "Happy Holidays!",
-  "Season's Greetings!",
-  "Joy to your world!",
-  "Warmest winter wishes!",
-  "Celebrate the magic!",
-  "Cheers to the season!",
-  "Holiday happiness to you!"
+const JULEHILSEN = [
+  "God jul og godt nyttår!",
+  "Ei fredeleg julehøgtid!",
+  "Gledeleg jul!",
+  "Hjarteleg julehelsing!",
+  "Ei velsigna juletid!"
 ]
 
-interface CardProps {
-  selectedFont: FontMetadata;
-}
-
-export function Card({ selectedFont }: CardProps) {
+export function Card({ onClose }) {
   const [isVisible, setIsVisible] = useState(false)
   const [cardImage, setCardImage] = useState('')
-  const [greeting, setGreeting] = useState('')
+  const [selectedFont, setSelectedFont] = useState<FontMetadata | null>(null)
   const [fontLoaded, setFontLoaded] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    setCardImage(CARD_IMAGES[Math.floor(Math.random() * CARD_IMAGES.length)])
-    setGreeting(GREETINGS[Math.floor(Math.random() * GREETINGS.length)])
-    
-    const timer = setTimeout(() => setIsVisible(true), 500)
-    return () => clearTimeout(timer)
+    const initializeCard = async () => {
+      try {
+        setCardImage(CARD_IMAGES[Math.floor(Math.random() * CARD_IMAGES.length)])
+
+        const fonts = await loadFontMetadata()
+        const randomFont = getRandomFont(fonts)
+
+        if (randomFont) {
+          setSelectedFont(randomFont)
+          const fontUrl = getFontUrl(randomFont.file)
+          const fontFace = new FontFace(randomFont.name, `url(${fontUrl})`)
+          try {
+            await fontFace.load()
+            document.fonts.add(fontFace)
+            setFontLoaded(true)
+            setIsVisible(true)
+          } catch (err) {
+            console.error('Error loading font:', err)
+            setError('Failed to load font')
+          }
+        } else {
+          throw new Error('No fonts available')
+        }
+
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'An error occurred')
+      }
+    }
+
+    initializeCard()
   }, [])
 
-  useEffect(() => {
+  const handleFontDownload = () => {
     if (selectedFont) {
-      const font = new FontFace(selectedFont.name, `url(${getFontUrl(selectedFont.file)})`)
-      font.load().then(() => {
-        document.fonts.add(font)
-        setFontLoaded(true)
-      }).catch(err => {
-        console.error('Error loading font:', err)
-        setFontLoaded(true) // Set to true even on error to allow fallback
-      })
+      const link = document.createElement('a')
+      link.href = getFontUrl(selectedFont.file)
+      link.download = selectedFont.file
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
     }
-  }, [selectedFont])
-
-  const handleDownloadFont = () => {
-    const link = document.createElement('a')
-    link.href = getFontUrl(selectedFont.file)
-    link.download = selectedFont.file
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
   }
 
-  if (!fontLoaded) {
-    return null // Or a loading indicator
+  if (error) {
+    return <div className="text-red-500 text-center">{error}</div>
   }
 
   return (
     <AnimatePresence>
-      {isVisible && (
+      {isVisible && fontLoaded && (
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -86,19 +93,37 @@ export function Card({ selectedFont }: CardProps) {
               objectFit="contain"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <p 
-                className="text-2xl font-bold text-center px-5 py-2 bg-white bg-opacity-75 rounded mb-4" 
-                style={{ fontFamily: `"${selectedFont.name}", sans-serif` }}
-              >
-                {greeting}
-              </p>
+              <div className="text-center px-5 py-2 bg-white bg-opacity-75 rounded">
+                {JULEHILSEN.map((hilsen, index) => (
+                  <p 
+                    key={index}
+                    className={`mb-2 ${
+                      index === 0 ? 'text-3xl font-bold' :
+                      index === 1 ? 'text-2xl font-semibold' :
+                      index === 2 ? 'text-xl font-medium' :
+                      index === 3 ? 'text-lg font-normal' :
+                      'text-base font-light'
+                    }`}
+                    style={{ fontFamily: selectedFont ? selectedFont.name : 'inherit' }}
+                  >
+                    {hilsen}
+                  </p>
+                ))}
+              </div>
               <button
-                onClick={handleDownloadFont}
-                className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                onClick={handleFontDownload}
+                className="mt-4 flex items-center px-4 py-2 bg-white bg-opacity-75 rounded hover:bg-opacity-90 transition-colors"
               >
-                Download Font
+                <Chain className="mr-2" size={18} />
+                Last ned font
               </button>
             </div>
+            <button
+              className="absolute top-2 right-2 p-2 bg-white bg-opacity-75 rounded-full hover:bg-opacity-90 transition-colors"
+              onClick={onClose}
+            >
+              <X size={24} />
+            </button>
           </div>
         </motion.div>
       )}

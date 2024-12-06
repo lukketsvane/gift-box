@@ -1,46 +1,35 @@
 'use client'
 
-import { Canvas } from '@react-three/fiber'
-import { Environment, OrbitControls, Preload } from '@react-three/drei'
-import { Physics } from '@react-three/rapier'
-import { Suspense, useRef, useState, useEffect } from 'react'
-import { EffectComposer, SSAO, Bloom } from '@react-three/postprocessing'
-import { GiftBox } from '../components/gift-box'
-import { Ground } from '../components/ground'
+import dynamic from 'next/dynamic'
+import { Suspense, useState, useEffect } from 'react'
 import { Card } from '../components/card'
-import { Snowfall } from '../components/snowfall'
-import { loadFontMetadata, getRandomFont, FontMetadata } from '@/lib/fonts'
+
+const DynamicCanvas = dynamic(() => import('@react-three/fiber').then((mod) => mod.Canvas), { ssr: false })
+const DynamicEnvironment = dynamic(() => import('@react-three/drei').then((mod) => mod.Environment), { ssr: false })
+const DynamicOrbitControls = dynamic(() => import('@react-three/drei').then((mod) => mod.OrbitControls), { ssr: false })
+const DynamicPhysics = dynamic(() => import('@react-three/rapier').then((mod) => mod.Physics), { ssr: false })
+const DynamicEffectComposer = dynamic(() => import('@react-three/postprocessing').then((mod) => mod.EffectComposer), { ssr: false })
+const DynamicSSAO = dynamic(() => import('@react-three/postprocessing').then((mod) => mod.SSAO), { ssr: false })
+const DynamicBloom = dynamic(() => import('@react-three/postprocessing').then((mod) => mod.Bloom), { ssr: false })
+const DynamicPreload = dynamic(() => import('@react-three/drei').then((mod) => mod.Preload), { ssr: false })
+const DynamicGiftBox = dynamic(() => import('../components/gift-box').then((mod) => mod.GiftBox), { ssr: false })
+const DynamicGround = dynamic(() => import('../components/ground').then((mod) => mod.Ground), { ssr: false })
+const DynamicSnowfall = dynamic(() => import('../components/snowfall').then((mod) => mod.Snowfall), { ssr: false })
 
 function Scene({ interacted, setInteracted, onStateChange, onOpen }) {
-  const orbitControlsRef = useRef()
-  const timeoutRef = useRef(null)
-
-  const handleInteraction = () => {
-    setInteracted(true)
-    if (timeoutRef.current) clearTimeout(timeoutRef.current)
-    timeoutRef.current = setTimeout(() => setInteracted(false), 1000)
-  }
-
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current)
-    }
-  }, [])
-
   return (
     <>
-      <Physics gravity={[0, -9.81, 0]}>
-        <GiftBox 
+      <DynamicPhysics gravity={[0, -9.81, 0]}>
+        <DynamicGiftBox 
           position={[0, 2, 0]} 
-          onInteract={handleInteraction} 
+          onInteract={() => setInteracted(true)} 
           onStateChange={onStateChange}
           onOpen={onOpen}
         />
-        <Ground />
-      </Physics>
-      <Environment preset="studio" />
-      <OrbitControls
-        ref={orbitControlsRef}
+        <DynamicGround />
+      </DynamicPhysics>
+      <DynamicEnvironment preset="studio" />
+      <DynamicOrbitControls
         makeDefault
         enablePan={false}
         enableZoom={false}
@@ -56,23 +45,25 @@ export default function Home() {
   const [interacted, setInteracted] = useState(false)
   const [giftState, setGiftState] = useState('intakt')
   const [isOpened, setIsOpened] = useState(false)
-  const [selectedFont, setSelectedFont] = useState<FontMetadata | null>(null)
-  const [fonts, setFonts] = useState<FontMetadata[]>([])
 
   useEffect(() => {
-    loadFontMetadata().then(setFonts)
-  }, [])
+    console.log('Gift state:', giftState)
+    console.log('Is opened:', isOpened)
+  }, [giftState, isOpened])
 
   const handleOpen = () => {
-    if (fonts.length > 0) {
-      setSelectedFont(getRandomFont(fonts))
-    }
+    console.log('Opening gift...')
     setIsOpened(true)
+  }
+
+  const handleClose = () => {
+    console.log('Closing card...')
+    setIsOpened(false)
   }
 
   return (
     <div className="w-full h-screen relative">
-      <Canvas shadows camera={{ position: [3, 3, 3], fov: 50 }} className="z-0">
+      <DynamicCanvas shadows camera={{ position: [3, 3, 3], fov: 50 }} className="z-0">
         <color attach="background" args={['#000000']} />
         <ambientLight intensity={0.5} />
         <directionalLight
@@ -88,19 +79,18 @@ export default function Home() {
             onStateChange={setGiftState}
             onOpen={handleOpen}
           />
-          {isOpened && <Snowfall />}
-          <EffectComposer>
-            <SSAO radius={0.05} intensity={150} luminanceInfluence={0.1} color="black" />
-            <Bloom luminanceThreshold={0.5} intensity={0.5} levels={3} mipmapBlur />
-          </EffectComposer>
-          <Preload all />
+          {isOpened && <DynamicSnowfall />}
+          <DynamicEffectComposer>
+            <DynamicSSAO radius={0.05} intensity={150} luminanceInfluence={0.1} color="black" />
+            <DynamicBloom luminanceThreshold={0.5} intensity={0.5} levels={3} mipmapBlur />
+          </DynamicEffectComposer>
+          <DynamicPreload all />
         </Suspense>
-      </Canvas>
-      {isOpened && selectedFont && <Card selectedFont={selectedFont} />}
+      </DynamicCanvas>
+      {isOpened && <Card onClose={handleClose} />}
       <div className="fixed top-4 right-4 text-white text-xl font-bold z-20">
         {giftState}
       </div>
     </div>
   )
 }
-

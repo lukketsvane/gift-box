@@ -5,6 +5,7 @@ import { useFrame, useLoader, useThree } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
 import { RigidBody, CuboidCollider, vec3 } from '@react-three/rapier'
 import * as THREE from 'three'
+import { TextureLoader } from 'three/src/loaders/TextureLoader'
 
 export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.1, onStateChange, onOpen }) {
   const gltfUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gift-hvWwMgasEIhSJ6npMJ2u697fXazt9t.glb'
@@ -21,10 +22,10 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
 
   const { scene: threeScene } = useThree()
 
-  const matcapTexture = useLoader(THREE.TextureLoader, 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-wHXvRFpLedNNhzBVgHf741UWtZKRFu.png')
+  const matcapTexture = useLoader(TextureLoader, 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-wHXvRFpLedNNhzBVgHf741UWtZKRFu.png')
 
   useEffect(() => {
-    if (scene) {
+    if (typeof window !== 'undefined' && scene) {
       scene.traverse((child) => {
         if (child.isMesh) {
           child.castShadow = true
@@ -58,7 +59,6 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
         }
       })
 
-      // Separate cover and base
       coverMesh.current = scene.getObjectByName('Cover')
       baseMesh.current = scene.getObjectByName('Base')
     }
@@ -228,4 +228,3 @@ export function GiftBox({ position = [0, 0, 0], onInteract, rumbleIntensity = 0.
 }
 
 useGLTF.preload('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gift-hvWwMgasEIhSJ6npMJ2u697fXazt9t.glb')
-
