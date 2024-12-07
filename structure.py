@@ -31,7 +31,7 @@ def merge_font_families(source_dirs, target_dir):
         
         for root, _, files in os.walk(source_path):
             for file in files:
-                if file.endswith(('.woff', '.woff2')):
+                if file.endswith(('.woff')):
                     full_path = Path(root) / file
                     base_name = get_base_font_name(file)
                     

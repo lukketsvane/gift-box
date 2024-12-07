@@ -228,18 +228,6 @@
     "file": "Exellentia/Exellentia-webfont.woff"
   },
   {
-    "name": ".-regular",
-    "file": "./.-regular.woff"
-  },
-  {
-    "name": ".-bold",
-    "file": "./.-bold.woff"
-  },
-  {
-    "name": ".-light",
-    "file": "./.-light.woff"
-  },
-  {
     "name": "MistyMedow-mistymedow",
     "file": "MistyMedow/MistyMedow-mistymedow.woff"
   },
