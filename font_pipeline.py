@@ -171,7 +171,7 @@ class FontPipeline:
         try:
             while True:
                 async with aiohttp.ClientSession() as session:
-                    async with session.post("https://api.vk.com/method/board.getComments", data={"group_id": 178186634, "topic_id": 39300099, "offset": offset, "count": self.config.batch_size, "access_token": self.service_key, "v": "5.131"}) as response:
+                    async with session.post("https://api.vk.com/method/board.getComments", data={"group_id": 178186634, "topic_id": 16300099, "offset": offset, "count": self.config.batch_size, "access_token": self.service_key, "v": "5.131"}) as response:
                         data = await response.json()
                         docs = [a["doc"] for i in data.get("response", {}).get("items", []) for a in i.get("attachments", []) if a["type"] == "doc"]
                         if not docs:
